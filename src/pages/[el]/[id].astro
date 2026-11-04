@@ -1,0 +1,92 @@
+---
+import Base from "../../layouts/Base.astro";
+import Reaction from "../../components/Reaction.astro";
+import { elementsWithData, load, ELEMENT_NAMES, BOOK_PAGE_OFFSET } from "../../lib/data.js";
+import { ce, oxLabel, oxRoman, CLASS_LABEL, PROP_LABEL, PROP_ORDER, propValue, plainFormula, escapeHtml, prose } from "../../lib/chem.js";
+
+export function getStaticPaths() {
+  return elementsWithData().flatMap((el) => load(el).species.map((s) => ({ params: { el, id: s.id } })));
+}
+const { el, id } = Astro.params;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const d = load(el);
+const s = d.byId[id];
+const props = [...(s.properties || [])].sort((a, b) => PROP_ORDER.indexOf(a.property) - PROP_ORDER.indexOf(b.property));
+const st = s.structure || {};
+const structureRows = [["Description", st.description], ["Structure type", st.structure_type], ["Crystal system", st.crystal_system],
+  ["Coordination number", st.coordination_number && (st.coordination_number + ((st.inferred || []).includes("coordination_number") ? " (inferred)" : ""))],
+  ["Coordination polyhedron", st.polyhedron]].filter((r) => r[1]);
+const OXC = { 0: "#94a3b8", 2: "#64748b", 3: "#7c3aed", 4: "#16a34a", 5: "#0891b2", 6: "#d97706" };
+const oxc = s.oxidation_state == null ? "#a1a1aa" : OXC[Math.round(s.oxidation_state)] || "#64748b";
+const page = (t) => t.page + (BOOK_PAGE_OFFSET[el] || 0);
+const refs = (s.refs || []).filter((k) => d.sources[k]).map((k) => ({ k, src: d.sources[k] }));
+const openNotes = (s.issues || []).filter((i) => ["to_check", "source_suspect", "ambiguous"].includes(i.type));
+const minerals = s.names?.minerals || [];
+const link = (sid) => d.byId[sid] ? `<a class="formula-link" href="${base}/${el}/${sid}/">${ce(d.byId[sid].formula)}</a>` : escapeHtml(sid);
+const title = plainFormula(s.formula);
+const searchFormula = s.formula.replace(/[{}$_^\\]/g, "").replace(/\./g, " ");   // "UO2(NO3)2 6H2O" for typed queries
+---
+<Base title={`${title}${s.names?.en ? " – " + s.names.en : ""}`} description={`${title}${s.names?.en ? " (" + s.names.en + ")" : ""}: properties, structure and reactions.`}>
+  <div data-pagefind-body data-pagefind-meta={`title:${title}${s.names?.en ? " – " + s.names.en : ""}`}>
+    <p class="sr-only" data-pagefind-weight="10">{title} {searchFormula} {s.names?.en} {(s.names?.trivial_en || []).join(" ")} {minerals.map((m) => `${m.en} ${m.book_name || ""}`).join(" ")}</p>
+    <p class="small muted" style="margin:0 0 6px"><a href={`${base}/${el}/`}>{ELEMENT_NAMES[el] || el}</a> · {CLASS_LABEL[s.class] || s.class}</p>
+    <h1 set:html={ce(s.formula)} data-pagefind-ignore />
+    {s.names?.en && <div class="lede" style="margin:4px 0 0">{s.names.en}{(s.names.trivial_en || []).length > 0 && <span class="muted"> · {s.names.trivial_en.join(", ")}</span>}</div>}
+    <div class="badges">
+      <span class="badge ox" style={`background:${oxc}`} data-pagefind-filter="oxidation state">
+        {s.oxidation_state == null ? "oxidation state n/a" : `${el}${oxRoman(s.oxidation_state) ? "(" + oxRoman(s.oxidation_state) + ")" : " " + oxLabel(s)}`}{s.oxidation_state_basis === "formal" ? " · formal" : s.oxidation_state_basis === "inferred" ? " · assigned" : ""}
+      </span>
+      <span class="badge" data-pagefind-filter="class">{CLASS_LABEL[s.class] || s.class}</span>
+      {s.kind && s.kind !== "compound" && <span class="badge">{s.kind}</span>}
+      {s.generic && <span class="badge">{s.generic.symbol}{s.generic.values?.length ? " = " + s.generic.values.join(", ") : ""}</span>}
+      {minerals.map((m) => <span class="badge" title={m.book_name ? `called ${m.book_name} by Turova` : ""}>mineral: {m.en}{m.book_name ? ` (Turova: ${m.book_name})` : ""}</span>)}
+    </div>
+    {(s.family || s.hydrate_of) && <p class="small">
+      {s.family && <span>Member of <Fragment set:html={link(s.family)} /> ({d.byId[s.family]?.names?.en}). </span>}
+      {s.hydrate_of && <span>Hydrate / adduct of <Fragment set:html={link(s.hydrate_of)} />.</span>}
+    </p>}
+
+    <div class="grid2" style="margin-top:14px">
+      <div>
+        {props.length > 0 && <section>
+          <h2>Properties</h2>
+          <table class="data">
+            <thead><tr><th>Property</th><th>Value</th><th>Details</th></tr></thead>
+            <tbody>{props.map((p) => <tr class={p.inferred ? "inferred" : ""}>
+              <td>{PROP_LABEL[p.property] || p.property}</td>
+              <td set:html={propValue(p)} />
+              <td class="small muted" set:html={prose([p.inferred ? "inferred" : "", p.pair, p.site, p.phase && `${p.phase}-form`.replace(/^(gas|crystal|solution)-form$/, "$1"), p.conditions, p.note].filter(Boolean).join(" · "))} />
+            </tr>)}</tbody>
+          </table>
+          <p class="small muted">Temperatures in °C, ΔH°f in kJ/mol, distances in Å. Source: Turova 1999 unless stated.</p>
+        </section>}
+        {(s.members.length > 0) && <section><h2>Members of this family ({s.members.length})</h2>
+          <div class="pill-list">{s.members.map((m) => <span set:html={link(m.id)} />)}</div></section>}
+        {(s.hydrates.length > 0) && <section><h2>Hydrates and adducts</h2>
+          <div class="pill-list">{s.hydrates.map((m) => <span set:html={link(m.id)} />)}</div></section>}
+        {s.asProduct.length > 0 && <section><h2>How it is formed ({s.asProduct.length})</h2>
+          {s.asProduct.map((r) => <Reaction r={r} byId={d.byId} el={el} current={s.id} />)}</section>}
+        {s.asReactant.length > 0 && <section><h2>Reactions ({s.asReactant.length})</h2>
+          {s.asReactant.map((r) => <Reaction r={r} byId={d.byId} el={el} current={s.id} />)}</section>}
+      </div>
+      <div>
+        {(s.appearance || s.solubility || s.reactivity) && <section class="card pad">
+          {s.appearance && <p style="margin:0 0 8px"><b>Appearance.</b> <Fragment set:html={prose(s.appearance)} /></p>}
+          {s.solubility && <p style="margin:0 0 8px"><b>Solubility.</b> <Fragment set:html={prose(s.solubility)} /></p>}
+          {s.reactivity && <p style="margin:0"><b>Reactivity.</b> <Fragment set:html={prose(s.reactivity)} /></p>}
+        </section>}
+        {structureRows.length > 0 && <section><h2>Structure</h2>
+          <table class="data">{structureRows.map(([k, v]) => <tr><td class="muted small" style="width:40%">{k}</td><td set:html={prose(v)} /></tr>)}</table></section>}
+        {(s.notes || []).length > 0 && <section><h2>Notes</h2>{s.notes.map((n) => <p class="small" style="margin:4px 0" set:html={prose(n)} />)}</section>}
+        <section><h2>Sources</h2>
+          <p class="small">N. Ya. Turova, <i>Inorganic Chemistry in Tables</i>, 1999, p. {[...new Set(s.turova.map(page))].join(", ")}.</p>
+          {refs.length > 0 && <details open={refs.length <= 2}><summary class="small">Literature cited by Turova for this compound ({refs.reduce((n, r) => n + (r.src.works?.length || 0), 0)})</summary>
+            <ol class="small" style="padding-left:18px">{refs.flatMap((r) => (r.src.works || []).map((w) => <li>{w.raw}{w.doi && <> · <a href={`https://doi.org/${w.doi}`}>doi</a></>}</li>))}</ol></details>}
+        </section>
+        {openNotes.length > 0 && <section><h2>Editorial notes</h2>
+          <details><summary class="small">{openNotes.length} open point(s) under review</summary>
+            {openNotes.map((i) => <div class="note" set:html={prose(i.text)} />)}</details></section>}
+      </div>
+    </div>
+  </div>
+</Base>

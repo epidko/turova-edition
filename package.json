@@ -1,0 +1,24 @@
+{
+  "name": "turova-edition",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive digital edition of reaction-network data from N. Ya. Turova, Inorganic Chemistry in Tables (1999), extended with modern literature.",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/pagefind.mjs",
+    "preview": "astro preview",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "astro": "7.4.5",
+    "cytoscape": "3.34.4",
+    "js-yaml": "5.5.0",
+    "katex": "0.19.1"
+  },
+  "devDependencies": {
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "pagefind": "1.6.0"
+  }
+}

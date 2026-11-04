@@ -1,0 +1,37 @@
+---
+import Base from "../layouts/Base.astro";
+import { elementsWithData, load } from "../lib/data.js";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const have = new Set(elementsWithData());
+const counts = Object.fromEntries([...have].map((e) => { const d = load(e); return [e, `${d.species.length} compounds · ${d.reactions.length} reactions`]; }));
+// [symbol, period(row), group(col)]; f-block rows 9-10
+const E = `H 1 1|He 1 18|Li 2 1|Be 2 2|B 2 13|C 2 14|N 2 15|O 2 16|F 2 17|Ne 2 18|Na 3 1|Mg 3 2|Al 3 13|Si 3 14|P 3 15|S 3 16|Cl 3 17|Ar 3 18|
+K 4 1|Ca 4 2|Sc 4 3|Ti 4 4|V 4 5|Cr 4 6|Mn 4 7|Fe 4 8|Co 4 9|Ni 4 10|Cu 4 11|Zn 4 12|Ga 4 13|Ge 4 14|As 4 15|Se 4 16|Br 4 17|Kr 4 18|
+Rb 5 1|Sr 5 2|Y 5 3|Zr 5 4|Nb 5 5|Mo 5 6|Tc 5 7|Ru 5 8|Rh 5 9|Pd 5 10|Ag 5 11|Cd 5 12|In 5 13|Sn 5 14|Sb 5 15|Te 5 16|I 5 17|Xe 5 18|
+Cs 6 1|Ba 6 2|Hf 6 4|Ta 6 5|W 6 6|Re 6 7|Os 6 8|Ir 6 9|Pt 6 10|Au 6 11|Hg 6 12|Tl 6 13|Pb 6 14|Bi 6 15|Po 6 16|At 6 17|Rn 6 18|
+Fr 7 1|Ra 7 2|Rf 7 4|Db 7 5|Sg 7 6|Bh 7 7|Hs 7 8|Mt 7 9|Ds 7 10|Rg 7 11|Cn 7 12|Nh 7 13|Fl 7 14|Mc 7 15|Lv 7 16|Ts 7 17|Og 7 18|
+La 9 3|Ce 9 4|Pr 9 5|Nd 9 6|Pm 9 7|Sm 9 8|Eu 9 9|Gd 9 10|Tb 9 11|Dy 9 12|Ho 9 13|Er 9 14|Tm 9 15|Yb 9 16|Lu 9 17|
+Ac 10 3|Th 10 4|Pa 10 5|U 10 6|Np 10 7|Pu 10 8|Am 10 9|Cm 10 10|Bk 10 11|Cf 10 12|Es 10 13|Fm 10 14|Md 10 15|No 10 16|Lr 10 17`
+  .split("|").map((t) => t.trim().split(/\s+/)).filter((t) => t.length === 3).map(([s, r, c]) => ({ s, r: +r, c: +c }));
+---
+<Base>
+  <h1>Inorganic chemistry, element by element</h1>
+  <p class="lede">For each element: its compounds in every oxidation state, their properties and structures, and the reactions that connect them.
+    Built from N. Ya. Turova's <i>Inorganic Chemistry in Tables</i> (1999), restated in our own words, and extended with newer literature.
+    Elements are added one by one.</p>
+  <div class="pt" role="list">
+    {E.map((e) => have.has(e.s)
+      ? <a class="el on" role="listitem" href={`${base}/${e.s}/`} style={`grid-row:${e.r};grid-column:${e.c}`} title={counts[e.s]}><b>{e.s}</b></a>
+      : <span class="el" role="listitem" style={`grid-row:${e.r};grid-column:${e.c}`}>{e.s}</span>)}
+    <span class="gap" style="grid-row:8;grid-column:1/19"></span>
+  </div>
+  <p class="muted small">Highlighted: elements available. {[...have].map((e) => <span>{e}: {counts[e]}. </span>)}</p>
+</Base>
+<style>
+  .pt { display: grid; grid-template-columns: repeat(18, minmax(0, 1fr)); gap: 4px; margin: 22px 0 14px; max-width: 980px; }
+  .el { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 6px; font-size: clamp(9px, 1.5vw, 15px);
+        background: var(--surface-2); color: var(--mute); border: 1px solid transparent; }
+  .el.on { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: var(--shadow); }
+  .el.on:hover { text-decoration: none; filter: brightness(1.1); }
+  .gap { height: 10px; }
+</style>

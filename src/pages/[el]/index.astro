@@ -1,0 +1,161 @@
+---
+import Base from "../../layouts/Base.astro";
+import { elementsWithData, load, ELEMENT_NAMES } from "../../lib/data.js";
+import { ce, oxLabel, CLASS_LABEL, CLASS_ORDER, propValue, escapeHtml, prose } from "../../lib/chem.js";
+import { mapLayout } from "../../lib/layout.js";
+
+export function getStaticPaths() { return elementsWithData().map((el) => ({ params: { el } })); }
+const { el } = Astro.params;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const d = load(el);
+const map = mapLayout(d.species, d.reactions);
+const panel = Object.fromEntries(d.species.map((s) => [s.id, {
+  html: ce(s.formula), name: s.names?.en || "", ox: oxLabel(s), basis: s.oxidation_state_basis, cls: CLASS_LABEL[s.class] || s.class,
+  props: (s.properties || []).filter((p) => ["melting_point", "boiling_point", "enthalpy_formation", "density"].includes(p.property)).slice(0, 4)
+           .map((p) => `${{ melting_point: "m.p.", boiling_point: "b.p.", enthalpy_formation: "ΔH°f", density: "d" }[p.property]} ${propValue(p)}`),
+  app: prose(s.appearance || ""), nin: s.asProduct.length, nout: s.asReactant.length }]));
+const byClass = CLASS_ORDER.map((c) => ({ c, list: d.species.filter((s) => s.class === c).sort((a, b) => (a.oxidation_state ?? -9) - (b.oxidation_state ?? -9) || a.formula.localeCompare(b.formula)) })).filter((g) => g.list.length);
+const nTypes = d.reactions.reduce((m, r) => ((m[r.type] = (m[r.type] || 0) + 1), m), {});
+---
+<Base title={ELEMENT_NAMES[el] || el} wide>
+  <h1>{ELEMENT_NAMES[el] || el} <span class="muted" style="font-weight:450">({el})</span></h1>
+  <p class="lede">{d.species.length} compounds and {d.reactions.length} reactions. On the map, compounds are arranged left to right by the oxidation state of {el},
+    and top to bottom by compound class. Arrows are reactions: click a compound to highlight its chemistry, double-click to open its page.</p>
+
+  <div class="card mapcard">
+    <div class="toolbar">
+      <input id="find" type="search" placeholder="Find on map… (e.g. UF6)" aria-label="Find compound on map" list="formulas" />
+      <datalist id="formulas">{d.species.map((s) => <option value={s.formula} />)}</datalist>
+      <span class="types">
+        {[["oxidation", "Oxidation"], ["reduction", "Reduction"], ["no_redox", "No redox change"], ["disproportionation", "Dis-/comproportionation"]].map(([t, l]) =>
+          <label class={`t-${t}`}><input type="checkbox" data-type={t} checked /> {l} <span class="muted">({(nTypes[t] || 0) + (t === "disproportionation" ? (nTypes.comproportionation || 0) : 0)})</span></label>)}
+      </span>
+      <span class="spacer"></span>
+      <button id="fit" type="button">Reset view</button>
+    </div>
+    <div class="mapwrap">
+      <div id="cy" aria-label="Reaction network map"></div>
+      <aside id="panel" class="pad" hidden></aside>
+    </div>
+    <div class="legend small muted">
+      Line style follows Turova's legend: <span class="t-oxidation">— — oxidation</span> · <span class="t-reduction">— · — reduction</span> ·
+      <span class="t-no_redox">—— no change of oxidation state</span>. Node colour = oxidation state of {el}; framed nodes are compound families.
+    </div>
+  </div>
+
+  <h2>All compounds</h2>
+  <div class="classes">
+    {byClass.map((g) => (
+      <section class="card pad">
+        <h3>{CLASS_LABEL[g.c] || g.c} <span class="muted">({g.list.length})</span></h3>
+        <ul>
+          {g.list.map((s) => <li><a class="formula-link" href={`${base}/${el}/${s.id}/`} set:html={ce(s.formula)} /> <span class="muted small">{oxLabel(s)}{s.names?.en ? ` · ${s.names.en}` : ""}</span></li>)}
+        </ul>
+      </section>))}
+  </div>
+  <p class="small"><a href={`${base}/${el}/reactions/`}>All {d.reactions.length} reactions as a list →</a></p>
+
+  <script type="application/json" id="mapdata" set:html={JSON.stringify({ el, base, ...map, panel }).replace(/</g, "\\u003c")} />
+</Base>
+
+<script>
+  import cytoscape from "cytoscape";
+  const D = JSON.parse(document.getElementById("mapdata").textContent);
+  const OX = [[0, "#94a3b8"], [2, "#64748b"], [3, "#7c3aed"], [4, "#16a34a"], [5, "#0891b2"], [6, "#d97706"]];
+  const oxColor = (ox) => { if (ox == null) return "#a1a1aa"; let best = OX[0]; for (const o of OX) if (Math.abs(o[0] - ox) < Math.abs(best[0] - ox)) best = o; return best[1]; };
+  const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+  const ink = dark ? "#ececef" : "#1c1c1e", line = dark ? "#2e2f34" : "#e2dfd7", band = dark ? "#1f2023" : "#f6f4ef";
+  const TYPE = { oxidation: ["#c2410c", "dashed"], reduction: ["#1d6fb8", "dashed"], no_redox: ["#6b7280", "solid"],
+                 disproportionation: ["#7c3aed", "dotted"], comproportionation: ["#7c3aed", "dotted"], unknown: ["#a1a1aa", "dotted"] };
+
+  // background bands + axis labels as locked, non-interactive nodes
+  const x0 = D.xmin, x1 = D.xmax;
+  const deco = [];
+  D.bands.forEach((b, i) => {
+    deco.push({ data: { id: `band-${b.cls}`, label: b.label, deco: "band", w: x1 - x0, h: b.h - 6, even: i % 2 }, position: { x: (x0 + x1) / 2, y: b.y + b.h / 2 } });
+  });
+  D.oxTicks.forEach((t) => deco.push({ data: { id: `ox-${t.label}`, label: t.label, deco: "axis" }, position: { x: t.x, y: -40 } }));
+
+  const cy = cytoscape({
+    container: document.getElementById("cy"),
+    elements: [...deco, ...D.nodes, ...D.edges],
+    layout: { name: "preset" },
+    wheelSensitivity: 0.25, minZoom: 0.12, maxZoom: 3,
+    style: [
+      { selector: "node[deco = 'band']", style: { shape: "rectangle", width: "data(w)", height: "data(h)", "background-color": band, "background-opacity": (e) => (e.data("even") ? 1 : 0.35),
+          label: "data(label)", "text-valign": "top", "text-halign": "left", "text-margin-x": 210, "text-margin-y": 20, "font-size": 15, "font-weight": 600,
+          color: dark ? "#8e8e96" : "#7b7b82", events: "no", "z-index": 0 } },
+      { selector: "node[deco = 'axis']", style: { label: "data(label)", "font-size": 26, "font-weight": 700, color: dark ? "#8e8e96" : "#7b7b82", "background-opacity": 0, events: "no" } },
+      { selector: "node[cls]", style: { shape: "round-rectangle", width: 128, height: 30, "background-color": dark ? "#232428" : "#ffffff",
+          "border-width": 2, "border-color": (e) => oxColor(e.data("ox")), label: "data(label)", "font-size": 12.5, color: ink,
+          "text-valign": "center", "text-halign": "center", "text-wrap": "ellipsis", "text-max-width": 120, "z-index": 10 } },
+      { selector: "node[family = 1]", style: { "border-width": 4, "border-style": "double", "font-weight": 700 } },
+      { selector: "node[deg = 0]", style: { opacity: 0.75 } },
+      { selector: "edge", style: { width: 1.6, "curve-style": "bezier", "target-arrow-shape": "triangle", "arrow-scale": 0.9,
+          "line-color": (e) => (TYPE[e.data("type")] || TYPE.unknown)[0], "target-arrow-color": (e) => (TYPE[e.data("type")] || TYPE.unknown)[0],
+          "line-style": (e) => (TYPE[e.data("type")] || TYPE.unknown)[1], opacity: 0.55, "z-index": 5 } },
+      { selector: "edge[eq = 1]", style: { "source-arrow-shape": "triangle", "source-arrow-color": (e) => (TYPE[e.data("type")] || TYPE.unknown)[0] } },
+      { selector: ".faded", style: { opacity: 0.12 } },
+      { selector: "edge.hl", style: { opacity: 1, width: 2.6, label: "data(label)", "font-size": 11, color: ink, "text-background-color": dark ? "#131416" : "#fff",
+          "text-background-opacity": 0.9, "text-background-padding": 2, "text-rotation": "autorotate", "z-index": 20 } },
+      { selector: "node.hl", style: { "border-width": 3, "z-index": 30 } },
+      { selector: "node:selected", style: { "background-color": dark ? "#1f2a40" : "#e8eefa", "border-width": 4 } },
+      { selector: ".hidden", style: { display: "none" } },
+    ],
+  });
+  const fit = () => cy.fit(cy.nodes("[cls]"), 30);
+  fit();
+  document.getElementById("fit").onclick = () => { clear(); fit(); };
+
+  const panel = document.getElementById("panel");
+  function clear() { cy.elements().removeClass("faded hl"); cy.$(":selected").unselect(); panel.hidden = true; }
+  function focus(n) {
+    clear();
+    const hood = n.closedNeighborhood().filter((e) => !e.hasClass("hidden"));
+    cy.elements("[cls], edge").not(hood).addClass("faded");
+    hood.addClass("hl"); n.select();
+    const p = D.panel[n.id()];
+    panel.innerHTML = `<div class="ptitle">${p.html}</div><div class="muted small">${p.name}</div>
+      <div class="badges"><span class="badge ox" style="background:${oxColor(n.data("ox"))}">${p.ox}${p.basis === "formal" ? " (formal)" : ""}</span><span class="badge">${p.cls}</span></div>
+      ${p.app ? `<div class="small">${p.app}</div>` : ""}${p.props.length ? `<div class="small" style="margin-top:6px">${p.props.join("<br>")}</div>` : ""}
+      <div class="small muted" style="margin-top:8px">${p.nin} reaction(s) forming it · ${p.nout} starting from it</div>
+      <p><a href="${D.base}/${D.el}/${n.id()}/">Open compound page →</a></p>`;
+    panel.hidden = false;
+  }
+  cy.on("tap", "node[cls]", (e) => focus(e.target));
+  cy.on("dbltap", "node[cls]", (e) => (location.href = `${D.base}/${D.el}/${e.target.id()}/`));
+  cy.on("tap", (e) => { if (e.target === cy) clear(); });
+
+  document.querySelectorAll("input[data-type]").forEach((cb) => cb.addEventListener("change", () => {
+    const on = new Set([...document.querySelectorAll("input[data-type]:checked")].map((c) => c.dataset.type));
+    if (on.has("disproportionation")) on.add("comproportionation");
+    cy.edges().forEach((e) => e.toggleClass("hidden", !on.has(e.data("type"))));
+  }));
+  const find = document.getElementById("find");
+  find.addEventListener("change", () => {
+    const q = find.value.trim().toLowerCase();
+    const n = cy.nodes("[cls]").filter((x) => x.data("label").toLowerCase() === q || D.panel[x.id()] && x.id().toLowerCase() === ("u-" + q).toLowerCase())[0]
+      || cy.nodes("[cls]").filter((x) => (x.id() + " " + x.data("name")).toLowerCase().includes(q))[0];
+    if (n) { focus(n); cy.animate({ center: { eles: n }, zoom: 1.4 }, { duration: 350 }); }
+  });
+</script>
+
+<style>
+  .mapcard { overflow: hidden; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; padding: 10px 14px; border-bottom: 1px solid var(--line); font-size: 13.5px; }
+  .toolbar input[type=search] { padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--ink); width: 220px; font: inherit; }
+  .toolbar .types { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .toolbar label { cursor: pointer; white-space: nowrap; }
+  .toolbar .spacer { flex: 1; }
+  .toolbar button { font: inherit; padding: 5px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+  .mapwrap { position: relative; }
+  #cy { height: 74vh; min-height: 460px; background: var(--surface); }
+  #panel { position: absolute; top: 12px; right: 12px; width: min(300px, 80%); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 6px 24px rgba(0,0,0,.12); }
+  #panel :global(.ptitle) { font-size: 20px; }
+  .legend { padding: 8px 14px; border-top: 1px solid var(--line); }
+  .classes { columns: 3 300px; column-gap: 16px; }
+  .classes section { break-inside: avoid; margin-bottom: 16px; }
+  .classes ul { list-style: none; padding: 0; margin: 0; }
+  .classes li { padding: 3px 0; border-bottom: 1px solid var(--line); }
+  .classes li:last-child { border-bottom: 0; }
+</style>

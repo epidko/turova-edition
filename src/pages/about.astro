@@ -1,0 +1,39 @@
+---
+import Base from "../layouts/Base.astro";
+---
+<Base title="About">
+  <div style="max-width:72ch">
+    <h1>About this edition</h1>
+    <p class="lede">An interactive, extensible edition of the chemistry in N. Ya. Turova's reaction-network tables, maintained as open, structured data.</p>
+
+    <h2>Source</h2>
+    <p>Natalia Ya. Turova, <i>Neorganicheskaya khimiya v tablitsakh</i> (Inorganic Chemistry in Tables), Higher Chemical College of the Russian Academy of Sciences,
+      Moscow, 1999. The book presents, for each element, its compounds by oxidation state, with properties and structures, and the reactions that connect them,
+      supported by about 5800 literature references.</p>
+    <p>This site is <b>not</b> a reproduction of the book. The facts (compounds, numerical values, reactions and conditions) were extracted, checked against the
+      printed pages, and restated in our own words and layout. Each value states its source. The literature cited by Turova is listed on every compound page.</p>
+
+    <h2>How the data were made</h2>
+    <ol>
+      <li>The pages were scanned and transcribed region by region, then compared against an independent second reading and against automated chemistry checks
+        (oxidation states from formulas, bond-length and melting/boiling-point plausibility, the book's own abbreviation list).</li>
+      <li>Every block was checked manually against the scan.</li>
+      <li>The verified text was converted into structured English records: one per compound and one per reaction. Turova's printed values are never overwritten.
+        Corrections and newer values are added next to them, with a reference.</li>
+    </ol>
+
+    <h2>Reading the diagrams</h2>
+    <p>As in the book, reactions are drawn as arrows: <span class="t-no_redox">solid</span> when the oxidation state does not change,
+      <span class="t-oxidation">dashed</span> for oxidation and <span class="t-reduction">dash-dot</span> for reduction. The redox change may involve any element,
+      e.g. a peroxide ligand. Temperatures are in °C, enthalpies of formation (ΔH°f, 298 K) in kJ/mol, distances in Å.
+      Oxidation states marked <i>formal</i> are charge-balance values for metallic, nonstoichiometric or mixed-valence solids.</p>
+
+    <h2>Editorial status</h2>
+    <p>Points still under review (probable misprints in the original, ambiguous readings, values needing confirmation from modern literature) are listed under
+      “Editorial notes” on the compound pages.</p>
+
+    <h2>Contributing and licence</h2>
+    <p>The data are kept as YAML files in a public repository. Corrections and literature updates are welcome as pull requests and are checked automatically before
+      review. Data: CC BY 4.0. Code: MIT. Please cite this edition and the original book.</p>
+  </div>
+</Base>

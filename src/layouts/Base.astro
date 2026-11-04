@@ -1,0 +1,42 @@
+---
+import "katex/dist/katex.min.css";
+import "../styles/global.css";
+const { title, description = "Interactive inorganic chemistry: compounds, properties and reactions, based on N. Ya. Turova's Inorganic Chemistry in Tables (1999) and updated with modern literature.", wide = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title ? `${title} · Inorganic Chemistry in Tables` : "Inorganic Chemistry in Tables · digital edition"}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  <link rel="stylesheet" href={`${base}/pagefind/pagefind-ui.css`} />
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href={`${base}/`}>Inorganic Chemistry in Tables <span>· digital edition</span></a>
+      <nav><a href={`${base}/`}>Periodic table</a><a href={`${base}/U/`}>Uranium</a><a href={`${base}/about/`}>About</a></nav>
+      <div class="spacer"></div>
+      <div id="search"></div>
+    </div>
+  </header>
+  <main><div class="wrap" style={wide ? "max-width:1500px" : ""}><slot /></div></main>
+  <footer class="site"><div class="wrap">
+    Data derived from N. Ya. Turova, <i>Inorganic Chemistry in Tables</i> (Neorganicheskaya khimiya v tablitsakh), Higher Chemical College RAS, Moscow, 1999,
+    restated in our own words and extended with modern literature. Values carry their sources. <a href={`${base}/about/`}>About this edition</a>.
+  </div></footer>
+  <script is:inline define:vars={{ base }}>
+    window.addEventListener("DOMContentLoaded", () => {
+      const s = document.createElement("script");
+      s.src = base + "/pagefind/pagefind-ui.js";
+      s.onload = () => new PagefindUI({ element: "#search", showSubResults: false, showImages: false, resetStyles: false,
+                                         translations: { placeholder: "Search compounds, minerals…" } });
+      s.onerror = () => { document.getElementById("search").innerHTML = '<span class="muted small">search available after build</span>'; };
+      document.head.appendChild(s);
+    });
+  </script>
+</body>
+</html>

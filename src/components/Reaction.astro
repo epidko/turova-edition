@@ -1,0 +1,29 @@
+---
+import { ce, reagent, TYPE_LABEL, escapeHtml, prose } from "../lib/chem.js";
+import { BOOK_PAGE_OFFSET } from "../lib/data.js";
+const { r, byId, el, current } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const side = (ids) => (ids || []).map((i) => byId[i]
+  ? (i === current ? `<b>${ce(byId[i].formula)}</b>` : `<a class="formula-link" href="${base}/${el}/${i}/">${ce(byId[i].formula)}</a>`)
+  : escapeHtml(i)).join(" + ") || "?";
+const c = r.conditions || {};
+const cond = [c.temperature_C != null ? `${c.temperature_C} °C` : "", c.pressure, c.irradiation ? `hν (${c.irradiation})` : "", c.solvent ? `in ${c.solvent}` : "",
+              c.catalyst ? `cat. ${c.catalyst}` : "", c.electrochemical ? `${c.electrochemical} reduction` : "", c.text].filter(Boolean);
+const arrow = r.equilibrium ? "⇄" : "→";
+---
+<div class="rx" data-pagefind-ignore>
+  <div class="eq">
+    <Fragment set:html={side(r.reactants)} />
+    {(r.reagents || []).length > 0 && <span class="muted"> + </span>}
+    <Fragment set:html={(r.reagents || []).map(reagent).join(' <span class="muted">or</span> ')} />
+    <span class={`t-${r.type}`} style="font-size:18px;margin:0 6px">{arrow}</span>
+    <Fragment set:html={side(r.products)} />
+    {(r.byproducts || []).length > 0 && <span class="muted"> (+ <Fragment set:html={r.byproducts.map(reagent).join(", ")} />)</span>}
+  </div>
+  <div class="meta">
+    <span class={`t-${r.type}`}>{TYPE_LABEL[r.type] || r.type}</span>
+    {cond.length > 0 && <span> · <Fragment set:html={prose(cond.join("; "))} /></span>}
+    <span> · Turova 1999, p. {r.turova.page + (BOOK_PAGE_OFFSET[el] || 0)}</span>
+    {(r.issues || []).some((i) => ["to_check", "source_suspect"].includes(i.type)) && <span class="badge warn" style="margin-left:6px">under editorial review</span>}
+  </div>
+</div>

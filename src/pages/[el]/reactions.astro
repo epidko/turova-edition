@@ -1,0 +1,19 @@
+---
+import Base from "../../layouts/Base.astro";
+import Reaction from "../../components/Reaction.astro";
+import { elementsWithData, load, ELEMENT_NAMES } from "../../lib/data.js";
+import { TYPE_LABEL } from "../../lib/chem.js";
+export function getStaticPaths() { return elementsWithData().map((el) => ({ params: { el } })); }
+const { el } = Astro.params;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const d = load(el);
+const ORDER = ["oxidation", "reduction", "no_redox", "disproportionation", "comproportionation", "unknown"];
+const groups = ORDER.map((t) => ({ t, list: d.reactions.filter((r) => r.type === t) })).filter((g) => g.list.length);
+---
+<Base title={`${ELEMENT_NAMES[el] || el}: reactions`}>
+  <p class="small muted" style="margin:0 0 6px"><a href={`${base}/${el}/`}>{ELEMENT_NAMES[el] || el}</a></p>
+  <h1>Reactions of {ELEMENT_NAMES[el] || el} compounds</h1>
+  <p class="lede">{d.reactions.length} transformations, grouped by the change in oxidation state, following the line styles of Turova's diagrams.</p>
+  {groups.map((g) => <section><h2 class={`t-${g.t}`}>{TYPE_LABEL[g.t]} ({g.list.length})</h2>
+    {g.list.map((r) => <Reaction r={r} byId={d.byId} el={el} />)}</section>)}
+</Base>
