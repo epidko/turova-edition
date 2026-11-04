@@ -1,0 +1,22 @@
+name: Correction
+description: Something on the site differs from the book, or is wrong.
+title: "[Correction] "
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes: { label: Page on the site, description: "URL of the compound or reaction, e.g. https://epidko.github.io/turova-edition/U/U-UF6/" }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What is wrong?, description: "Quote the value or statement and say what it should be." }
+    validations: { required: true }
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of problem
+      options: ["Differs from the printed book (transcription error)", "The book itself is wrong", "Wording / translation", "Website bug"]
+    validations: { required: true }
+  - type: textarea
+    id: source
+    attributes: { label: Evidence, description: "Book page, or DOI / reference supporting the correction." }

@@ -1,0 +1,20 @@
+name: Literature update
+description: Add a modern value, structure, compound or reaction with its reference.
+title: "[Update] "
+labels: [literature]
+body:
+  - type: input
+    id: compound
+    attributes: { label: Compound or reaction, description: "Formula or site URL, e.g. UF6" }
+    validations: { required: true }
+  - type: textarea
+    id: data
+    attributes: { label: New data, description: "Property, value, unit, conditions; or reactants → products with conditions." }
+    validations: { required: true }
+  - type: input
+    id: doi
+    attributes: { label: DOI, placeholder: "10.1021/…" }
+    validations: { required: true }
+  - type: textarea
+    id: notes
+    attributes: { label: Notes, description: "Why this matters, how it relates to the value from Turova 1999." }

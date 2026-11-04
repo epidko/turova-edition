@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite this edition and the original book."
+title: "Inorganic Chemistry in Tables: digital edition"
+type: dataset
+authors:
+  - family-names: Pidko
+    given-names: Evgeny A.
+    affiliation: Delft University of Technology
+repository-code: "https://github.com/epidko/turova-edition"
+url: "https://epidko.github.io/turova-edition/"
+license: CC-BY-4.0
+keywords: [inorganic chemistry, uranium, reaction network, oxidation states, chemical data]
+references:
+  - type: book
+    title: "Неорганическая химия в таблицах (Inorganic Chemistry in Tables)"
+    authors:
+      - family-names: Turova
+        given-names: Natalia Ya.
+    publisher:
+      name: "Higher Chemical College of the Russian Academy of Sciences"
+    year: 1999
+    location:
+      name: Moscow

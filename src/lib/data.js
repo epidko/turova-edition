@@ -36,3 +36,5 @@ export function load(el) {
 export const ELEMENT_NAMES = { U: "Uranium" };
 // sheet page 1, 2 → book pages (uranium spread = pp. 32–33)
 export const BOOK_PAGE_OFFSET = { U: 31 };
+
+export const REPO = "https://github.com/epidko/turova-edition";

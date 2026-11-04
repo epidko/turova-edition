@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { REPO } from "../lib/data.js";
 ---
 <Base title="About">
   <div style="max-width:72ch">
@@ -33,7 +34,10 @@ import Base from "../layouts/Base.astro";
       “Editorial notes” on the compound pages.</p>
 
     <h2>Contributing and licence</h2>
-    <p>The data are kept as YAML files in a public repository. Corrections and literature updates are welcome as pull requests and are checked automatically before
-      review. Data: CC BY 4.0. Code: MIT. Please cite this edition and the original book.</p>
+    <p>The data are kept as YAML files in a <a href={REPO}>public repository</a>. You can report a correction or add a literature value with an issue form
+      (links on every compound page), or edit the data in a pull request. Every change is checked automatically before the editor reviews it
+      (<a href={`${REPO}/blob/main/CONTRIBUTING.md`}>how to contribute</a>, <a href={`${REPO}/blob/main/docs/DATA_MODEL.md`}>data model</a>,
+      <a href={`${REPO}/blob/main/docs/METHOD.md`}>method</a>).</p>
+    <p>Data: CC BY 4.0. Code: MIT. Please cite this edition and the original book. Editor: Evgeny A. Pidko (TU Delft).</p>
   </div>
 </Base>

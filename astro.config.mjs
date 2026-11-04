@@ -7,4 +7,5 @@ export default defineConfig({
   build: { format: "directory" },
   // OUT_DIR lets local builds go outside a synced folder (Dropbox locks files during the build)
   outDir: process.env.OUT_DIR || "./dist",
+  cacheDir: process.env.CACHE_DIR || "./node_modules/.astro",
 });

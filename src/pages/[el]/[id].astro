@@ -1,7 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Reaction from "../../components/Reaction.astro";
-import { elementsWithData, load, ELEMENT_NAMES, BOOK_PAGE_OFFSET } from "../../lib/data.js";
+import { elementsWithData, load, ELEMENT_NAMES, BOOK_PAGE_OFFSET, REPO } from "../../lib/data.js";
 import { ce, oxLabel, oxRoman, CLASS_LABEL, PROP_LABEL, PROP_ORDER, propValue, plainFormula, escapeHtml, prose } from "../../lib/chem.js";
 
 export function getStaticPaths() {
@@ -82,6 +82,11 @@ const searchFormula = s.formula.replace(/[{}$_^\\]/g, "").replace(/\./g, " ");  
           <p class="small">N. Ya. Turova, <i>Inorganic Chemistry in Tables</i>, 1999, p. {[...new Set(s.turova.map(page))].join(", ")}.</p>
           {refs.length > 0 && <details open={refs.length <= 2}><summary class="small">Literature cited by Turova for this compound ({refs.reduce((n, r) => n + (r.src.works?.length || 0), 0)})</summary>
             <ol class="small" style="padding-left:18px">{refs.flatMap((r) => (r.src.works || []).map((w) => <li>{w.raw}{w.doi && <> · <a href={`https://doi.org/${w.doi}`}>doi</a></>}</li>))}</ol></details>}
+        </section>
+        <section><h2>Improve this record</h2>
+          <p class="small"><a href={`${REPO}/issues/new?template=correction.yml&title=${encodeURIComponent("[Correction] " + title)}&page=${encodeURIComponent(Astro.site + Astro.url.pathname.slice(1))}`}>Suggest a correction</a> ·
+            <a href={`${REPO}/issues/new?template=literature_update.yml&title=${encodeURIComponent("[Update] " + title)}&compound=${encodeURIComponent(title)}`}>Add a literature value</a> ·
+            <a href={`${REPO}/blob/main/data/${el}/species/${s.id}.yaml`}>View data file</a></p>
         </section>
         {openNotes.length > 0 && <section><h2>Editorial notes</h2>
           <details><summary class="small">{openNotes.length} open point(s) under review</summary>
