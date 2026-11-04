@@ -1,0 +1,19 @@
+id: U-UO2_H2PO4_2-nH2O
+formula: (UO2)(H2PO4)2.$n$H2O
+names:
+  en: uranyl dihydrogenphosphate hydrate
+element: U
+oxidation_state: 6.0
+class: oxoacid_salt
+kind: family
+generic:
+  symbol: n
+  note: n not printed
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+refs:
+  - turova-U-20
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 7

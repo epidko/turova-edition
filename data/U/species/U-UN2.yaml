@@ -1,0 +1,15 @@
+id: U-UN2
+formula: UN2
+element: U
+class: pnictide
+kind: compound
+oxidation_state: 6.0
+names:
+  en: uranium dinitride
+appearance: black crystals
+structure:
+  structure_type: CaF2
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 10

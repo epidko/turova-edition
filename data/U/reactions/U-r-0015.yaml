@@ -1,0 +1,14 @@
+id: U-r-0015
+reactants:
+  - U-UH3-x
+products:
+  - U-U
+conditions:
+  temperature_C: 330
+type: reduction
+notes:
+  - thermal decomposition of UH3 (H2 released, not printed)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a11

@@ -1,0 +1,16 @@
+id: U-r-0073
+reactants:
+  - U-UCl5
+products:
+  - U-UCl4
+  - U-UO2Cl2
+reagents:
+  - \ce{H2O}
+type: disproportionation
+notes:
+  - 'Inline: UCl5 + H2O → UCl4 + UO2Cl2 (hydrolytic disproportionation).'
+source: turova1999
+turova:
+  page: 2
+  arrow:
+  block: p2A-04

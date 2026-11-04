@@ -1,0 +1,19 @@
+id: U-U_ONC
+formula: U(O,N,C)
+element: U
+class: other
+kind: solid_solution
+oxidation_state:
+names:
+  en: uranium oxycarbonitride
+appearance: metal-like phase
+notes:
+  - Solid solution of O, N and C in uranium; formerly described as "UO".
+  - Occurs on the surface of uranium metal.
+issues:
+  - type: to_check
+    text: Oxidation state not assigned (variable-composition oxycarbonitride).
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 0

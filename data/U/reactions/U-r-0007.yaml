@@ -1,0 +1,19 @@
+id: U-r-0007
+reactants:
+  - U-UCl3
+products:
+  - U-NaU2Cl6
+reagents:
+  - Na
+type: oxidation
+notes:
+  - tail at the left border of the U(III) halide table at the UF3/UCl3 rows; UCl3 chosen because the product is a chloride
+issues:
+  - type: to_check
+    text: tail drawn at the UF3 row; UCl3 chosen on chemical grounds
+  - type: to_check
+    text: line style 'dashed' -> oxidation, but species_index ox [3.0] -> [2.5] implies reduction
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a04

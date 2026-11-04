@@ -1,0 +1,66 @@
+id: U-UF6
+formula: UF6
+names:
+  en: uranium hexafluoride
+  trivial_en:
+    - uranium(VI) fluoride
+element: U
+oxidation_state: 6
+class: halide
+kind: compound
+appearance: colourless crystals
+solubility: Soluble in 1,2-dichloroethane (C2H4Cl2) and diethyl ether; decomposed by ethanol.
+reactivity: 'Hygroscopic. Oxidant: oxidises HBr to Br2, being reduced to UF4 (HF also formed).'
+structure:
+  description: Molecular; the UF6 molecule is a distorted octahedron.
+  coordination_number: '6'
+  polyhedron: distorted octahedron
+properties:
+  - property: melting_point
+    value: 64
+    unit: °C
+    source: turova1999
+    conditions: under pressure
+  - property: sublimation_temperature
+    value: 56
+    unit: °C
+    source: turova1999
+    note: printed in the m.p. column
+  - property: sublimation_temperature
+    value: 57
+    unit: °C
+    source: turova1999
+    note: printed in the b.p. column
+  - property: enthalpy_formation
+    value: -2180
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 1.98
+    unit: Å
+    source: turova1999
+    pair: U–F
+    phase: gas
+  - property: bond_distance
+    value: 1.98
+    unit: Å
+    source: turova1999
+    pair: U–F
+    phase: crystal
+issues:
+  - type: ambiguous
+    text: "Italic letter in '64 (р)': Cyrillic р or Latin p (pressure); recorded as p = under pressure."
+  - type: to_check
+    text: '«64 (р)»: book legend (p. 5) defines italic p = давление (pressure), consistent with UF6 melting at 64 °C only under pressure (triple point). Reviewer read it as Cyrillic р = разложение. Recorded as pressure pending confirmation; check with modern literature.'
+    by: E. A. Pidko
+    date: '2026-11-04'
+  - type: ambiguous
+    text: 'Two sublimation temperatures printed: 56 (m.p. column) and 57 (b.p. column); both kept.'
+  - type: to_check
+    text: Coordination number 6 inferred from the octahedral molecule, not printed as a C.N.
+refs:
+  - turova-U-14
+turova:
+  - page: 2
+    block: p2D-06
+    entry: 0

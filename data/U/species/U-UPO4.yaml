@@ -1,0 +1,14 @@
+id: U-UPO4
+formula: UPO4
+element: U
+class: oxoacid_salt
+kind: compound
+names:
+  en: uranium(III) phosphate
+oxidation_state: 3.0
+appearance: brown crystals
+refs: []
+turova:
+  - page: 1
+    block: p1B-08
+    entry: 4

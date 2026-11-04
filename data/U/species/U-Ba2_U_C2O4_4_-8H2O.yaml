@@ -1,0 +1,14 @@
+id: U-Ba2_U_C2O4_4_-8H2O
+formula: Ba2[U(C2O4)4].8H2O
+element: U
+class: coordination_compound
+kind: compound
+names:
+  en: barium tetraoxalatouranate(IV) octahydrate
+oxidation_state: 4.0
+appearance: red-violet crystals
+refs: []
+turova:
+  - page: 1
+    block: p1D-05
+    entry: 2

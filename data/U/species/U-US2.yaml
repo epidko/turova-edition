@@ -1,0 +1,31 @@
+id: U-US2
+formula: US2
+element: U
+class: chalcogenide
+kind: compound
+oxidation_state: 4.0
+names:
+  en: uranium disulfide
+appearance: black crystals
+solubility: soluble in acids
+properties:
+  - property: melting_point
+    value: 1850
+    unit: °C
+    source: turova1999
+  - property: transition_temperature
+    value: 425
+    unit: °C
+    conditions: γ→β
+    source: turova1999
+  - property: transition_temperature
+    value: 1350
+    unit: °C
+    conditions: β→α
+    source: turova1999
+notes:
+  - 'Three polymorphs: γ, β, α.'
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 2

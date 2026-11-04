@@ -1,0 +1,18 @@
+id: U-r-0106
+reactants:
+  - U-UO2_O2_-nH2O
+products:
+  - U-UO3
+conditions:
+  text: heating (t)
+type: reduction
+notes:
+  - 'Dash-dot: reduction of the peroxide ligand (loss of O2); U stays +6.'
+issues:
+  - type: to_check
+    text: dash-dot (reduction) but U oxidation state unchanged (+6 → +6); the redox concerns the peroxo ligand
+source: turova1999
+turova:
+  page: 2
+  arrow: p2C-a04
+  block:

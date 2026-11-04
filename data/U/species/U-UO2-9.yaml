@@ -1,0 +1,13 @@
+id: U-UO2-9
+formula: UO_{2.9}
+element: U
+oxidation_state: 5.8
+class: oxide
+kind: phase
+notes:
+  - Oxidation state 5.8 from the composition and from the printed column heading '5.8+'.
+  - Metastable phase.
+turova:
+  - page: 2
+    block: p2B-06
+    entry: 0

@@ -1,0 +1,14 @@
+id: U-r-0006
+reactants:
+  - U-UCl4
+products:
+  - U-U
+conditions:
+  text: heating (italic t)
+type: reduction
+notes:
+  - thermal decomposition of UCl4 to the metal
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a03

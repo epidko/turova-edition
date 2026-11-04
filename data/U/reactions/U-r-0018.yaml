@@ -1,0 +1,20 @@
+id: U-r-0018
+reactants:
+  - U-UO2Cl2
+products:
+  - U-M_U_SO4_2_-nH2O
+reagents:
+  - H2SO4
+conditions:
+  temperature_C: 0
+  electrochemical: cathodic
+type: reduction
+notes:
+  - reactant is the circled reagent UO2Cl2 (species on p. 33)
+issues:
+  - type: to_check
+    text: product M[U(SO4)2]·nH2O has no ox in species_index (U(IV))
+source: turova1999
+turova:
+  page: 1
+  arrow: p1B-a01

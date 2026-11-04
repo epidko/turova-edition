@@ -1,0 +1,150 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "reaction.schema.json",
+ "title": "Reaction / transformation between species",
+ "type": "object",
+ "required": [
+  "id",
+  "reactants",
+  "products",
+  "type",
+  "source",
+  "turova"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[A-Z][a-z]?-r-[0-9]{4}$"
+  },
+  "reactants": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "species ids (U-containing)"
+  },
+  "products": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "reagents": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "other reagents (mhchem), alternatives as separate items"
+  },
+  "byproducts": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "conditions": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "temperature_C": {
+     "type": [
+      "number",
+      "string",
+      "null"
+     ]
+    },
+    "pressure": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "irradiation": {
+     "enum": [
+      "visible",
+      "UV",
+      null
+     ]
+    },
+    "solvent": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "catalyst": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "electrochemical": {
+     "enum": [
+      "cathodic",
+      "anodic",
+      null
+     ]
+    },
+    "text": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  },
+  "type": {
+   "enum": [
+    "oxidation",
+    "reduction",
+    "no_redox",
+    "disproportionation",
+    "comproportionation",
+    "unknown"
+   ]
+  },
+  "equilibrium": {
+   "type": "boolean"
+  },
+  "notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "issues": {
+   "type": "array",
+   "items": {
+    "type": "object"
+   }
+  },
+  "source": {
+   "type": "string"
+  },
+  "turova": {
+   "type": "object",
+   "required": [
+    "page"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "page": {
+     "type": "integer"
+    },
+    "arrow": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "block": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  }
+ }
+}

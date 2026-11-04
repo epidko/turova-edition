@@ -1,0 +1,16 @@
+id: U-r-0014
+reactants:
+  - U-U
+products:
+  - U-UH3-x
+reagents:
+  - H2
+conditions:
+  temperature_C: 225
+type: oxidation
+notes:
+  - arrowhead at the UH3 crystal-structure figure (p1A-13); the list entry UH_{3-x} (U-UH3-x) is the same compound
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a10

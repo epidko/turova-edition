@@ -1,0 +1,16 @@
+id: U-UOF4
+formula: UOF4
+names:
+  en: uranium(VI) oxide tetrafluoride
+element: U
+oxidation_state: 6
+class: oxohalide
+kind: compound
+appearance: orange crystals
+reactivity: Hygroscopic. Disproportionates at 150 °C into UF6 and UO2F2; hydrolysed by water to UO2F2; with MF in SO2 gives M[UOF5].
+refs:
+  - turova-U-10
+turova:
+  - page: 2
+    block: p2D-04
+    entry: 0

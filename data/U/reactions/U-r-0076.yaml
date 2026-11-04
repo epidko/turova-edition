@@ -1,0 +1,15 @@
+id: U-r-0076
+reactants:
+  - U-U_OR_n5-n
+products:
+  - U-U_OR_5
+reagents:
+  - \ce{NaOR}
+type: no_redox
+notes:
+  - Short vertical arrow inside the alkoxide box.
+source: turova1999
+turova:
+  page: 2
+  arrow: p2A-a03
+  block:

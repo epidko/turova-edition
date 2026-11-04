@@ -1,0 +1,21 @@
+id: U-U2F9
+formula: U2F9
+names:
+  en: diuranium nonafluoride
+element: U
+oxidation_state: 4.5
+class: halide
+kind: compound
+appearance: black crystals
+properties:
+  - property: enthalpy_formation
+    value: -3910
+    unit: kJ/mol
+    source: turova1999
+notes:
+  - Mixed-valence fluoride; average oxidation state +4.5 (also printed in the column header).
+refs: []
+turova:
+  - page: 1
+    block: p1D-09
+    entry: 1

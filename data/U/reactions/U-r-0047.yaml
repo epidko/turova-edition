@@ -1,0 +1,13 @@
+id: U-r-0047
+reactants:
+  - U-UO2_H2O_6_p2
+products:
+  - U-U_H2O_8_p3
+reagents:
+  - Na
+  - Zn/Hg
+type: reduction
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a16

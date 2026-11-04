@@ -1,0 +1,17 @@
+id: U-M2_UF7
+formula: M2[UF7]
+element: U
+names:
+  en: heptafluorouranates(V)
+oxidation_state: 5
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  note: cations not specified in the source
+notes:
+  - Oxidation state set to +5 (singly charged cations, U(V) column of the sheet); skeleton gave none because of the generic symbol.
+turova:
+  - page: 2
+    block: p2B-15
+    entry: 1

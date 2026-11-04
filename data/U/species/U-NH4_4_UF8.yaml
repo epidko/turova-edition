@@ -1,0 +1,16 @@
+id: U-NH4_4_UF8
+formula: (NH4)4[UF8]
+names:
+  en: ammonium octafluorouranate(IV)
+element: U
+oxidation_state: 4.0
+class: coordination_compound
+kind: compound
+structure:
+  description: The [UF8]4− anion is an antiprism.
+  polyhedron: antiprism
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 2

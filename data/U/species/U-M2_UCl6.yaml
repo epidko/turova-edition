@@ -1,0 +1,28 @@
+id: U-M2_UCl6
+formula: M2[UCl6]
+names:
+  en: hexachlorouranates(IV)
+element: U
+oxidation_state: 4
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  note: M (singly charged cation) not specified in the entry
+structure:
+  description: Octahedral [UCl6]2− anion.
+  coordination_number: '6'
+  polyhedron: octahedron
+properties:
+  - property: bond_distance
+    value: 2.62
+    unit: Å
+    pair: U–Cl
+    source: turova1999
+notes:
+  - Oxidation state +4 set by hand from the formula (M singly charged); skeleton had none.
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 7

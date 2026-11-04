@@ -1,0 +1,30 @@
+id: U-MgUO4
+formula: MgUO4
+element: U
+oxidation_state: 6.0
+class: uranate
+kind: compound
+appearance: yellow
+solubility: insoluble in water (precipitate)
+structure:
+  description: Chains of [(UO2)O4/2] octahedra sharing edges or vertices.
+  polyhedron: octahedron
+properties:
+  - property: bond_distance
+    value: 1.92
+    unit: Å
+    pair: U=O
+    source: turova1999
+  - property: bond_distance
+    value: 2.5
+    unit: Å
+    pair: U–O
+    source: turova1999
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2C-07
+    entry: 6

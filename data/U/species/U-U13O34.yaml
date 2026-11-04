@@ -1,0 +1,13 @@
+id: U-U13O34
+formula: U13O34
+element: U
+oxidation_state: 5.231
+class: oxide
+kind: phase
+notes:
+  - Stable phase (the label 'stable phases' is shared with U11O29).
+  - Mixed-valence oxide; oxidation state is the formal average.
+turova:
+  - page: 2
+    block: p2B-04
+    entry: 0

@@ -1,0 +1,20 @@
+id: U-UP
+formula: UP
+element: U
+class: pnictide
+kind: compound
+oxidation_state: 3.0
+names:
+  en: uranium monophosphide
+properties:
+  - property: melting_point
+    value: 2850
+    unit: °C
+    source: turova1999
+issues:
+  - type: ambiguous
+    text: The line reads 'UP, m.p. 2850, U3P4, U2P3, UP2, black'; 'black' may refer to all phosphides or to UP2 only.
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 11

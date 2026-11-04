@@ -1,0 +1,17 @@
+id: U-r-0055
+reactants:
+  - U-UO2_p
+products:
+  - U-U_H2O_7_OH_p3
+reagents:
+  - H2O
+type: oxidation
+notes:
+  - 'disproportionation of [UO2]+ (with p1D-a25): one H2O stub forks to the U(IV) and U(VI) products'
+issues:
+  - type: to_check
+    text: line style 'dashed' -> oxidation, but species_index ox [5.0] -> [4.0] implies reduction
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a24

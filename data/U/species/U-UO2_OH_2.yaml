@@ -1,0 +1,57 @@
+id: U-UO2_OH_2
+formula: UO2(OH)2
+names:
+  en: uranyl hydroxide
+  trivial_en:
+    - uranic acid
+  minerals:
+    - en: ianthinite
+      printed_ru: янтинит
+element: U
+oxidation_state:
+class: hydroxide
+kind: compound
+appearance: yellow crystals or amorphous precipitate
+solubility: insoluble in water; soluble in acids
+structure:
+  description: 'α: layered, UO2 groups inclined at 70° to the layer plane. β: layers of [UO2(OH)4] octahedra sharing vertices. γ: layers of octahedra sharing (OH)2 edges (the mineral ianthinite is attached to γ).'
+  polyhedron: octahedron (β, γ)
+properties:
+  - property: solubility_product
+    value: '1e-22'
+    source: turova1999
+  - property: other
+    value: 70
+    unit: °
+    phase: α
+    note: tilt angle of the UO2 groups to the layer plane
+    source: turova1999
+  - property: bond_distance
+    value: 1.71
+    unit: Å
+    pair: U–O
+    phase: α
+    note: uranyl bond, printed as U≡O
+    source: turova1999
+  - property: bond_distance
+    value: 2.5
+    unit: Å
+    pair: U–OH
+    phase: α
+    source: turova1999
+notes:
+  - Skeleton id carries a stray 'v' (precipitate arrow) in the formula; formula here is UO2(OH)2.
+  - Obtained by dehydration of its hydrates at 100 °C; converts to H2U2O7 at 160 °C.
+issues:
+  - type: confirmed
+    text: U≡O printed as a triple bond (confirmed by reviewer).
+    by: E. A. Pidko
+    date: '2026-11-04'
+  - type: to_check
+    text: Mineral 'янтинит' rendered as ianthinite; ianthinite is usually described as containing U(IV) as well, so check its assignment to γ-UO2(OH)2.
+  - type: ambiguous
+    text: 'Layout: box lies near the region B/C (or A/B) boundary; deduplicate against the neighbouring region transcription. (dedupe against p2_C)'
+turova:
+  - page: 2
+    block: p2B-08
+    entry: 1

@@ -1,0 +1,26 @@
+id: U-M2_UO2_2_VO4_2_-nH2O
+formula: M2[(UO2)2(VO4)2].$n$H2O
+element: U
+names:
+  en: uranyl vanadates
+  minerals:
+    - en: carnotite
+      printed_ru: карнотит
+    - en: tyuyamunite
+      printed_ru: тюямунит
+oxidation_state: 6
+class: oxoacid_salt
+kind: family
+generic:
+  symbol: M
+  values:
+    - K
+    - Ca/2
+  note: n not specified in the source
+notes:
+  - Oxidation state set to +6 (uranyl(VI) unit); skeleton gave none because of the generic symbol.
+  - 'Minerals named in the source by cation: K – carnotite, Ca – tyuyamunite.'
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 10

@@ -1,0 +1,17 @@
+id: U-UOBr3
+formula: UOBr3
+element: U
+names:
+  en: uranium(V) oxide tribromide
+oxidation_state: 5.0
+class: oxohalide
+appearance: red-brown crystals
+properties:
+  - property: enthalpy_formation
+    value: -988
+    unit: kJ/mol
+    source: turova1999
+turova:
+  - page: 2
+    block: p2A-02
+    entry: 1

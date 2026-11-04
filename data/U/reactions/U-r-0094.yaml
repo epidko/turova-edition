@@ -1,0 +1,19 @@
+id: U-r-0094
+reactants:
+  - U-UO3
+products:
+  - U-UO2_NO3_2-6H2O
+reagents:
+  - \ce{N2O4}
+type: no_redox
+notes:
+  - Solid line from the same (U; UO3) circle — the solid one is for UO3; the N2O4 label applies to both parallel lines.
+  - "Head at the '· 2NO2' line: product UO2(NO3)2·2NO2 (entry p2D-01/4)."
+issues:
+  - type: to_check
+    text: product is the ·2NO2 adduct, which has no own species id
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a11
+  block:

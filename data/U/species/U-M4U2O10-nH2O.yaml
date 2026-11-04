@@ -1,0 +1,17 @@
+id: U-M4U2O10-nH2O
+formula: M4U2O10.$n$H2O
+element: U
+oxidation_state: 6
+class: peroxo
+kind: family
+generic:
+  symbol: M
+  note: no metals printed; n unspecified
+appearance: red crystals
+notes:
+  - Listed under the heading 'Peroxouranates'.
+  - Oxidation state set to 6 (peroxouranate, univalent M assumed); charge balance implies two O2(2−) groups per U2O10 unit.
+turova:
+  - page: 2
+    block: p2C-08
+    entry: 3

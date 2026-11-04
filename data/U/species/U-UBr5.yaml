@@ -1,0 +1,27 @@
+id: U-UBr5
+formula: UBr5
+element: U
+names:
+  en: uranium pentabromide
+oxidation_state: 5.0
+class: halide
+appearance: black-brown crystals
+reactivity: At 80 °C gives UBr4 and Br2.
+structure:
+  description: Dimers of two octahedra.
+  polyhedron: octahedron
+properties:
+  - property: enthalpy_formation
+    value: -858
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 2.58
+    unit: Å
+    value_max: 2.81
+    pair: U–Br
+    source: turova1999
+turova:
+  - page: 2
+    block: p2A-04
+    entry: 4

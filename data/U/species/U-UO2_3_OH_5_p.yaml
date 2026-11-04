@@ -1,0 +1,21 @@
+id: U-UO2_3_OH_5_p
+formula: '[(UO2)3(OH)5]^+'
+element: U
+class: hydroxide
+kind: ion
+oxidation_state: 6.0
+names:
+  en: pentahydroxidotris(dioxouranium(VI)) ion
+properties:
+  - property: hydrolysis_constant
+    value: '1e-16'
+    note: K printed under the ion; the equilibrium it refers to is not stated
+    source: turova1999
+notes:
+  - Hydrolysed uranyl species; shown in equilibrium with [(UO2)2(OH)2]2+.
+refs:
+  - turova-U-16
+turova:
+  - page: 1
+    block: p1D-22
+    entry: 1

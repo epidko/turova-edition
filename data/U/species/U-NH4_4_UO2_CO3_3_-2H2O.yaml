@@ -1,0 +1,22 @@
+id: U-NH4_4_UO2_CO3_3_-2H2O
+formula: (NH4)4[UO2(CO3)3].2H2O
+element: U
+names:
+  en: ammonium tris(carbonato)dioxouranate(VI) dihydrate
+oxidation_state: 6
+class: coordination_compound
+structure:
+  description: The [UO2(CO3)3] anion (X in the source) is a hexagonal bipyramid.
+  polyhedron: hexagonal bipyramid
+notes:
+  - The source writes the anion as X, defined as [UO2(CO3)3] on the same line; expanded in the formula.
+  - Oxidation state +6 (uranyl(VI)).
+issues:
+  - type: ambiguous
+    text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
+refs:
+  - turova-U-7
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 11

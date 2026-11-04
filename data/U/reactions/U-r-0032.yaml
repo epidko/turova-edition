@@ -1,0 +1,17 @@
+id: U-r-0032
+reactants:
+  - OFFPAGE:p33
+products:
+  - U-UO2x
+reagents:
+  - H2
+  - CO
+conditions:
+  text: H2 at 900 °C; CO at 750 °C
+type: reduction
+notes:
+  - line comes from the gutter (p. 33); likely source U3O8 (U-U3O8) or UO3 (U-UO3)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a03

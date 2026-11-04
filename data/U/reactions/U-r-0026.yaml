@@ -1,0 +1,12 @@
+id: U-r-0026
+reactants:
+  - U-U_OH_4
+products:
+  - U-UO2x
+byproducts:
+  - H2O
+type: no_redox
+source: turova1999
+turova:
+  page: 1
+  arrow: p1C-a02

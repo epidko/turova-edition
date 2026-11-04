@@ -1,0 +1,16 @@
+id: U-Cs_UO2_2Cl5
+formula: Cs[(UO2)2Cl5]
+element: U
+names:
+  en: caesium pentachlorotetraoxodiuranate(VI)
+oxidation_state: 6.0
+class: coordination_compound
+structure:
+  description: Framework structure built of pentagonal bipyramids.
+  polyhedron: pentagonal bipyramid
+refs:
+  - turova-U-12
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 28

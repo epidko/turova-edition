@@ -1,0 +1,20 @@
+id: U-UO2_CH3COO_2
+formula: UO2(CH3COO)2
+names:
+  en: uranyl acetate
+element: U
+oxidation_state: 6.0
+class: carboxylate
+kind: compound
+properties:
+  - property: decomposition_temperature
+    value: 300
+    unit: °C
+    source: turova1999
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+  - The dihydrate loses water at 110 °C giving the anhydrous acetate.
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 11

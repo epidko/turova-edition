@@ -1,0 +1,15 @@
+id: U-Na2U4O13
+formula: Na2U4O13
+element: U
+class: uranate
+kind: compound
+oxidation_state: 6.0
+names:
+  en: sodium tetrauranate
+appearance: yellow precipitate
+notes:
+  - Precipitates together with Na2U16O49.
+turova:
+  - page: 1
+    block: p1D-24
+    entry: 0

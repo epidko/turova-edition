@@ -1,0 +1,22 @@
+id: U-UO2_SO4
+formula: UO2(SO4)
+names:
+  en: uranyl sulfate
+element: U
+oxidation_state: 6.0
+class: oxoacid_salt
+kind: compound
+structure:
+  description: 'Hydrates: chains of pentagonal bipyramids.'
+  polyhedron: pentagonal bipyramid
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+  - Hydrates UO2SO4·nH2O with n = 2.5 and 3.5; they dehydrate at 175 °C.
+  - Reacts with H2SO4 (arrow to the adjacent half of the box).
+issues:
+  - type: ambiguous
+    text: The chain-of-pentagonal-bipyramids structure is printed after the hydrate line; it may describe the hydrates rather than anhydrous UO2SO4.
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 2

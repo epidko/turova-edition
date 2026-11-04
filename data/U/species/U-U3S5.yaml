@@ -1,0 +1,15 @@
+id: U-U3S5
+formula: U3S5
+element: U
+class: chalcogenide
+kind: compound
+oxidation_state: 3.333
+names:
+  en: triuranium pentasulfide
+notes:
+  - Printed ('U2S3; U3S5') at the right edge of the sulfide box; an arrow from it points toward the US2 line. No further data.
+  - Mixed-valence; oxidation state is the formal average.
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 3

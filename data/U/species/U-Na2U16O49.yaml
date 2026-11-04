@@ -1,0 +1,15 @@
+id: U-Na2U16O49
+formula: Na2U16O49
+element: U
+class: uranate
+kind: compound
+oxidation_state: 6.0
+names:
+  en: sodium hexadecauranate
+appearance: yellow precipitate
+notes:
+  - Precipitates together with Na2U4O13.
+turova:
+  - page: 1
+    block: p1D-24
+    entry: 1

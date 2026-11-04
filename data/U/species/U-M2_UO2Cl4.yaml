@@ -1,0 +1,27 @@
+id: U-M2_UO2Cl4
+formula: M2[UO2Cl4]
+element: U
+names:
+  en: tetrachlorodioxouranates(VI)
+oxidation_state: 6
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  note: cations not specified in the source
+structure:
+  description: Anion is a tetragonal bipyramid with the UO2 group axial.
+  polyhedron: tetragonal bipyramid
+properties:
+  - property: bond_distance
+    value: 2.6
+    unit: Å
+    pair: U–Cl
+    approx: true
+    source: turova1999
+notes:
+  - Oxidation state set to +6 (uranyl(VI) unit); skeleton gave none because of the generic symbol.
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 27

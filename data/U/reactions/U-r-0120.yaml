@@ -1,0 +1,13 @@
+id: U-r-0120
+reactants:
+  - U-UOF4
+products:
+  - U-UF6
+  - U-UO2F2
+type: no_redox
+source: turova1999
+turova:
+  page: 2
+  block: p2D-04
+conditions:
+  temperature_C: 150

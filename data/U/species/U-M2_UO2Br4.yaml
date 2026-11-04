@@ -1,0 +1,30 @@
+id: U-M2_UO2Br4
+formula: M2[UO2Br4]
+element: U
+names:
+  en: tetrabromodioxouranates(VI)
+oxidation_state: 6
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  values:
+    - Cs
+    - '[R4N]'
+structure:
+  description: Anion is a flattened octahedron.
+  polyhedron: flattened octahedron
+properties:
+  - property: bond_distance
+    value: 2.8
+    unit: Å
+    pair: U–Br
+    source: turova1999
+notes:
+  - Oxidation state set to +6 (uranyl(VI) unit); skeleton gave none because of the generic symbol.
+refs:
+  - turova-U-9
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 29

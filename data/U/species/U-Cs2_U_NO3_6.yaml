@@ -1,0 +1,13 @@
+id: U-Cs2_U_NO3_6
+formula: Cs2[U(NO3)6]
+element: U
+class: coordination_compound
+kind: compound
+names:
+  en: caesium hexanitratouranate(IV)
+oxidation_state: 4.0
+refs: []
+turova:
+  - page: 1
+    block: p1D-05
+    entry: 0

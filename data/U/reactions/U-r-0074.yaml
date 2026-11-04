@@ -1,0 +1,17 @@
+id: U-r-0074
+reactants:
+  - U-U3O8
+products:
+  - OFFPAGE:p32
+type: reduction
+notes:
+  - "Upper branch (leaves the left edge at y~195). Direction inferred: the two branches converge in a '>' at (205,228) and run as one dash-dot line to the U3O8 box; no arrowhead on p. 33, heads are on p. 32."
+  - 'Likely target: UO_{2+x} (U-UO2x), matching p1D-a03 (dash-dot, label H2 (900°); CO (750°), entering from the right gutter at y~180). Reagents are printed on p. 32 with that arrow.'
+issues:
+  - type: to_check
+    text: off-page endpoint; confirm pairing with p1D-a03 and merge reagents (H2 900°; CO 750°) when page 1 reactions are built
+source: turova1999
+turova:
+  page: 2
+  arrow: p2A-a01
+  block:

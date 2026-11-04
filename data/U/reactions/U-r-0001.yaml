@@ -1,0 +1,19 @@
+id: U-r-0001
+reactants:
+  - U-UH3-x
+products:
+  - U-UO2x
+reagents:
+  - H2O
+byproducts:
+  - H2
+conditions:
+  temperature_C: 350
+type: oxidation
+source: turova1999
+notes:
+  - UO2 mapped to the skeleton id U-UO2x (UO2+x).
+turova:
+  page: 1
+  block: p1A-12
+  arrow:

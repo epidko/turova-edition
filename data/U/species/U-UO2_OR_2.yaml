@@ -1,0 +1,24 @@
+id: U-UO2_OR_2
+formula: UO2(OR)2
+names:
+  en: uranyl alkoxides/aryloxides
+element: U
+oxidation_state: 6.0
+class: alkoxide
+kind: family
+generic:
+  symbol: R
+  values:
+    - Me
+    - i-Pr
+    - Ph
+appearance: red (printed for R = Ph)
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+issues:
+  - type: ambiguous
+    text: "'red' is printed in parentheses after Ph; it may describe only the phenoxide."
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 16

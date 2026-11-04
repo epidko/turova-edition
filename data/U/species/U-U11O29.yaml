@@ -1,0 +1,13 @@
+id: U-U11O29
+formula: U11O29
+element: U
+oxidation_state: 5.273
+class: oxide
+kind: phase
+notes:
+  - Stable phase (label shared with U13O34).
+  - Mixed-valence oxide; oxidation state is the formal average.
+turova:
+  - page: 2
+    block: p2B-04
+    entry: 1

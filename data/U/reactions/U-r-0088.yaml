@@ -1,0 +1,23 @@
+id: U-r-0088
+reactants:
+  - U-UO3
+products:
+  - U-M2UO4
+reagents:
+  - \ce{M2CO3}
+conditions:
+  text: heating (t)
+type: no_redox
+notes:
+  - Arrowhead enters the Uranates(VI) box at the 'Na4UO5, M^{II}2UO5 …; M2UO4; MgUO4' line; product chosen as M2UO4 (from M2CO3).
+  - Label printed «M2CO2 (t)», read as M2CO3 (editor note, to_check).
+issues:
+  - type: to_check
+    text: printed M2CO2, read as M2CO3 (obvious misprint) — check later (E. A. Pidko, 2026-11-04)
+  - type: to_check
+    text: head line also contains Na4UO5 and M^{II}2UO5; M2UO4 chosen by stoichiometry of M2CO3
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a05
+  block:

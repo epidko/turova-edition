@@ -1,0 +1,21 @@
+id: U-US3
+formula: US3
+element: U
+class: chalcogenide
+kind: compound
+oxidation_state: 4
+names:
+  en: uranium trisulfide
+appearance: black crystals
+solubility: soluble in concentrated HNO3
+structure:
+  description: polysulfide
+notes:
+  - Described as a polysulfide, so the computed +6 is not meaningful; oxidation state set to +4 assuming U(IV) with S2^2- (editorial interpretation, not printed).
+issues:
+  - type: to_check
+    text: Oxidation state +4 for polysulfide US3 is an editorial assignment (skeleton computed +6).
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 4

@@ -1,0 +1,35 @@
+id: U-UO2F5_m3
+formula: '[UO2F5]^3-'
+names:
+  en: pentafluoridodioxidouranate(VI) ion
+element: U
+oxidation_state: 6
+class: coordination_compound
+kind: ion
+structure:
+  description: 'Pentagonal bipyramid: two axial oxo ligands (U=O) and five equatorial fluorides.'
+  coordination_number: '7'
+  polyhedron: pentagonal bipyramid
+properties:
+  - property: bond_distance
+    value: 1.75
+    unit: Å
+    source: turova1999
+    pair: U–O
+    site: axial
+  - property: bond_distance
+    value: 2.24
+    unit: Å
+    source: turova1999
+    pair: U–F
+    site: equatorial
+notes:
+  - Data taken from a structural drawing in the source; distances printed without units (Å per book convention).
+issues:
+  - type: to_check
+    text: Coordination number 7 inferred from the drawing (2 O + 5 F), not printed as a C.N.
+refs: []
+turova:
+  - page: 2
+    block: p2D-03
+    entry: 0

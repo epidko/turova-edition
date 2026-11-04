@@ -1,0 +1,14 @@
+id: U-K3_UO2F5
+formula: K3[UO2F5]
+element: U
+names:
+  en: potassium pentafluorodioxouranate(VI)
+oxidation_state: 6.0
+class: coordination_compound
+structure:
+  description: Anion is a pentagonal bipyramid.
+  polyhedron: pentagonal bipyramid
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 26

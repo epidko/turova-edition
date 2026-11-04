@@ -1,0 +1,20 @@
+id: U-MZn_UO2_CH3COO_3_3-6H2O
+formula: MZn[UO2(CH3COO)3]3.6H2O
+element: U
+names:
+  en: lithium/sodium zinc uranyl acetate hexahydrates
+oxidation_state: 6
+class: carboxylate
+kind: family
+generic:
+  symbol: M
+  values:
+    - Li
+    - Na
+solubility: Insoluble in water (precipitates).
+notes:
+  - Oxidation state set to +6 (uranyl(VI) unit); skeleton gave none because of the generic symbol.
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 16

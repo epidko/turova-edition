@@ -1,0 +1,27 @@
+id: U-M_U_OR_6_n
+formula: M[U(OR)6]_{$n$}
+names:
+  en: hexaalkoxidouranates(V)
+element: U
+oxidation_state: 5
+class: alkoxide
+kind: family
+generic:
+  symbol: M
+  values:
+    - Na
+    - Ca
+    - Al
+  note: n = charge of M; R not specified
+appearance: green crystals
+reactivity: Sublime in vacuum.
+notes:
+  - 'Oxidation state +5 set by the normalizer: [U(OR)6]- anion, n equal to the valence of M.'
+issues:
+  - type: to_check
+    text: Reading n as the charge of M (Na 1, Ca 2, Al 3) and U(V) is the normalizer's interpretation.
+refs: []
+turova:
+  - page: 2
+    block: p2B-17
+    entry: 0

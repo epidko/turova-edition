@@ -1,0 +1,15 @@
+id: U-NH4_4_UF10
+formula: (NH4)4[UF10]
+names:
+  en: ammonium decafluorouranate(VI)
+element: U
+oxidation_state: 6
+class: coordination_compound
+kind: compound
+notes:
+  - Listed by formula only.
+refs: []
+turova:
+  - page: 2
+    block: p2D-07
+    entry: 0

@@ -1,0 +1,16 @@
+id: U-r-0099
+reactants:
+  - U-UF4
+products:
+  - U-UF6
+reagents:
+  - \ce{F2 + Cl2}
+  - \ce{XeF_{$n$}}
+type: oxidation
+notes:
+  - Upper label 'F2 + Cl2; XeFn'. Head at the UF6 row of the UF6/UCl6 table.
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a15
+  block:

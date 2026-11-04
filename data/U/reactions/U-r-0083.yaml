@@ -1,0 +1,16 @@
+id: U-r-0083
+reactants:
+  - U-HUF6-nH2O
+products:
+  - U-UF4
+  - U-UO2F2
+reagents:
+  - \ce{H2O}
+type: disproportionation
+notes:
+  - 'Inline: HUF6·nH2O + H2O → UF4↓ + UO2F2 (hydrolytic disproportionation).'
+source: turova1999
+turova:
+  page: 2
+  arrow:
+  block: p2B-15

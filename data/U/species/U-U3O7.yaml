@@ -1,0 +1,18 @@
+id: U-U3O7
+formula: U3O7
+element: U
+class: oxide
+kind: phase
+names:
+  en: triuranium heptaoxide
+oxidation_state: 4.667
+reactivity: metastable
+structure:
+  description: known as metastable α and β phases
+notes:
+  - Printed in the column headed 4.66+ (mean oxidation state 14/3).
+refs: []
+turova:
+  - page: 1
+    block: p1D-02
+    entry: 0

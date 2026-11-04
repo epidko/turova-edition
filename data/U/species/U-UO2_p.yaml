@@ -1,0 +1,15 @@
+id: U-UO2_p
+formula: '[UO2]^+'
+element: U
+class: aqua_ion
+kind: ion
+oxidation_state: 5.0
+names:
+  en: dioxouranium(V) ion
+  trivial_en:
+    - uranyl(V)
+reactivity: very unstable; exists at pH 2–4
+turova:
+  - page: 1
+    block: p1D-19
+    entry: 0

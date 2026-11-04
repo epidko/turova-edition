@@ -1,0 +1,19 @@
+id: U-HUF6-nH2O
+formula: HUF6.$n$H2O
+element: U
+names:
+  en: hexafluorouranic(V) acid hydrates
+oxidation_state: 5.0
+class: coordination_compound
+kind: family
+generic:
+  symbol: n
+  values:
+    - '2.5'
+    - '1.25'
+appearance: green
+reactivity: Stable towards oxidation; with water gives insoluble UF4 and UO2F2.
+turova:
+  - page: 2
+    block: p2B-15
+    entry: 3

@@ -1,0 +1,22 @@
+id: U-U_SO3_F4
+formula: U(SO3)F4
+names: {}
+element: U
+oxidation_state: 6
+class: oxoacid_salt
+kind: compound
+appearance: orange
+properties:
+  - property: decomposition_temperature
+    value: 90
+    unit: °C
+    source: turova1999
+issues:
+  - type: to_check
+    text: Oxidation state +6 assumes SO3 is a sulfite (SO3 2-) ligand, consistent with the U(VI) column; class oxoacid_salt chosen by the normalizer.
+refs:
+  - turova-U-10
+turova:
+  - page: 2
+    block: p2D-05
+    entry: 0

@@ -1,0 +1,39 @@
+id: U-UI3
+formula: UI3
+names:
+  en: uranium(III) iodide
+element: U
+oxidation_state: 3.0
+class: halide
+kind: compound
+appearance: black crystals
+structure:
+  structure_type: PuBr3
+properties:
+  - property: melting_point
+    value: 680
+    unit: °C
+    source: turova1999
+  - property: boiling_point
+    value: 1750
+    unit: °C
+    approx: true
+    source: turova1999
+  - property: enthalpy_formation
+    value: -573
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 3.16
+    value_max: 3.24
+    unit: Å
+    pair: U–I
+    source: turova1999
+notes:
+  - Forms adducts UX3·4L (L = THF, pyridine) whose molecules are pentagonal bipyramids; in the source this is a bottom row spanning the whole UX3 box and sharing footnote 17 with UI3.
+refs:
+  - turova-U-17
+turova:
+  - page: 1
+    block: p1B-11
+    entry: 3

@@ -1,0 +1,15 @@
+id: U-R4N_3_UCl8
+formula: '[R4N]3[UCl8]'
+element: U
+names:
+  en: tetraalkylammonium octachlorouranates(V)
+oxidation_state: 5.0
+class: coordination_compound
+kind: family
+generic:
+  symbol: R
+  note: R (organic group) not specified in the source
+turova:
+  - page: 2
+    block: p2B-15
+    entry: 4

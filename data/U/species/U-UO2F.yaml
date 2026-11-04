@@ -1,0 +1,11 @@
+id: U-UO2F
+formula: UO2F
+element: U
+names:
+  en: uranium(V) dioxide fluoride
+oxidation_state: 5.0
+class: oxohalide
+turova:
+  - page: 2
+    block: p2A-01
+    entry: 1

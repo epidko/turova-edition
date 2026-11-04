@@ -1,0 +1,39 @@
+id: U-M_UO2_PO4_m_-nH2O
+formula: M[UO2(PO4)_{$m$}].$n$H2O
+element: U
+names:
+  en: uranyl phosphates
+  minerals:
+    - en: saleeite
+      printed_ru: салеит
+    - en: autunite
+      printed_ru: отунит
+    - en: torbernite
+      printed_ru: торбернит
+    - en: parsonsite
+      printed_ru: парсонсит
+oxidation_state: 6
+class: oxoacid_salt
+kind: family
+generic:
+  symbol: M
+  values:
+    - H
+    - Li–K
+    - Mg
+    - Ca
+    - Cu
+    - Pb
+  note: m and n not specified in the source
+notes:
+  - Oxidation state set to +6 (uranyl(VI) unit); skeleton gave none because of the generic symbol.
+  - 'Minerals named in the source by cation: Mg – saleeite, Ca – autunite, Cu – torbernite, Pb – parsonsite.'
+issues:
+  - type: ambiguous
+    text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
+refs:
+  - turova-U-20
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 7

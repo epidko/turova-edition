@@ -1,0 +1,14 @@
+id: U-NO2_UO2_ClO4_3
+formula: '[NO2][UO2(ClO4)3]'
+element: U
+names:
+  en: nitronium tris(perchlorato)dioxouranate(VI)
+oxidation_state: 6.0
+class: coordination_compound
+reactivity: Converts to UO2(ClO4)2 at 150 °C.
+refs:
+  - turova-U-12
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 0

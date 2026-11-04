@@ -1,0 +1,29 @@
+id: U-M3_UF7
+formula: M3[UF7]
+names:
+  en: heptafluorouranates(IV)
+element: U
+oxidation_state: 4
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  note: M (singly charged cation) not specified in the entry
+appearance: green crystals
+structure:
+  description: The [UF7]3− anion is a pentagonal bipyramid.
+  coordination_number: '7'
+  polyhedron: pentagonal bipyramid
+properties:
+  - property: bond_distance
+    value: 2.26
+    unit: Å
+    pair: U–F
+    source: turova1999
+notes:
+  - Oxidation state +4 set by hand from the anion charge (M singly charged); skeleton had none.
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 3

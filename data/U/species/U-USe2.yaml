@@ -1,0 +1,16 @@
+id: U-USe2
+formula: USe2
+element: U
+class: chalcogenide
+kind: compound
+oxidation_state: 4.0
+names:
+  en: uranium diselenide
+notes:
+  - Entry consists of the formula and footnote 23 only.
+refs:
+  - turova-U-23
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 6

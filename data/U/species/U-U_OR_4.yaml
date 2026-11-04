@@ -1,0 +1,21 @@
+id: U-U_OR_4
+formula: U(OR)4
+names:
+  en: uranium(IV) alkoxides
+element: U
+oxidation_state: 4.0
+class: alkoxide
+kind: family
+generic:
+  symbol: R
+  values:
+    - Me
+    - Et
+appearance: light green crystals
+notes:
+  - Formed from U(NEt2)4 and alcohols ROH (arrow in the source).
+refs: []
+turova:
+  - page: 1
+    block: p1C-07
+    entry: 2

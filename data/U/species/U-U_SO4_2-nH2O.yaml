@@ -1,0 +1,28 @@
+id: U-U_SO4_2-nH2O
+formula: U(SO4)2.$n$H2O
+element: U
+class: oxoacid_salt
+kind: family
+names:
+  en: uranium(IV) sulfate hydrates
+oxidation_state: 4.0
+generic:
+  symbol: n
+  values:
+    - '4'
+    - '8'
+appearance: green crystals
+structure:
+  description: built from [UO4(H2O)4] Archimedean (square) antiprisms
+  polyhedron: square antiprism
+properties:
+  - property: bond_distance
+    value: 2.36
+    source: turova1999
+    unit: Å
+    pair: U–O
+refs: []
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 3

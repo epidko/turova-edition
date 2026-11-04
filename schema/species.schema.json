@@ -1,0 +1,56 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "species.schema.json",
+ "title": "Species (compound, ion or family) of the Turova digital edition",
+ "type": "object",
+ "required": ["id", "formula", "element", "class", "turova"],
+ "additionalProperties": false,
+ "properties": {
+  "id": {"type": "string", "pattern": "^[A-Z][a-z]?-[A-Za-z0-9_.-]+$"},
+  "formula": {"type": "string", "description": "mhchem input without the ce{} wrapper"},
+  "names": {"type": "object", "properties": {
+     "en": {"type": ["string", "null"]},
+     "trivial_en": {"type": "array", "items": {"type": "string"}},
+     "minerals": {"type": "array", "items": {"type": "object", "required": ["en"], "properties": {"en": {"type": "string"}, "printed_ru": {"type": "string"}}, "additionalProperties": false}}},
+   "additionalProperties": false},
+  "element": {"type": "string"},
+  "oxidation_state": {"type": ["number", "null"], "description": "formal; mixed-valence as decimal (e.g. 5.33)"},
+  "class": {"enum": ["element", "isotope", "hydride", "oxide", "hydroxide", "oxoacid_salt", "uranate", "peroxo", "halide", "oxohalide", "pseudohalide", "chalcogenide", "pnictide", "carbide", "silicide", "boron_compound", "alkoxide", "amide", "carboxylate", "organometallic", "coordination_compound", "aqua_ion", "other"]},
+  "kind": {"enum": ["compound", "ion", "family", "phase", "solid_solution", "isotope"], "default": "compound"},
+  "generic": {"type": ["object", "null"], "description": "for families: symbol and its printed values, e.g. {symbol: M, values: [K, Rb, Cs]}",
+     "properties": {"symbol": {"type": "string"}, "values": {"type": "array", "items": {"type": "string"}}, "note": {"type": "string"}}, "additionalProperties": false},
+  "appearance": {"type": ["string", "null"], "description": "English, own wording: state, colour, crystal habit"},
+  "solubility": {"type": ["string", "null"]},
+  "reactivity": {"type": ["string", "null"], "description": "stability, hygroscopicity, behaviour in air/water, pyrophoricity …"},
+  "structure": {"type": ["object", "null"], "additionalProperties": false, "properties": {
+     "description": {"type": "string"},
+     "structure_type": {"type": ["string", "null"]},
+     "crystal_system": {"type": ["string", "null"]},
+     "coordination_number": {"type": ["string", "null"]},
+     "polyhedron": {"type": ["string", "null"]}}},
+  "properties": {"type": "array", "items": {"$ref": "#/$defs/property"}},
+  "notes": {"type": "array", "items": {"type": "string"}},
+  "issues": {"type": "array", "items": {"type": "object", "required": ["type", "text"], "additionalProperties": false, "properties": {
+     "type": {"enum": ["source_suspect", "ambiguous", "to_check", "confirmed", "done"]}, "text": {"type": "string"}, "by": {"type": "string"}, "date": {"type": "string"}}}},
+  "refs": {"type": "array", "items": {"type": "string"}, "description": "source keys (sources.yaml)"},
+  "turova": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["page", "block"], "additionalProperties": false, "properties": {
+     "page": {"type": "integer"}, "block": {"type": "string"}, "entry": {"type": "integer"}}}}
+ },
+ "$defs": {
+  "property": {"type": "object", "required": ["property", "value", "source"], "additionalProperties": false, "properties": {
+    "property": {"enum": ["melting_point", "boiling_point", "sublimation_temperature", "decomposition_temperature", "transition_temperature", "ignition_temperature",
+                          "enthalpy_formation", "density", "magnetic_moment", "solubility_product", "stability_constant", "hydrolysis_constant", "acidity_constant",
+                          "electrode_potential", "lattice_a", "lattice_b", "lattice_c", "bond_distance", "bond_angle", "coordination_number", "half_life",
+                          "natural_abundance", "electronegativity", "other"]},
+    "value": {"type": ["number", "string"], "description": "number, or a string for '~4200', '>1900', '10^-22'"},
+    "value_max": {"type": ["number", "null"], "description": "upper end of a range"},
+    "unit": {"type": ["string", "null"], "enum": ["°C", "K", "kJ/mol", "g/cm3", "μB", "Å", "°", "V", "years", "%", null]},
+    "pair": {"type": "string", "description": "for bond_distance/angle, e.g. U–O"},
+    "site": {"type": "string", "description": "e.g. terminal, bridging, axial, equatorial"},
+    "phase": {"type": "string", "description": "polymorph or state: α, β, gas, crystal …"},
+    "conditions": {"type": "string"},
+    "approx": {"type": "boolean"},
+    "source": {"type": "string"},
+    "note": {"type": "string"}}}
+ }
+}

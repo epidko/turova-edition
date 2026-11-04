@@ -1,0 +1,14 @@
+id: U-r-0064
+reactants:
+  - U-UO2_2_OH_2_p2
+products:
+  - U-UO2_3_OH_5_p
+type: no_redox
+equilibrium: true
+source: turova1999
+notes:
+  - Printed as an equilibrium (⇄) between the two hydroxo species; reagent not shown.
+turova:
+  page: 1
+  block: p1D-22
+  arrow: ⇄

@@ -1,0 +1,13 @@
+id: U-U_H2O_8_p4
+formula: '[U(H2O)8]^4+'
+element: U
+class: aqua_ion
+kind: ion
+oxidation_state: 4.0
+names:
+  en: octaaquauranium(IV) ion
+appearance: green
+turova:
+  - page: 1
+    block: p1D-15
+    entry: 0

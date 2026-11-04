@@ -1,0 +1,19 @@
+id: U-r-0020
+reactants:
+  - U-UCl4
+products:
+  - U-U2_SO4_3-9H2O
+reagents:
+  - HX
+  - Zn/Hg
+type: reduction
+notes:
+  - label "HX + Zn/Hg" is one reagent set (acid + amalgam), not alternatives
+  - arrowhead points at the U(III) list (between UOI and U2(SO4)3·9H2O); with generic HX the arrow may cover all U(III) salts of the list (U2(SO4)3·9H2O, UPO4, U(HCOO)3)
+issues:
+  - type: to_check
+    text: arrow points at the whole U(III) list; product U2(SO4)3·9H2O chosen as representative
+source: turova1999
+turova:
+  page: 1
+  arrow: p1B-a03

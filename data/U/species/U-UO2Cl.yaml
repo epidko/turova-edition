@@ -1,0 +1,17 @@
+id: U-UO2Cl
+formula: UO2Cl
+element: U
+names:
+  en: uranium(V) dioxide chloride
+oxidation_state: 5.0
+class: oxohalide
+reactivity: On heating gives UOCl2 and Cl2.
+properties:
+  - property: magnetic_moment
+    value: 1.36
+    unit: μB
+    source: turova1999
+turova:
+  - page: 2
+    block: p2A-01
+    entry: 2

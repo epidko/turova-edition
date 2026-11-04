@@ -1,0 +1,13 @@
+id: U-LiUO3
+formula: LiUO3
+element: U
+oxidation_state: 5.0
+class: uranate
+kind: compound
+appearance: violet crystals
+notes:
+  - Listed under the heading 'Uranates(V)'.
+turova:
+  - page: 2
+    block: p2B-09
+    entry: 3

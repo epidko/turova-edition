@@ -1,0 +1,16 @@
+id: U-U4O9
+formula: U4O9
+element: U
+class: oxide
+kind: phase
+names:
+  en: tetrauranium nonaoxide
+oxidation_state: 4.5
+appearance: black crystals
+notes:
+  - Printed in the 4.5+ column (mixed U(IV)/U(V)).
+refs: []
+turova:
+  - page: 1
+    block: p1D-01
+    entry: 0

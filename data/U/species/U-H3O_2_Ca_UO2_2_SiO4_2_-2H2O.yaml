@@ -1,0 +1,19 @@
+id: U-H3O_2_Ca_UO2_2_SiO4_2_-2H2O
+formula: (H3O)2[Ca(UO2)2(SiO4)2].2H2O
+element: U
+names:
+  en: hydronium calcium uranyl silicate dihydrate
+  minerals:
+    - en: uranophane
+      printed_ru: уранофан
+oxidation_state: 6.0
+class: oxoacid_salt
+issues:
+  - type: ambiguous
+    text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
+refs:
+  - turova-U-7
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 19

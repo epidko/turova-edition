@@ -1,0 +1,21 @@
+id: U-Na4UO5
+formula: Na4UO5
+names:
+  en: sodium mesouranate
+  trivial_en:
+    - mesouranate
+element: U
+oxidation_state: 6.0
+class: uranate
+kind: compound
+appearance: red
+solubility: insoluble in water (precipitate)
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+  - Colour and the term 'mesouranates' are printed once for Na4UO5 and M(II)2UO5 together.
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2C-07
+    entry: 3

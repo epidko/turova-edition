@@ -1,0 +1,26 @@
+id: U-NH4_U3F13
+formula: (NH4)U3F13
+names:
+  en: ammonium triuranium(IV) tridecafluoride
+element: U
+oxidation_state: 4.0
+class: coordination_compound
+kind: compound
+structure:
+  coordination_number: '9'
+  polyhedron: tricapped trigonal prism
+properties:
+  - property: coordination_number
+    value: '9'
+    source: turova1999
+  - property: bond_distance
+    value: 2.18
+    value_max: 2.48
+    unit: Å
+    pair: U–F
+    source: turova1999
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 0

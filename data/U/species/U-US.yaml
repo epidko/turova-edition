@@ -1,0 +1,25 @@
+id: U-US
+formula: US
+element: U
+class: chalcogenide
+kind: compound
+oxidation_state: 2.0
+names:
+  en: uranium monosulfide
+appearance: yellow crystals
+solubility: soluble in acids
+structure:
+  structure_type: NaCl
+properties:
+  - property: melting_point
+    value: 2460
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -377
+    unit: kJ/mol
+    source: turova1999
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 5

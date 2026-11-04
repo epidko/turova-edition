@@ -1,0 +1,21 @@
+id: U-M4_UO2_O2_CO3_2
+formula: M4[UO2(O2)(CO3)2]
+element: U
+oxidation_state: 6
+class: peroxo
+kind: family
+generic:
+  symbol: M
+  note: no metals printed
+structure:
+  description: U in a hexagonal bipyramid.
+  polyhedron: hexagonal bipyramid
+notes:
+  - Listed under the heading 'Peroxouranates'.
+  - Oxidation state 6 from charge balance (uranyl + peroxo + 2 carbonate, univalent M).
+refs:
+  - turova-U-35
+turova:
+  - page: 2
+    block: p2C-08
+    entry: 5

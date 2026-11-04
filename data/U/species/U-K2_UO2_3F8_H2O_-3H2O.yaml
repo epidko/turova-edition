@@ -1,0 +1,13 @@
+id: U-K2_UO2_3F8_H2O_-3H2O
+formula: K2[(UO2)3F8(H2O)].3H2O
+element: U
+names:
+  en: potassium aquaoctafluorohexaoxotriuranate(VI) trihydrate
+oxidation_state: 6.0
+class: coordination_compound
+refs:
+  - turova-U-8
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 24

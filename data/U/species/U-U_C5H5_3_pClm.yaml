@@ -1,0 +1,16 @@
+id: U-U_C5H5_3_pClm
+formula: '[U(C5H5)3]^+Cl^-'
+names:
+  en: tris(cyclopentadienyl)uranium(IV) chloride
+element: U
+oxidation_state: 4
+class: organometallic
+kind: compound
+appearance: dark red crystals
+notes:
+  - Oxidation state +4 set by hand (C5H5− and Cl− uninegative); skeleton had none.
+refs: []
+turova:
+  - page: 1
+    block: p1C-07
+    entry: 6

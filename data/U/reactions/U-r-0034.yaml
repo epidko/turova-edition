@@ -1,0 +1,19 @@
+id: U-r-0034
+reactants:
+  - U-MII3UO6
+products:
+  - U-MIIUO3
+reagents:
+  - H2
+conditions:
+  temperature_C: 500
+type: reduction
+notes:
+  - reactant is the circled reagent M(II)3UO6 (species on p. 33)
+issues:
+  - type: to_check
+    text: M(II)3UO6 / M(II)UO3 have no ox in species_index (VI -> IV)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a05

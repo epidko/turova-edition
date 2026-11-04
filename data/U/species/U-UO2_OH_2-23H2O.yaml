@@ -1,0 +1,19 @@
+id: U-UO2_OH_2-23H2O
+formula: UO2(OH)2.2/3H2O
+names:
+  minerals:
+    - en: becquerelite
+      printed_ru: беккерелит
+element: U
+oxidation_state: 6
+class: hydroxide
+kind: compound
+notes:
+  - Hydrate of UO2(OH)2; printed only as '· 2/3 H2O' below it. The 100 °C dehydration arrow to UO2(OH)2 may also cover this hydrate.
+issues:
+  - type: to_check
+    text: becquerelite is usually described as a calcium uranyl oxide hydrate; check its attribution to UO2(OH)2·2/3H2O.
+turova:
+  - page: 2
+    block: p2B-08
+    entry: 3

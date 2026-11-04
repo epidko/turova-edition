@@ -1,0 +1,13 @@
+id: U-U_OH_2SO4
+formula: U(OH)2SO4
+element: U
+class: oxoacid_salt
+kind: compound
+names:
+  en: uranium(IV) dihydroxide sulfate
+oxidation_state: 4.0
+refs: []
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 0

@@ -1,0 +1,27 @@
+id: U-M_UOF5
+formula: M[UOF5]
+names:
+  en: pentafluoridooxidouranates(VI)
+element: U
+oxidation_state: 6
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  values:
+    - NH4
+    - K
+    - Rb
+    - Cs
+  note: printed as NH4, K – Cs
+structure:
+  description: Anion is a distorted octahedron in the Cs salt; in the K and Rb salts it forms chains of dodecahedra.
+  polyhedron: distorted octahedron (Cs); chains of dodecahedra (K, Rb)
+notes:
+  - Oxidation state set to +6 (M univalent); skeleton could not compute it for the generic formula.
+refs:
+  - turova-U-10
+turova:
+  - page: 2
+    block: p2D-04
+    entry: 1

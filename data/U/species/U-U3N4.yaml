@@ -1,0 +1,14 @@
+id: U-U3N4
+formula: U3N4
+element: U
+class: pnictide
+kind: compound
+oxidation_state: 4.0
+names:
+  en: triuranium tetranitride
+notes:
+  - Formula only.
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 8

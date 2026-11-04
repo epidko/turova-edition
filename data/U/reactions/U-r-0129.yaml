@@ -1,0 +1,13 @@
+id: U-r-0129
+reactants:
+  - U-U_OR_n5-n
+products:
+  - U-U_OR_5
+type: no_redox
+source: turova1999
+turova:
+  page: 2
+  block: p2A-07
+  arrow: ↓
+reagents:
+  - NaOR

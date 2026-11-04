@@ -1,0 +1,15 @@
+id: U-r-0051
+reactants:
+  - U-U_H2O_7_OH_p3
+products:
+  - U-U_OH_4
+reagents:
+  - OH-
+type: no_redox
+equilibrium: true
+notes:
+  - '⇅ pair: forward (down) with OH-, reverse (up) with H+'
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a20

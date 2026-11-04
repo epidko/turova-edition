@@ -1,0 +1,45 @@
+id: U-UO2_H2O_6_p2
+formula: '[UO2(H2O)6]^2+'
+element: U
+class: aqua_ion
+kind: ion
+oxidation_state: 6.0
+names:
+  en: hexaaquadioxouranium(VI) ion
+  trivial_en:
+    - hydrated uranyl ion
+appearance: yellow
+reactivity: diamagnetic; does not react with H2SO4 (compare [NpO2]2+, [PuO2]2+)
+structure:
+  description: Linear O=U=O 'dumbbell' (sf hybridization) with six water molecules in the equatorial plane.
+  polyhedron: hexagonal bipyramid
+properties:
+  - property: bond_distance
+    value: 1.9
+    unit: Å
+    pair: U=O
+    site: axial
+    source: turova1999
+  - property: bond_distance
+    value: 2.5
+    unit: Å
+    value_max: 2.7
+    pair: U–OH2
+    site: equatorial
+    source: turova1999
+notes:
+  - Distances taken from the structure drawing (p1D-21).
+issues:
+  - type: source_suspect
+    text: Printed clearly as [UO2(H2O)6]2+; kept as printed; consistent with 'hexagonal bipyramid' and 6 waters in the drawing, though modern data give 5.
+  - type: to_check
+    text: 'Book gives [UO2(H2O)6]2+ (hexagonal bipyramid); modern data: [UO2(H2O)5]2+, pentagonal bipyramid. Update after digitization.'
+    by: E. A. Pidko
+    date: '2026-11-04'
+turova:
+  - page: 1
+    block: p1D-21
+    entry: 0
+  - page: 1
+    block: p1D-20
+    entry: 0

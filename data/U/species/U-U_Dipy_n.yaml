@@ -1,0 +1,33 @@
+id: U-U_Dipy_n
+formula: U(Dipy)_{n}
+names:
+  en: tris- and tetrakis(2,2′-bipyridyl)uranium
+element: U
+oxidation_state: 0
+class: coordination_compound
+kind: family
+generic:
+  symbol: n
+  values:
+    - '3'
+    - '4'
+appearance: dark green needles
+reactivity: Oxidised in air.
+structure:
+  description: '[UN8] core as a distorted cube (refers to the n = 4 complex).'
+  coordination_number: '8'
+  polyhedron: distorted cube
+properties:
+  - property: bond_distance
+    value: 2.48
+    unit: Å
+    pair: U–N
+    source: turova1999
+notes:
+  - Oxidation state set to 0 by hand (formal; 2,2′-bipyridyl counted as a neutral ligand); skeleton had none.
+refs:
+  - turova-U-19
+turova:
+  - page: 1
+    block: p1A-08
+    entry: 0

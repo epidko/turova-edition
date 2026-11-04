@@ -1,0 +1,19 @@
+id: U-U2N3
+formula: U2N3
+element: U
+class: pnictide
+kind: compound
+oxidation_state: 4.5
+names:
+  en: diuranium trinitride
+properties:
+  - property: enthalpy_formation
+    value: -707
+    unit: kJ/mol
+    source: turova1999
+notes:
+  - Oxidation state is the formal average.
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 9

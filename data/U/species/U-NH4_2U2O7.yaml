@@ -1,0 +1,29 @@
+id: U-NH4_2U2O7
+formula: (NH4)2U2O7
+element: U
+class: uranate
+kind: compound
+oxidation_state: 6.0
+names:
+  en: ammonium diuranate
+solubility: insoluble in water (marked as precipitate); insoluble in water (precipitate)
+turova:
+  - page: 1
+    block: p1D-25
+    entry: 0
+  - page: 2
+    block: p2C-07
+    entry: 8
+appearance: yellow
+properties:
+  - property: bond_distance
+    value: 2.0
+    unit: Å
+    pair: U–O
+    source: turova1999
+    value_max: 2.3
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+  - Only the p. 2 (uranate list) occurrence is described here; the p. 1 occurrence is handled in another chunk.
+refs:
+  - turova-U-6

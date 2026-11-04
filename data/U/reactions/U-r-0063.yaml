@@ -1,0 +1,16 @@
+id: U-r-0063
+reactants:
+  - U-Na2U4O13
+  - U-Na2U16O49
+products:
+  - U-Na2U2O7
+reagents:
+  - NaOH
+type: no_redox
+equilibrium: true
+notes:
+  - '⇅ pair: forward (down) with NaOH, reverse (up) with H2O'
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a32

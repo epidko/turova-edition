@@ -1,0 +1,16 @@
+id: U-r-0040
+reactants:
+  - U-UF4
+products:
+  - OFFPAGE:p33
+reagents:
+  - UF6
+conditions:
+  temperature_C: 100
+type: oxidation
+notes:
+  - shared trunk from the U(IV) halide table; alternatives "UF6 (100°); F2; Cl2 (520°)" split by halide; likely product UF5 (U-UF5)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a12

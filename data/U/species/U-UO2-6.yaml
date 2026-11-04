@@ -1,0 +1,16 @@
+id: U-UO2-6
+formula: UO_{2.6}
+element: U
+oxidation_state: 5.2
+class: oxide
+kind: phase
+notes:
+  - Oxidation state 5.2 derived from the composition UO2.6 (skeleton gave none).
+  - Metastable phase; paramagnetic, with one unpaired electron.
+issues:
+  - type: ambiguous
+    text: 'Layout: box lies near the region B/C (or A/B) boundary; deduplicate against the neighbouring region transcription. (box top-left x≈372 assigns it to region A by the corner rule; dedupe against p2_A)'
+turova:
+  - page: 2
+    block: p2B-03
+    entry: 0

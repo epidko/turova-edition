@@ -1,0 +1,16 @@
+id: U-Cs2_UO2_2F6_H2O_2
+formula: Cs2[(UO2)2F6(H2O)2]
+element: U
+names:
+  en: caesium diaquahexafluorotetraoxodiuranate(VI)
+oxidation_state: 6.0
+class: coordination_compound
+structure:
+  description: Dinuclear anion of two pentagonal bipyramids sharing either one atom or an [F2] edge.
+  polyhedron: pentagonal bipyramid
+refs:
+  - turova-U-8
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 20

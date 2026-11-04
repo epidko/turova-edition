@@ -1,0 +1,24 @@
+id: U-UO2_ClO4_2
+formula: UO2(ClO4)2
+names:
+  en: uranyl perchlorate
+element: U
+oxidation_state: 6.0
+class: oxoacid_salt
+kind: compound
+properties:
+  - property: melting_point
+    value: 185
+    unit: °C
+    conditions: hexahydrate UO2(ClO4)2·6H2O
+    source: turova1999
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+  - Hexahydrate loses water at 270 °C giving the anhydrous salt.
+issues:
+  - type: ambiguous
+    text: Melting point 185 °C is printed after '·6H2O' and is taken to belong to the hexahydrate.
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 1

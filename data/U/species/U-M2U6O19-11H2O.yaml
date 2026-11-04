@@ -1,0 +1,36 @@
+id: U-M2U6O19-11H2O
+formula: M2U6O19.11H2O
+names:
+  minerals:
+    - en: compreignacite
+      printed_ru: компреньякит
+    - en: billietite
+      printed_ru: бильетит
+element: U
+oxidation_state: 6
+class: uranate
+kind: family
+generic:
+  symbol: M
+  values:
+    - K
+    - Ba/2
+  note: 'M = K: compreignacite; M = Ba/2: billietite'
+solubility: insoluble in water (precipitate)
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+issues:
+  - type: done
+    text: 'Mineral name modernized: printed «кампреньясит» → компреньякит (compreignacite).'
+    by: E. A. Pidko
+    date: '2026-11-04'
+  - type: to_check
+    text: 'Other older Russian mineral spellings in this box may need modernizing (e.g. «кларкит» → кларкеит?, «бильетит» → бийетит?): confirm.'
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2C-07
+    entry: 13

@@ -1,0 +1,19 @@
+id: U-R4N_4_U_NCS_8
+formula: '[R4N]4[U(NCS)8]'
+element: U
+class: coordination_compound
+kind: family
+oxidation_state: 4.0
+names:
+  en: tetraalkylammonium octakis(isothiocyanato)uranate(IV)
+generic:
+  symbol: R
+  note: R (organic substituent) not specified in the source
+notes:
+  - Entry consists of the formula and footnote 21 only.
+refs:
+  - turova-U-21
+turova:
+  - page: 1
+    block: p1D-10
+    entry: 0

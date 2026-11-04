@@ -1,0 +1,24 @@
+id: U-K_UO3F
+formula: K[UO3F]
+names:
+  en: potassium fluorotrioxouranate(VI)
+element: U
+oxidation_state: 6.0
+class: coordination_compound
+kind: compound
+appearance: orange crystals
+solubility: insoluble in water (precipitate)
+properties:
+  - property: decomposition_temperature
+    value: 400
+    unit: °C
+    source: turova1999
+notes:
+  - Forms an adduct with two molecules of acetic acid (·2CH3COOH).
+issues:
+  - type: ambiguous
+    text: Decomposition at 400 °C is printed after the ·2CH3COOH adduct; unclear whether it refers to the adduct or the parent salt.
+turova:
+  - page: 2
+    block: p2C-09
+    entry: 0

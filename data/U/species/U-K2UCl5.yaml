@@ -1,0 +1,15 @@
+id: U-K2UCl5
+formula: K2UCl5
+names:
+  en: potassium pentachlorouranate(III)
+element: U
+oxidation_state: 3.0
+class: coordination_compound
+kind: compound
+notes:
+  - Listed by formula only.
+refs: []
+turova:
+  - page: 1
+    block: p1B-12
+    entry: 1

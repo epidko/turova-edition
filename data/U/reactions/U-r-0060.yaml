@@ -1,0 +1,15 @@
+id: U-r-0060
+reactants:
+  - U-UO2_2_OH_2_p2
+products:
+  - U-UO2_OH_2-H2O
+reagents:
+  - OH-
+type: no_redox
+equilibrium: true
+notes:
+  - '⇅ pair: forward (down) with OH-, reverse (up) with H+'
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a29

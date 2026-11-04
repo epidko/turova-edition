@@ -1,0 +1,13 @@
+id: U-K4UO6-6H2O
+formula: K4UO6.6H2O
+element: U
+oxidation_state: 6
+class: peroxo
+kind: compound
+notes:
+  - Listed under the heading 'Peroxouranates'.
+  - Oxidation state set to 6 (peroxouranate); charge balance then implies one O2(2−) group per U. Skeleton gave none.
+turova:
+  - page: 2
+    block: p2C-08
+    entry: 2

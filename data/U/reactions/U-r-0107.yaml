@@ -1,0 +1,20 @@
+id: U-r-0107
+reactants:
+  - U-UO2_NO3_2-6H2O
+products:
+  - U-UO2_O2_-nH2O
+reagents:
+  - \ce{H2O2}
+conditions:
+  text: pH ~ 3
+type: oxidation
+notes:
+  - From the (UO2(NO3)2) circle.
+issues:
+  - type: to_check
+    text: dashed (oxidation) but U oxidation state unchanged (+6 → +6); peroxo complex formation
+source: turova1999
+turova:
+  page: 2
+  arrow: p2C-a05
+  block:

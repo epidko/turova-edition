@@ -1,0 +1,51 @@
+id: U-UO2x
+formula: UO_{2+x}
+element: U
+class: oxide
+kind: phase
+names:
+  en: uranium dioxide (hyperstoichiometric)
+  minerals:
+    - en: uraninite
+      printed_ru: уранинит
+    - en: bröggerite
+      printed_ru: бреггерит
+    - en: cleveite
+      printed_ru: клевеит
+oxidation_state: 4
+appearance: black-brown crystals; sometimes pyrophoric
+solubility: soluble in acids
+reactivity: otherwise chemically inert
+structure:
+  description: fluorite type, U 8-coordinate
+  structure_type: CaF2
+  coordination_number: '8'
+properties:
+  - property: melting_point
+    value: 2850
+    source: turova1999
+    unit: °C
+  - property: sublimation_temperature
+    value: 1400
+    source: turova1999
+    unit: °C
+  - property: enthalpy_formation
+    value: -1083
+    source: turova1999
+    unit: kJ/mol
+  - property: coordination_number
+    value: '8'
+    source: turova1999
+  - property: bond_distance
+    value: 2.37
+    source: turova1999
+    unit: Å
+    pair: U–O
+notes:
+  - Oxidation state set to 4 (nominal UO2; slightly above +4 for x > 0); skeleton gave null because of the variable x.
+  - 'Minerals: uraninite (UO2+x); bröggerite (with ThO2); cleveite (with Ln2O3).'
+refs: []
+turova:
+  - page: 1
+    block: p1C-02
+    entry: 0

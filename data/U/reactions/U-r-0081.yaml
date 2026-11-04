@@ -1,0 +1,16 @@
+id: U-r-0081
+reactants:
+  - U-UO2_OH_2-H2O
+products:
+  - U-UO2_OH_2
+byproducts:
+  - H2O
+conditions:
+  temperature_C: 100
+type: no_redox
+notes:
+  - Arrow drawn from the hydrates (·H2O and possibly ·2/3H2O) up to UO2(OH)2.
+source: turova1999
+turova:
+  page: 2
+  block: p2B-08

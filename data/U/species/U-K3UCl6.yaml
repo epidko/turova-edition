@@ -1,0 +1,14 @@
+id: U-K3UCl6
+formula: K3UCl6
+names:
+  en: potassium hexachlorouranate(III)
+element: U
+oxidation_state: 3.0
+class: coordination_compound
+kind: compound
+appearance: violet
+refs: []
+turova:
+  - page: 1
+    block: p1B-12
+    entry: 2

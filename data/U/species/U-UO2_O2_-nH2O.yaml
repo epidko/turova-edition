@@ -1,0 +1,29 @@
+id: U-UO2_O2_-nH2O
+formula: UO2(O2).$n$H2O
+names:
+  en: uranyl peroxide hydrate
+  minerals:
+    - en: studtite
+      printed_ru: штудтит
+    - en: metastudtite
+      printed_ru: меташтудтит
+element: U
+oxidation_state: 6.0
+class: peroxo
+kind: family
+generic:
+  symbol: n
+  values:
+    - '4'
+    - '2'
+  note: n = 4 studtite, n = 2 metastudtite
+appearance: yellow precipitate
+solubility: insoluble in water (precipitate)
+notes:
+  - Oxidation state 6 counts O2 as peroxide.
+refs:
+  - turova-U-33
+turova:
+  - page: 2
+    block: p2C-06
+    entry: 0

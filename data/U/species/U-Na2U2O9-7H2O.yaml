@@ -1,0 +1,14 @@
+id: U-Na2U2O9-7H2O
+formula: Na2U2O9.7H2O
+element: U
+oxidation_state: 6
+class: peroxo
+kind: compound
+solubility: insoluble in water (precipitate)
+notes:
+  - Listed under the heading 'Peroxouranates'.
+  - Oxidation state set to 6 (peroxouranate); charge balance implies two O2(2−) groups per U2O9 unit.
+turova:
+  - page: 2
+    block: p2C-08
+    entry: 4

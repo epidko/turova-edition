@@ -1,0 +1,28 @@
+id: U-23592U
+formula: ^{235}_{92}U
+element: U
+class: isotope
+kind: isotope
+names:
+  en: uranium-235
+  trivial_en:
+    - actinouranium (AcU)
+oxidation_state:
+properties:
+  - property: half_life
+    value: 700000000.0
+    source: turova1999
+    unit: years
+  - property: natural_abundance
+    value: 0.72
+    source: turova1999
+    unit: '%'
+    note: in minerals
+notes:
+  - 'Parent of the actinium series (A = 4n + 3): ²³⁵U –α→ ²³¹Th …'
+  - Used as nuclear fuel.
+refs: []
+turova:
+  - page: 1
+    block: p1B-03
+    entry: 3

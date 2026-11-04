@@ -1,0 +1,29 @@
+id: U-UF3
+formula: UF3
+names:
+  en: uranium(III) fluoride
+element: U
+oxidation_state: 3.0
+class: halide
+kind: compound
+appearance: violet crystals
+structure:
+  structure_type: LaF3
+properties:
+  - property: melting_point
+    value: 1495
+    unit: °C
+    source: turova1999
+  - property: boiling_point
+    value: 2300
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -1444
+    unit: kJ/mol
+    source: turova1999
+refs: []
+turova:
+  - page: 1
+    block: p1B-11
+    entry: 0

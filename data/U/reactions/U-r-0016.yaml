@@ -1,0 +1,18 @@
+id: U-r-0016
+reactants:
+  - U-UCl3
+products:
+  - U-UCl2
+  - U-UCl4
+  - U-UCl5
+type: disproportionation
+conditions:
+  temperature_C: heating
+  text: on heating (t over the arrow)
+notes:
+  - Disproportionation (U(III) → U(II) + U(IV) + U(V)); the schema has no disproportionation type.
+  - U-UCl2 is not in the skeleton (UCl2 occurs only as this product).
+source: turova1999
+turova:
+  page: 1
+  block: p1B-11

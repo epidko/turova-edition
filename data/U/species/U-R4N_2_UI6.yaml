@@ -1,0 +1,24 @@
+id: U-R4N_2_UI6
+formula: '[R4N]2[UI6]'
+names:
+  en: tetraalkylammonium hexaiodouranates(IV)
+element: U
+oxidation_state: 4.0
+class: coordination_compound
+kind: family
+generic:
+  symbol: R
+  note: R (organic group) not specified in the entry
+notes:
+  - Listed by formula with a literature footnote.
+issues:
+  - type: confirmed
+    text: Footnote 2 belongs to this line ([R4N]2[UI6]) only, not to the whole box (reviewer).
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs:
+  - turova-U-2
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 9

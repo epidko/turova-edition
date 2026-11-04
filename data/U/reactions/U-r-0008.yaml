@@ -1,0 +1,19 @@
+id: U-r-0008
+reactants:
+  - U-UH3-x
+products:
+  - U-UCl3
+reagents:
+  - HCl
+conditions:
+  temperature_C: 300
+type: oxidation
+notes:
+  - U(III) unchanged; dashed line presumably refers to oxidation of hydride H(-1) to H2
+issues:
+  - type: to_check
+    text: line style 'dashed' -> oxidation, but species_index ox [3.0] -> [3.0] implies no_redox
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a05

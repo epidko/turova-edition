@@ -1,0 +1,18 @@
+id: U-UOCl3
+formula: UOCl3
+element: U
+names:
+  en: uranium(V) oxide trichloride
+oxidation_state: 5.0
+class: oxohalide
+appearance: brown crystals
+solubility: Soluble in ethanol and acetone.
+properties:
+  - property: enthalpy_formation
+    value: -1188
+    unit: kJ/mol
+    source: turova1999
+turova:
+  - page: 2
+    block: p2A-02
+    entry: 0

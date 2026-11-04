@@ -1,0 +1,15 @@
+id: U-U_BH4_3_BH3CH3
+formula: U(BH4)3(BH3CH3)
+names:
+  en: uranium(IV) tris(tetrahydroborate) methyltrihydroborate
+element: U
+oxidation_state: 4.0
+class: boron_compound
+kind: compound
+appearance: crystals
+reactivity: Volatile.
+refs: []
+turova:
+  - page: 1
+    block: p1C-07
+    entry: 1

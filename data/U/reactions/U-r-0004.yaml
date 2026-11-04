@@ -1,0 +1,17 @@
+id: U-r-0004
+reactants:
+  - U-UF4
+products:
+  - U-U
+reagents:
+  - Ba
+type: reduction
+notes:
+  - label 'Ba; кат. восст.' gives two alternatives for circle 'UF4; KUF5'; pairing Ba -> UF4 and cathodic reduction -> KUF5 (melt) is the editor's reading
+issues:
+  - type: to_check
+    text: pairing of Ba / cathodic reduction with UF4 / KUF5 not explicit on the sheet
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a02

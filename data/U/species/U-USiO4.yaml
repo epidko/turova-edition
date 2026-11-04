@@ -1,0 +1,16 @@
+id: U-USiO4
+formula: USiO4
+element: U
+class: oxoacid_salt
+kind: compound
+names:
+  en: uranium(IV) orthosilicate
+  minerals:
+    - en: coffinite
+      printed_ru: коффинит
+oxidation_state: 4.0
+refs: []
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 9

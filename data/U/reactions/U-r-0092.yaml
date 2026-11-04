@@ -1,0 +1,16 @@
+id: U-r-0092
+reactants:
+  - U-UO2x
+products:
+  - U-UO2_NO3_2-6H2O
+reagents:
+  - \ce{HNO3}
+type: oxidation
+notes:
+  - Reactant is the (UO2) reagent circle; mapped to UO_{2+x} (U-UO2x, p. 32) — no plain UO2 species id exists.
+  - Head at the box left edge exactly at the top of the UO2(NO3)2·6H2O line (entry p2D-01/4).
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a09
+  block:

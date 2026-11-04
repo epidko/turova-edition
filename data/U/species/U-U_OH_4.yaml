@@ -1,0 +1,19 @@
+id: U-U_OH_4
+formula: U(OH)4
+element: U
+class: hydroxide
+kind: compound
+names:
+  en: uranium(IV) hydroxide
+oxidation_state: 4.0
+appearance: light-green precipitate; light green precipitate
+solubility: insoluble in water (precipitate); soluble in acids; insoluble in water (marked as precipitate)
+reactivity: reducing agent
+refs: []
+turova:
+  - page: 1
+    block: p1C-03
+    entry: 0
+  - page: 1
+    block: p1D-17
+    entry: 0

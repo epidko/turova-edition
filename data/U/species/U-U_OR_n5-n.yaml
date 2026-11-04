@@ -1,0 +1,23 @@
+id: U-U_OR_n5-n
+formula: U(OR)_{n}Г_{5-n}
+names:
+  en: uranium(V) alkoxide halides
+element: U
+oxidation_state: 5
+class: alkoxide
+kind: family
+generic:
+  symbol: Г
+  values:
+    - Cl
+    - Br
+  note: Г = halogen; R and n not specified
+appearance: liquids; green (Г = Cl) or brown (Г = Br)
+reactivity: Converted by NaOR into U(OR)5.
+notes:
+  - Oxidation state +5 from the formula (n OR + (5-n) halide); skeleton gave none.
+refs: []
+turova:
+  - page: 2
+    block: p2A-07
+    entry: 0

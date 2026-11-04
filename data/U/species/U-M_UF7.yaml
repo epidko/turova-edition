@@ -1,0 +1,40 @@
+id: U-M_UF7
+formula: M[UF7]
+names:
+  en: heptafluorouranates(VI)
+element: U
+oxidation_state: 6
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  values:
+    - Na
+    - '[NO]+'
+    - '[NO2]+'
+structure:
+  description: Anion is a pentagonal bipyramid.
+  coordination_number: '7'
+  polyhedron: pentagonal bipyramid
+properties:
+  - property: bond_distance
+    value: 1.76
+    unit: Å
+    source: turova1999
+    pair: U–F
+  - property: bond_distance
+    value: 2.24
+    unit: Å
+    source: turova1999
+    pair: U–F
+notes:
+  - Oxidation state set to +6 (M univalent); skeleton could not compute it for the generic formula.
+issues:
+  - type: source_suspect
+    text: U–F 1.76 and 2.24 Å nearly coincide with U=O 1.75 / U–F 2.24 Å of the adjacent [UO2F5]3- drawing; 1.76 Å is short for U–F. Values kept as printed.
+refs:
+  - turova-U-18
+turova:
+  - page: 2
+    block: p2D-07
+    entry: 3

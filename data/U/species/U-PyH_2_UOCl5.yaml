@@ -1,0 +1,11 @@
+id: U-PyH_2_UOCl5
+formula: '[PyH]2[UOCl5]'
+element: U
+names:
+  en: pyridinium pentachlorooxouranate(V)
+oxidation_state: 5.0
+class: coordination_compound
+turova:
+  - page: 2
+    block: p2B-13
+    entry: 1

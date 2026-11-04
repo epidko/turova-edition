@@ -1,0 +1,27 @@
+id: U-M2_UF8
+formula: M2[UF8]
+names:
+  en: octafluorouranates(VI)
+element: U
+oxidation_state: 6
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  values:
+    - Na
+    - K
+    - Rb
+    - Cs
+  note: printed as Na – Cs
+structure:
+  description: Anion is a distorted eight-vertex polyhedron.
+  coordination_number: '8'
+  polyhedron: distorted eight-vertex polyhedron
+notes:
+  - Oxidation state set to +6 (M univalent); skeleton could not compute it for the generic formula.
+refs: []
+turova:
+  - page: 2
+    block: p2D-07
+    entry: 2

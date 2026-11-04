@@ -1,0 +1,19 @@
+id: U-r-0111
+reactants:
+  - U-NH4_4_UO2_CO3_3_-2H2O
+products: []
+reagents:
+  - \ce{H2O}
+conditions:
+  text: heating (t)
+type: no_redox
+notes:
+  - Reverse direction of the same two-headed arrow (label 'H2O (t)', arrowhead at the Uranates(VI) box corner); product probably (NH4)2U2O7.
+issues:
+  - type: to_check
+    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the uranate end'
+source: turova1999
+turova:
+  page: 2
+  arrow: p2C-a08
+  block:

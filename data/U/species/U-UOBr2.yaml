@@ -1,0 +1,16 @@
+id: U-UOBr2
+formula: UOBr2
+element: U
+class: oxohalide
+kind: compound
+names:
+  en: uranium(IV) oxide dibromide
+oxidation_state: 4.0
+appearance: yellow crystals
+reactivity: on heating, in reversible relation with O2 + UX4 (see reaction)
+refs:
+  - turova-U-1
+turova:
+  - page: 1
+    block: p1C-05
+    entry: 2

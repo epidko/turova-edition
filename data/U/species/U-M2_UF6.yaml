@@ -1,0 +1,33 @@
+id: U-M2_UF6
+formula: M2[UF6]
+names:
+  en: hexafluorouranates(IV)
+element: U
+oxidation_state: 4
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  values:
+    - K
+    - Na
+  note: values taken from the per-salt structural remarks (K), (Na)
+appearance: green crystals
+structure:
+  description: 'K salt: chains of distorted dodecahedra; Na salt: U in trigonal-antiprismatic coordination.'
+  polyhedron: distorted dodecahedron (K); trigonal antiprism (Na)
+properties:
+  - property: bond_distance
+    value: 2.18
+    value_max: 2.42
+    unit: Å
+    pair: U–F
+    conditions: K salt
+    source: turova1999
+notes:
+  - Oxidation state +4 set by hand from the formula (M singly charged); skeleton had none.
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 4

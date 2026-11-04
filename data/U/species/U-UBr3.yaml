@@ -1,0 +1,25 @@
+id: U-UBr3
+formula: UBr3
+names:
+  en: uranium(III) bromide
+element: U
+oxidation_state: 3.0
+class: halide
+kind: compound
+appearance: red crystals
+structure:
+  structure_type: UCl3
+properties:
+  - property: melting_point
+    value: 730
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -761
+    unit: kJ/mol
+    source: turova1999
+refs: []
+turova:
+  - page: 1
+    block: p1B-11
+    entry: 2

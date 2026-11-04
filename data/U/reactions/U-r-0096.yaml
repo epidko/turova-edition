@@ -1,0 +1,22 @@
+id: U-r-0096
+reactants:
+  - U-UCl6
+products:
+  - U-HUF6-nH2O
+reagents:
+  - \ce{HF}
+byproducts:
+  - \ce{Cl2}
+  - \ce{HCl}
+type: reduction
+notes:
+  - Branches from the UV/150° dash-dot line that starts at the UCl6 row; the label (-Cl2, -HCl) fixes UCl6 as reactant.
+  - Head at the bottom edge of the M3[UF8] box (below the M[UCl6] line); product chosen as HUF6 (HUF6·nH2O entry), the only fluoride in the box fitting UCl6 + HF − Cl2 − HCl.
+issues:
+  - type: to_check
+    text: product inferred (head at box bottom, nearest line M[UCl6]); HUF6 chosen chemically
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a13
+  block:

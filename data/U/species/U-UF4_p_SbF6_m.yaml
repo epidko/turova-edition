@@ -1,0 +1,38 @@
+id: U-UF4_p_SbF6_m
+formula: '[UF4]^+[SbF6]^-'
+names:
+  en: tetrafluorouranium(V) hexafluoroantimonate
+element: U
+oxidation_state: 5
+class: coordination_compound
+kind: compound
+structure:
+  description: U eight-coordinate (dodecahedron) with terminal and bridging fluorides.
+  coordination_number: '8'
+  polyhedron: dodecahedron
+properties:
+  - property: coordination_number
+    value: '8'
+    unit:
+    source: turova1999
+  - property: bond_distance
+    value: 1.95
+    unit: Å
+    source: turova1999
+    pair: U–F
+    site: terminal
+  - property: bond_distance
+    value: 2.31
+    unit: Å
+    source: turova1999
+    value_max: 2.66
+    pair: U–F
+    site: bridging
+notes:
+  - Oxidation state +5 set by the normalizer ([UF4]+ cation); skeleton gave none.
+refs:
+  - turova-U-5
+turova:
+  - page: 2
+    block: p2A-06
+    entry: 0

@@ -1,0 +1,29 @@
+id: U-LiUF5
+formula: LiUF5
+names:
+  en: lithium pentafluorouranate(IV)
+element: U
+oxidation_state: 4.0
+class: coordination_compound
+kind: compound
+structure:
+  description: Layered structure built from [UF8/2F] units (eight bridging F, each shared by two U, and one terminal F).
+properties:
+  - property: bond_distance
+    value: 2.2
+    value_max: 3.4
+    unit: Å
+    pair: U–F
+    source: turova1999
+issues:
+  - type: source_suspect
+    text: U–F 2.2–3.4 Å read clearly; the upper value 3.4 Å is very long for a U–F bond.
+  - type: to_check
+    text: 'Editor note: U–Br 2.27 Å for M2[UBr6] and U–F up to 3.4 Å for LiUF5 lie outside expected ranges; find solid references.'
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 5

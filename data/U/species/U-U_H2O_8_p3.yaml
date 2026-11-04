@@ -1,0 +1,13 @@
+id: U-U_H2O_8_p3
+formula: '[U(H2O)8]^3+'
+element: U
+class: aqua_ion
+kind: ion
+oxidation_state: 3.0
+names:
+  en: octaaquauranium(III) ion
+appearance: red-brown
+turova:
+  - page: 1
+    block: p1D-14
+    entry: 0

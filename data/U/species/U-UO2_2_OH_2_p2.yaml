@@ -1,0 +1,19 @@
+id: U-UO2_2_OH_2_p2
+formula: '[(UO2)2(OH)2]^2+'
+element: U
+class: hydroxide
+kind: ion
+oxidation_state: 6.0
+names:
+  en: di-μ-hydroxido-bis(dioxouranium(VI)) ion
+properties:
+  - property: hydrolysis_constant
+    value: '1e-6'
+    note: K printed under the ion; the equilibrium it refers to is not stated
+    source: turova1999
+notes:
+  - Hydrolysed uranyl species; shown in equilibrium with [(UO2)3(OH)5]+.
+turova:
+  - page: 1
+    block: p1D-22
+    entry: 0

@@ -1,0 +1,16 @@
+id: U-r-0118
+reactants:
+  - U-UO2S
+products:
+  - U-UO2_OH_2
+reagents:
+  - \ce{O2}
+  - \ce{H2O}
+type: no_redox
+notes:
+  - 'Inline: UO2S + O2 + H2O → UO2(OH)2 (sulfide oxidized; U stays +6). O2 and H2O act together.'
+source: turova1999
+turova:
+  page: 2
+  arrow:
+  block: p2D-01

@@ -1,0 +1,58 @@
+id: U-UBr4
+formula: UBr4
+names:
+  en: uranium(IV) bromide
+element: U
+oxidation_state: 4.0
+class: halide
+kind: compound
+appearance: brown crystals
+structure:
+  description: Chains of [UBrBr6/2] pentagonal bipyramids sharing equatorial edges.
+  polyhedron: pentagonal bipyramid
+properties:
+  - property: melting_point
+    value: 519
+    unit: °C
+    source: turova1999
+  - property: boiling_point
+    value: 766
+    unit: °C
+    conditions: with decomposition
+    source: turova1999
+  - property: enthalpy_formation
+    value: -899
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 2.16
+    unit: Å
+    pair: U–Br
+    site: axial
+    source: turova1999
+  - property: bond_distance
+    value: 2.8
+    value_max: 2.9
+    unit: Å
+    pair: U–Br
+    site: equatorial
+    source: turova1999
+  - property: bond_distance
+    value: 2.66
+    unit: Å
+    pair: U–Br
+    phase: gas
+    source: turova1999
+issues:
+  - type: source_suspect
+    text: U–Br 2.16 Å (axial) read clearly; implausibly short for U–Br (about 2.6–2.8 Å expected; cf. 2.66 gas, 2.8–2.9 equatorial).
+  - type: to_check
+    text: 'Editor note: U–Br 2.16 Å (axial) is implausibly short (expected ≈2.6–2.8 Å). Find a reliable reference and correct.'
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs:
+  - turova-U-15
+turova:
+  - page: 1
+    block: p1C-06
+    entry: 2

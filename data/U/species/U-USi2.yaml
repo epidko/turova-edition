@@ -1,0 +1,17 @@
+id: U-USi2
+formula: USi2
+element: U
+class: silicide
+kind: compound
+oxidation_state:
+names:
+  en: uranium disilicide
+properties:
+  - property: melting_point
+    value: 1700
+    unit: °C
+    source: turova1999
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 18

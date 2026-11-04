@@ -1,0 +1,21 @@
+id: U-r-0085
+reactants:
+  - U-U3O8
+products:
+  - U-UO2-6
+reagents:
+  - \ce{KHCO3}
+  - \ce{H2O}
+byproducts:
+  - \ce{K4[UO2(CO3)3]}
+conditions:
+  text: heating (t)
+type: reduction
+notes:
+  - KHCO3 + H2O act together (one reagent set), written as two items here.
+  - 'UO_{2.6}: mean oxidation state +5.2 (ox null in species_index).'
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a02
+  block:

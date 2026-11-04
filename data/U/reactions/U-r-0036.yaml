@@ -1,0 +1,14 @@
+id: U-r-0036
+reactants:
+  - OFFPAGE:p33
+products:
+  - U-U2O2Cl5
+reagents:
+  - UCl4
+type: reduction
+notes:
+  - 'same corner/path as p1D-a06; likely source UO2Cl (U-UO2Cl): UO2Cl + UCl4 -> U2O2Cl5 (or UO2Cl2, U-UO2Cl2)'
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a07

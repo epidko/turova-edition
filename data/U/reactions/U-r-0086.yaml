@@ -1,0 +1,21 @@
+id: U-r-0086
+reactants:
+  - OFFPAGE:p32
+products:
+  - U-U3O8
+reagents:
+  - \ce{O2}
+conditions:
+  temperature_C: '>200'
+type: oxidation
+notes:
+  - Dashed line starts right after its label at x~565 with no visible tail species; it runs parallel to the dash-dot U3O8 → p.32 trunk (p2A-a01).
+  - 'Likely reactant: UO_{2+x} (U-UO2x) on p. 32 (oxidation of UO2 in air above 200° to U3O8).'
+issues:
+  - type: to_check
+    text: reactant not drawn; assumed to be the p. 32 species reached by the parallel dash-dot trunk (UO2+x)
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a03
+  block:

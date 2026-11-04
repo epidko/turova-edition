@@ -1,0 +1,15 @@
+id: U-r-0017
+reactants:
+  - U-KU2Cl7
+products: []
+reagents:
+  - H2O
+type: oxidation
+conditions:
+  text: gives U(IV) species (not specified)
+notes:
+  - Product printed only as U^IV.
+source: turova1999
+turova:
+  page: 1
+  block: p1B-12

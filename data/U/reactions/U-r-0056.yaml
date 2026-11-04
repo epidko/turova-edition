@@ -1,0 +1,14 @@
+id: U-r-0056
+reactants:
+  - U-UO2_p
+products:
+  - U-UO2_2_OH_2_p2
+reagents:
+  - H2O
+type: oxidation
+notes:
+  - disproportionation of [UO2]+ (with p1D-a24)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a25

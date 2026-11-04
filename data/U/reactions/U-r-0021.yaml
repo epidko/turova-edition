@@ -1,0 +1,17 @@
+id: U-r-0021
+reactants:
+  - U-UCl3
+products:
+  - U-UOCl2
+reagents:
+  - O2
+type: oxidation
+notes:
+  - tail at top edge of the U(III) halide table (ΔH column), head at the left edge of the UOX2 box at the level of the UOCl2 description; by analogy UBr3 -> UOBr2 etc. may be meant
+issues:
+  - type: to_check
+    text: tail/head not on a specific entry; UCl3 -> UOCl2 chosen
+source: turova1999
+turova:
+  page: 1
+  arrow: p1B-a04

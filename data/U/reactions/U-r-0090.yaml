@@ -1,0 +1,19 @@
+id: U-r-0090
+reactants: []
+products:
+  - U-U3O8
+conditions:
+  text: heating (t)
+type: no_redox
+notes:
+  - Tail at the top edge of the «Соли уранила» box (x~785), i.e. uranyl salts in general; head at the bottom of the U3O8 box.
+issues:
+  - type: to_check
+    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the reactant (uranyl salts in general)'
+  - type: to_check
+    text: line is solid (no change of oxidation state) but U(VI) → U3O8 (mean +5.33) is a reduction
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a07
+  block:

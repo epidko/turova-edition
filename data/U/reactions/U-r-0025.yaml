@@ -1,0 +1,20 @@
+id: U-r-0025
+reactants:
+  - U-U
+products:
+  - U-UO2x
+reagents:
+  - H2O
+byproducts:
+  - H2
+  - UH3
+type: oxidation
+notes:
+  - reactant is the circled reagent U
+issues:
+  - type: to_check
+    text: product UO_{2+x} has no ox in species_index (about 4)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1C-a01

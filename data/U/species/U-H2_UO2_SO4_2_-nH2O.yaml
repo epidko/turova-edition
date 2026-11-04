@@ -1,0 +1,19 @@
+id: U-H2_UO2_SO4_2_-nH2O
+formula: H2[UO2(SO4)2].$n$H2O
+element: U
+names:
+  en: bis(sulfato)dioxouranic(VI) acid hydrates
+oxidation_state: 6.0
+class: coordination_compound
+kind: family
+generic:
+  symbol: n
+  values:
+    - '2'
+    - '6'
+refs:
+  - turova-U-12
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 1

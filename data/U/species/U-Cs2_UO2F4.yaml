@@ -1,0 +1,11 @@
+id: U-Cs2_UO2F4
+formula: Cs2[UO2F4]
+element: U
+names:
+  en: caesium tetrafluorodioxouranate(VI)
+oxidation_state: 6.0
+class: coordination_compound
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 25

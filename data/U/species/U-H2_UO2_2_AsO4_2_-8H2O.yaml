@@ -1,0 +1,16 @@
+id: U-H2_UO2_2_AsO4_2_-8H2O
+formula: H2[(UO2)2(AsO4)2].8H2O
+element: U
+names:
+  en: hydrogen uranyl arsenate octahydrate
+oxidation_state: 6.0
+class: oxoacid_salt
+issues:
+  - type: ambiguous
+    text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
+refs:
+  - turova-U-20
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 9

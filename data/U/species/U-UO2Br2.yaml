@@ -1,0 +1,22 @@
+id: U-UO2Br2
+formula: UO2Br2
+names:
+  en: uranyl bromide
+element: U
+oxidation_state: 6.0
+class: oxohalide
+kind: compound
+properties:
+  - property: enthalpy_formation
+    value: -1159
+    unit: kJ/mol
+    source: turova1999
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+issues:
+  - type: ambiguous
+    text: 'ΔH column: values -1636, -1255, -1159 aligned with the UO2F2, UO2Cl2, UO2Br2 rows respectively.'
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 15

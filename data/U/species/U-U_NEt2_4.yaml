@@ -1,0 +1,15 @@
+id: U-U_NEt2_4
+formula: U(NEt2)4
+names:
+  en: tetrakis(diethylamido)uranium(IV)
+element: U
+oxidation_state: 4.0
+class: amide
+kind: compound
+notes:
+  - Listed by formula; converted to U(OR)4 by alcohols ROH.
+refs: []
+turova:
+  - page: 1
+    block: p1C-07
+    entry: 3

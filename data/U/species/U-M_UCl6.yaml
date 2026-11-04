@@ -1,0 +1,21 @@
+id: U-M_UCl6
+formula: M[UCl6]
+element: U
+names:
+  en: hexachlorouranates(V)
+oxidation_state: 5
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  values:
+    - NO
+    - '[PCl4]'
+notes:
+  - Oxidation state set to +5 (singly charged cations, U(V) column of the sheet); skeleton gave none because of the generic symbol.
+refs:
+  - turova-U-4
+turova:
+  - page: 2
+    block: p2B-15
+    entry: 5

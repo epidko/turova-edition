@@ -1,0 +1,45 @@
+id: U-UO2F2
+formula: UO2F2
+names:
+  en: uranyl fluoride
+element: U
+oxidation_state: 6.0
+class: oxohalide
+kind: compound
+solubility: weakly dissociated in solution
+reactivity: At 700 °C decomposes to UF6, U3O8 and O2.
+structure:
+  description: Hexagonal bipyramids [UO2F6].
+  polyhedron: hexagonal bipyramid
+  coordination_number: '8'
+properties:
+  - property: melting_point
+    value: 1303
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -1636
+    unit: kJ/mol
+    source: turova1999
+  - property: other
+    value: '1e-4'
+    conditions: dissociation constant K1
+    note: stepwise dissociation constant
+    source: turova1999
+  - property: other
+    value: '1e-5'
+    conditions: dissociation constant K2
+    note: stepwise dissociation constant
+    source: turova1999
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+  - Coordination number 8 follows from the printed [UO2F6] hexagonal bipyramid.
+issues:
+  - type: ambiguous
+    text: 'ΔH column: values -1636, -1255, -1159 aligned with the UO2F2, UO2Cl2, UO2Br2 rows respectively.'
+refs:
+  - turova-U-34
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 13

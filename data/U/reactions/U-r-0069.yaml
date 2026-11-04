@@ -1,0 +1,15 @@
+id: U-r-0069
+reactants:
+  - U-UCl5
+products:
+  - U-UCl4
+  - U-UCl6
+conditions:
+  temperature_C: 120
+type: disproportionation
+notes:
+  - Disproportionation of U(V) (oxidation and reduction together); type left as 'unknown'.
+source: turova1999
+turova:
+  page: 2
+  block: p2A-04

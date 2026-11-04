@@ -1,0 +1,13 @@
+id: U-U2_SO4_3-9H2O
+formula: U2(SO4)3.9H2O
+element: U
+class: oxoacid_salt
+kind: compound
+names:
+  en: uranium(III) sulfate nonahydrate
+oxidation_state: 3.0
+refs: []
+turova:
+  - page: 1
+    block: p1B-08
+    entry: 3

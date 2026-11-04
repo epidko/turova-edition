@@ -1,0 +1,14 @@
+id: U-NH4_4_UO2_C2O4_3
+formula: (NH4)4[UO2(C2O4)3]
+element: U
+names:
+  en: ammonium tris(oxalato)dioxouranate(VI)
+oxidation_state: 6.0
+class: carboxylate
+structure:
+  description: Anion is a hexagonal bipyramid.
+  polyhedron: hexagonal bipyramid
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 18

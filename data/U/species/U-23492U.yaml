@@ -1,0 +1,24 @@
+id: U-23492U
+formula: ^{234}_{92}U
+element: U
+class: isotope
+kind: isotope
+names:
+  en: uranium-234
+oxidation_state:
+properties:
+  - property: half_life
+    value: 248000.0
+    source: turova1999
+    unit: years
+  - property: natural_abundance
+    value: 0.0056
+    source: turova1999
+    unit: '%'
+notes:
+  - 'Member of the U–Ra series (A = 4n + 2): formed from ²³⁴Pa by β⁻ decay; α-decays to ²³⁰Th.'
+refs: []
+turova:
+  - page: 1
+    block: p1B-03
+    entry: 2

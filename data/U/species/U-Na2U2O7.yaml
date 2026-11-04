@@ -1,0 +1,30 @@
+id: U-Na2U2O7
+formula: Na2U2O7
+names:
+  en: sodium diuranate
+  minerals:
+    - en: clarkeite
+      printed_ru: кларкит
+element: U
+oxidation_state: 6.0
+class: uranate
+kind: compound
+appearance: orange
+solubility: insoluble in water (precipitate)
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+  - 'Appears twice: as a precipitate on the aqueous-chemistry sheet (p. 1) and in the uranate(VI) list (p. 2).'
+issues:
+  - type: to_check
+    text: 'Other older Russian mineral spellings in this box may need modernizing (e.g. «кларкит» → кларкеит?, «бильетит» → бийетит?): confirm.'
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs:
+  - turova-U-6
+turova:
+  - page: 1
+    block: p1D-26
+    entry: 0
+  - page: 2
+    block: p2C-07
+    entry: 7

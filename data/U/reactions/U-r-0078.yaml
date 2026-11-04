@@ -1,0 +1,16 @@
+id: U-r-0078
+reactants:
+  - U-U3O8
+products:
+  - U-U_H2O_8_p4
+  - U-UO2_H2O_6_p2
+reagents:
+  - HNO3
+type: no_redox
+notes:
+  - Printed products U4+ and [UO2]2+ are mapped to the aqua-ion ids.
+  - 'Formal average oxidation state 5.33 is redistributed between U(IV) and U(VI); no net change for 1 U4+ : 2 UO2(2+).'
+source: turova1999
+turova:
+  page: 2
+  block: p2B-05

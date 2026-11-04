@@ -1,0 +1,21 @@
+id: U-UOI
+formula: UOI
+element: U
+class: oxohalide
+kind: compound
+names:
+  en: uranium(III) oxide iodide
+oxidation_state: 3.0
+properties:
+  - property: magnetic_moment
+    value: 3.4
+    source: turova1999
+    unit: μB
+    value_max: 3.7
+    note: one value bracketed for UOCl, UOBr and UOI together
+refs:
+  - turova-U-22
+turova:
+  - page: 1
+    block: p1B-08
+    entry: 2

@@ -1,0 +1,22 @@
+id: U-M_UO2_NO3_3
+formula: M[UO2(NO3)3]
+element: U
+names:
+  en: tris(nitrato)dioxouranates(VI)
+oxidation_state: 6
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  note: cations not specified in the source
+notes:
+  - Oxidation state set to +6 (uranyl(VI) unit); skeleton gave none because of the generic symbol.
+issues:
+  - type: ambiguous
+    text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
+refs:
+  - turova-U-20
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 5

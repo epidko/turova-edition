@@ -1,0 +1,18 @@
+id: U-r-0105
+reactants:
+  - U-UO3
+products:
+  - U-UO2_OH_2
+reagents:
+  - \ce{H2O}
+type: no_redox
+notes:
+  - Head passes the box frame and ends below the H2U2O7 line, at the level of the '↑160°' mark, above the UO2(OH)2 line; product read as UO2(OH)2 (hydration).
+issues:
+  - type: to_check
+    text: head between H2U2O7 and UO2(OH)2 lines; H2U2O7 also possible
+source: turova1999
+turova:
+  page: 2
+  arrow: p2C-a03
+  block:

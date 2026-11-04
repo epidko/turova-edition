@@ -1,0 +1,15 @@
+id: U-UO_OR_3
+formula: UO(OR)3
+element: U
+names:
+  en: uranium(V) oxide trialkoxides
+oxidation_state: 5.0
+class: alkoxide
+kind: family
+generic:
+  symbol: R
+  note: R (organic group) not specified in the source
+turova:
+  - page: 2
+    block: p2A-03
+    entry: 0

@@ -1,0 +1,22 @@
+id: U-M_UO2_AsO4_n_-mH2O
+formula: M[UO2(AsO4)_{$n$}].$m$H2O
+element: U
+names:
+  en: uranyl arsenates
+oxidation_state: 6
+class: oxoacid_salt
+kind: family
+generic:
+  symbol: M
+  note: M, n and m not specified in the source
+notes:
+  - Oxidation state set to +6 (uranyl(VI) unit); skeleton gave none because of the generic symbol.
+issues:
+  - type: ambiguous
+    text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
+refs:
+  - turova-U-20
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 8

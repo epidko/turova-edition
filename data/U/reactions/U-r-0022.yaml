@@ -1,0 +1,20 @@
+id: U-r-0022
+reactants:
+  - U-UCl4
+products:
+  - U-UCl3
+reagents:
+  - Al
+  - H2
+conditions:
+  text: heating (italic t)
+type: reduction
+notes:
+  - tail at the left edge of the U(IV) halide box at the UCl4 entry; head at the right edge of the U(III) halide table; generic UX4 -> UX3 (e.g. UF4 + Al -> UF3) likely also intended
+issues:
+  - type: to_check
+    text: UF4 + Al -> UF3 is the classical route; tail drawn at UCl4 row
+source: turova1999
+turova:
+  page: 1
+  arrow: p1B-a05

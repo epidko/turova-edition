@@ -1,0 +1,18 @@
+id: U-Ba2_UCl8
+formula: Ba2[UCl8]
+names:
+  en: barium octachlorouranate(IV)
+element: U
+oxidation_state: 4.0
+class: coordination_compound
+kind: compound
+notes:
+  - Listed by formula only.
+issues:
+  - type: source_suspect
+    text: Printed clearly as Ba2[UCl8] (subscript 8), not [UCl6]; charge-balanced, kept as printed.
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 6

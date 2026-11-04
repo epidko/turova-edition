@@ -1,0 +1,27 @@
+id: U-Ca2_UO2_CO3_3_-10H2O
+formula: Ca2[UO2(CO3)3].10H2O
+element: U
+names:
+  en: calcium tris(carbonato)dioxouranate(VI) decahydrate
+  minerals:
+    - en: uranothallite
+      printed_ru: ураноталлит
+oxidation_state: 6
+class: coordination_compound
+structure:
+  description: The [UO2(CO3)3] anion (X in the source) is a hexagonal bipyramid.
+  polyhedron: hexagonal bipyramid
+notes:
+  - The source writes the anion as X, defined as [UO2(CO3)3] on the same line; expanded in the formula.
+  - Oxidation state +6 (uranyl(VI)).
+issues:
+  - type: ambiguous
+    text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
+  - type: to_check
+    text: Mineral name 'ураноталлит' rendered as uranothallite; this name is regarded as a synonym of liebigite in current nomenclature. Editor to decide which English name to show.
+refs:
+  - turova-U-7
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 12

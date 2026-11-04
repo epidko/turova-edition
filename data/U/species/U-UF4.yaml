@@ -1,0 +1,50 @@
+id: U-UF4
+formula: UF4
+names:
+  en: uranium(IV) fluoride
+element: U
+oxidation_state: 4.0
+class: halide
+kind: compound
+appearance: green crystals
+solubility: Insoluble in water (marked as a precipitate); solubility product 1e-22.
+structure:
+  structure_type: ZrF4
+properties:
+  - property: melting_point
+    value: 1036
+    unit: °C
+    source: turova1999
+  - property: sublimation_temperature
+    value: 1450
+    unit: °C
+    source: turova1999
+  - property: solubility_product
+    value: '1e-22'
+    source: turova1999
+  - property: bond_distance
+    value: 2.07
+    unit: Å
+    pair: U–F
+    phase: gas
+    source: turova1999
+  - property: enthalpy_formation
+    value: -1897
+    unit: kJ/mol
+    note: first of two braced values; assignment not printed
+    source: turova1999
+  - property: enthalpy_formation
+    value: -1910
+    unit: kJ/mol
+    note: second of two braced values; assignment not printed
+    source: turova1999
+notes:
+  - A monohydrate UF4·H2O is also indicated.
+issues:
+  - type: ambiguous
+    text: ΔH cell gives two values joined by a brace (−1897 / −1910); probably anhydrous UF4 and the hydrate, or two literature values; the assignment is not printed.
+refs: []
+turova:
+  - page: 1
+    block: p1C-06
+    entry: 0

@@ -1,0 +1,21 @@
+id: U-U4F17
+formula: U4F17
+names:
+  en: tetrauranium heptadecafluoride
+element: U
+oxidation_state: 4.25
+class: halide
+kind: compound
+appearance: black crystals
+properties:
+  - property: enthalpy_formation
+    value: -7610
+    unit: kJ/mol
+    source: turova1999
+notes:
+  - Mixed-valence fluoride; average oxidation state +4.25 (also printed in the column header).
+refs: []
+turova:
+  - page: 1
+    block: p1D-09
+    entry: 0

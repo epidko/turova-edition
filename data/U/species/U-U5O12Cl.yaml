@@ -1,0 +1,13 @@
+id: U-U5O12Cl
+formula: U5O12Cl
+element: U
+names:
+  en: uranium oxide chloride U5O12Cl
+oxidation_state: 5.0
+class: oxohalide
+refs:
+  - turova-U-3
+turova:
+  - page: 2
+    block: p2A-01
+    entry: 0

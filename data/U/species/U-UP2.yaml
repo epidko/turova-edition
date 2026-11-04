@@ -1,0 +1,16 @@
+id: U-UP2
+formula: UP2
+element: U
+class: pnictide
+kind: compound
+oxidation_state: 6.0
+names:
+  en: uranium diphosphide
+appearance: black
+issues:
+  - type: ambiguous
+    text: The line reads 'UP, m.p. 2850, U3P4, U2P3, UP2, black'; 'black' may refer to all phosphides or to UP2 only.
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 14

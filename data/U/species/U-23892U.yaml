@@ -1,0 +1,25 @@
+id: U-23892U
+formula: ^{238}_{92}U
+element: U
+class: isotope
+kind: isotope
+names:
+  en: uranium-238
+oxidation_state:
+properties:
+  - property: half_life
+    value: 4510000000.0
+    source: turova1999
+    unit: years
+  - property: natural_abundance
+    value: 99.27
+    source: turova1999
+    unit: '%'
+    note: in minerals
+notes:
+  - 'Parent of the U–Ra radioactive series (A = 4n + 2): ²³⁸U –α→ ²³⁴Th –β⁻,γ→ ²³⁴Pa –β⁻,γ→ ²³⁴U –α→ ²³⁰Th …'
+refs: []
+turova:
+  - page: 1
+    block: p1B-03
+    entry: 1

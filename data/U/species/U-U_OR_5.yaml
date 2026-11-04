@@ -1,0 +1,20 @@
+id: U-U_OR_5
+formula: U(OR)5
+names:
+  en: uranium(V) alkoxides
+element: U
+oxidation_state: 5
+class: alkoxide
+kind: family
+generic:
+  symbol: R
+  values:
+    - Me
+    - Et
+appearance: brown crystals (R = Me) or liquid (R = Et)
+reactivity: Distil in vacuum.
+refs: []
+turova:
+  - page: 2
+    block: p2A-07
+    entry: 1

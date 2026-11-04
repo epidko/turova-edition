@@ -1,0 +1,37 @@
+id: U-MUCl4-4H2O
+formula: MUCl4.4H2O
+names:
+  en: tetrachlorouranate(III) tetrahydrates
+element: U
+oxidation_state: 3
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  values:
+    - K
+    - NH4
+structure:
+  coordination_number: 9 or 8
+properties:
+  - property: coordination_number
+    value: 9 or 8
+    source: turova1999
+  - property: bond_distance
+    value: 2.93
+    unit: Å
+    pair: U–Cl
+    source: turova1999
+  - property: bond_distance
+    value: 2.55
+    unit: Å
+    pair: U–O
+    source: turova1999
+notes:
+  - Oxidation state +3 set by hand from the formula (M singly charged); skeleton had none.
+refs:
+  - turova-U-25
+turova:
+  - page: 1
+    block: p1B-12
+    entry: 0

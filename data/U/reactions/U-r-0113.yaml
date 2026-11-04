@@ -1,0 +1,17 @@
+id: U-r-0113
+reactants:
+  - U-UO2_SO4
+products:
+  - U-UO2_SO4
+byproducts:
+  - H2O
+conditions:
+  temperature_C: 175
+  text: dehydration of UO2SO4·nH2O (n = 2.5, 3.5) to the anhydrous salt
+type: no_redox
+notes:
+  - Reactant is the hydrate, which has no separate id; recorded under the parent id.
+source: turova1999
+turova:
+  page: 2
+  block: p2D-01

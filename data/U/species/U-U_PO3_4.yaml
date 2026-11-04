@@ -1,0 +1,14 @@
+id: U-U_PO3_4
+formula: U(PO3)4
+element: U
+class: oxoacid_salt
+kind: compound
+names:
+  en: uranium(IV) metaphosphate
+oxidation_state: 4.0
+refs:
+  - turova-U-26
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 5

@@ -1,0 +1,15 @@
+id: U-r-0104
+reactants:
+  - U-H2U2O7
+products:
+  - U-UO3
+conditions:
+  temperature_C: 400
+type: no_redox
+notes:
+  - Tail at the top edge of the H2U2O7/UO2(OH)2 box (H2U2O7 is the top line).
+source: turova1999
+turova:
+  page: 2
+  arrow: p2C-a02
+  block:

@@ -1,0 +1,16 @@
+id: U-r-0066
+reactants:
+  - U-UO2Cl
+products:
+  - U-UOCl2
+byproducts:
+  - Cl2
+conditions:
+  text: heating
+type: reduction
+notes:
+  - Printed as UO2Cl -> UOCl2 + Cl2 (unbalanced as written).
+source: turova1999
+turova:
+  page: 2
+  block: p2A-01

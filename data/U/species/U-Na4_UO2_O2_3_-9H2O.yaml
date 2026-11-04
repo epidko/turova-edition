@@ -1,0 +1,33 @@
+id: U-Na4_UO2_O2_3_-9H2O
+formula: Na4[UO2(O2)3].9H2O
+names:
+  en: sodium triperoxouranate(VI) nonahydrate
+element: U
+oxidation_state: 6.0
+class: peroxo
+kind: compound
+properties:
+  - property: bond_distance
+    value: 1.86
+    unit: Å
+    pair: U=O
+    source: turova1999
+  - property: bond_distance
+    value: 2.28
+    unit: Å
+    pair: U–O
+    site: peroxo
+    note: U to peroxo O
+    source: turova1999
+  - property: bond_distance
+    value: 1.5
+    unit: Å
+    pair: O–O
+    site: peroxo
+    source: turova1999
+notes:
+  - Listed under the heading 'Peroxouranates'.
+turova:
+  - page: 2
+    block: p2C-08
+    entry: 1

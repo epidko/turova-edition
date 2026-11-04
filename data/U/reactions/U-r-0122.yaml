@@ -1,0 +1,14 @@
+id: U-r-0122
+reactants:
+  - U-UOF4
+products:
+  - U-M_UOF5
+type: no_redox
+source: turova1999
+turova:
+  page: 2
+  block: p2D-04
+reagents:
+  - MF
+conditions:
+  solvent: SO2

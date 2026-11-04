@@ -1,0 +1,14 @@
+id: U-r-0003
+reactants:
+  - U-UF3
+products:
+  - U-U
+reagents:
+  - Ca
+type: reduction
+notes:
+  - circled starting reagents "UCl4; UF3" are alternatives
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a01

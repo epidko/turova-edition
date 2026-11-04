@@ -1,0 +1,17 @@
+id: U-r-0109
+reactants:
+  - U-UO2_O2_-nH2O
+products: []
+reagents:
+  - \ce{H2O + MOH}
+type: no_redox
+notes:
+  - Head at the top edge (heading) of the «Пероксоуранаты» box — peroxouranates in general.
+issues:
+  - type: to_check
+    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the product (peroxouranates)'
+source: turova1999
+turova:
+  page: 2
+  arrow: p2C-a07
+  block:

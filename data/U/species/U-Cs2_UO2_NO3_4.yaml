@@ -1,0 +1,16 @@
+id: U-Cs2_UO2_NO3_4
+formula: Cs2[UO2(NO3)4]
+element: U
+names:
+  en: caesium tetrakis(nitrato)dioxouranate(VI)
+oxidation_state: 6.0
+class: coordination_compound
+issues:
+  - type: ambiguous
+    text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
+refs:
+  - turova-U-20
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 6

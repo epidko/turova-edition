@@ -1,0 +1,15 @@
+id: U-U_HCOO_3
+formula: U(HCOO)3
+element: U
+class: carboxylate
+kind: compound
+names:
+  en: uranium(III) formate
+oxidation_state: 3.0
+appearance: green crystals
+refs:
+  - turova-U-22
+turova:
+  - page: 1
+    block: p1B-08
+    entry: 5

@@ -1,0 +1,15 @@
+id: U-r-0061
+reactants:
+  - U-UO2_OH_2-H2O
+products:
+  - U-Na2U4O13
+  - U-Na2U16O49
+reagents:
+  - NaOH
+type: no_redox
+notes:
+  - product box "Na2U4O13↓ + Na2U16O49↓" (mixture)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a30

@@ -1,0 +1,17 @@
+id: U-r-0112
+reactants:
+  - U-UO2_ClO4_2
+products:
+  - U-UO2_ClO4_2
+byproducts:
+  - H2O
+conditions:
+  temperature_C: 270
+  text: dehydration of UO2(ClO4)2·6H2O to the anhydrous salt
+type: no_redox
+notes:
+  - Reactant is the hexahydrate, which has no separate id; recorded under the parent id.
+source: turova1999
+turova:
+  page: 2
+  block: p2D-01

@@ -1,0 +1,17 @@
+id: U-r-0039
+reactants:
+  - U-UCl4
+products:
+  - OFFPAGE:p33
+reagents:
+  - UO2Cl2
+conditions:
+  text: heating (italic t)
+type: oxidation
+notes:
+  - tail at the shared dashed trunk from the U(IV) halide table; head at the gutter
+  - 'likely product UOCl3 (U-UOCl3): UCl4 + UO2Cl2 -> 2 UOCl3'
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a11

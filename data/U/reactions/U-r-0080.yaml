@@ -1,0 +1,14 @@
+id: U-r-0080
+reactants:
+  - U-UO2_OH_2
+products:
+  - U-H2U2O7
+byproducts:
+  - H2O
+conditions:
+  temperature_C: 160
+type: no_redox
+source: turova1999
+turova:
+  page: 2
+  block: p2B-08

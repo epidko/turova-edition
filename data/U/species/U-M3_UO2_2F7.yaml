@@ -1,0 +1,25 @@
+id: U-M3_UO2_2F7
+formula: M3[(UO2)2F7]
+element: U
+names:
+  en: heptafluorotetraoxodiuranates(VI)
+oxidation_state: 6
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  note: cations not specified in the source
+structure:
+  description: Dinuclear anion of two [UO2F5] pentagonal bipyramids sharing one equatorial F atom.
+  polyhedron: pentagonal bipyramid
+notes:
+  - Oxidation state set to +6 (uranyl(VI) unit); skeleton gave none because of the generic symbol.
+issues:
+  - type: ambiguous
+    text: Structural note and footnote 8 printed once at the end of the line M3[(UO2)2F7]; M4[(UO2)2F8]; K5[(UO2)2F9]; applied to all three compounds.
+refs:
+  - turova-U-8
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 21

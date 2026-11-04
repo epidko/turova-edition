@@ -1,0 +1,14 @@
+id: U-KUF5
+formula: KUF5
+element: U
+class: other
+kind: compound
+oxidation_state: 4.0
+notes:
+  - Appears on the sheet only as a reaction partner.
+issues:
+  - type: to_check
+    text: Stub created from a reaction; no properties printed.
+turova:
+  - page: 1
+    block: p1A-a02

@@ -1,0 +1,17 @@
+id: U-r-0009
+reactants:
+  - U-UCl4
+products:
+  - U-U_Dipy_n
+reagents:
+  - Li2Dipy
+conditions:
+  solvent: THF
+type: reduction
+issues:
+  - type: to_check
+    text: product U(Dipy)n has no ox in species_index (n = 3, 4; formally U(0))
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a06

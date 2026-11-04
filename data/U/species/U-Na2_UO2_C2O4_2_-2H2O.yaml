@@ -1,0 +1,20 @@
+id: U-Na2_UO2_C2O4_2_-2H2O
+formula: Na2[UO2(C2O4)2].2H2O
+element: U
+names:
+  en: sodium bis(oxalato)dioxouranate(VI) dihydrate
+oxidation_state: 6.0
+class: carboxylate
+structure:
+  description: Uranium in the anion is a pentagonal bipyramid [UO7].
+  coordination_number: '7'
+  polyhedron: pentagonal bipyramid
+properties:
+  - property: coordination_number
+    value: '7'
+    note: from the [UO7] polyhedron
+    source: turova1999
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 17

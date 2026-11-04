@@ -1,0 +1,17 @@
+id: U-r-0027
+reactants:
+  - U-UO_RCOO_2-nH2O
+products:
+  - U-U_OH_4
+reagents:
+  - OH-
+type: no_redox
+notes:
+  - 'tail at the end of the UO(RCOO)2·nH2O line, but the arrow most likely starts from the whole U(IV) salt list (U(OH)2SO4 ... USiO4): any U(IV) salt + OH- -> U(OH)4'
+issues:
+  - type: to_check
+    text: reactant = whole U(IV) salt list; tail-adjacent entry UO(RCOO)2·nH2O used
+source: turova1999
+turova:
+  page: 1
+  arrow: p1C-a03

@@ -1,0 +1,17 @@
+id: U-r-0048
+reactants:
+  - U-U_H2O_8_p3
+products:
+  - U-U_H2O_8_p4
+reagents:
+  - H2O
+  - O2
+conditions:
+  text: O2 in acid (H+)
+type: oxidation
+notes:
+  - '"H2O; O2(H+)" = alternatives'
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a17

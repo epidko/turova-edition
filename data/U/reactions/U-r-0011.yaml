@@ -1,0 +1,14 @@
+id: U-r-0011
+reactants:
+  - U-U
+products:
+  - U-US2
+reagents:
+  - S
+conditions:
+  temperature_C: 500
+type: oxidation
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a08

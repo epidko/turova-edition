@@ -1,0 +1,28 @@
+id: U-K4_U_C2O4_4_-4H2O
+formula: K4[U(C2O4)4].4H2O
+element: U
+class: coordination_compound
+kind: compound
+names:
+  en: potassium tetraoxalatouranate(IV) tetrahydrate
+oxidation_state: 4.0
+appearance: dark-green crystals
+structure:
+  description: U 10-coordinate
+  coordination_number: '10'
+properties:
+  - property: coordination_number
+    value: '10'
+    source: turova1999
+  - property: bond_distance
+    value: 2.37
+    source: turova1999
+    unit: Å
+    value_max: 2.58
+    pair: U–O
+refs:
+  - turova-U-29
+turova:
+  - page: 1
+    block: p1D-05
+    entry: 1

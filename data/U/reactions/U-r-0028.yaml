@@ -1,0 +1,18 @@
+id: U-r-0028
+reactants:
+  - U-U_C2O4_2-6H2O
+products:
+  - U-K4_U_C2O4_4_-4H2O
+reagents:
+  - (COOK)2
+type: no_redox
+notes:
+  - tail at right end of the U(CH3COO)4 continuation line, directly above U(C2O4)2·6H2O; U(C2O4)2·6H2O chosen on chemical grounds
+  - arrowhead points at the oxalato-complex group (level of the Ba2[U(C2O4)4]·8H2O entry); K4[U(C2O4)4]·4H2O chosen from the reagent
+issues:
+  - type: to_check
+    text: tail between U(CH3COO)4 and U(C2O4)2 lines; head at Ba2[U(C2O4)4] line
+source: turova1999
+turova:
+  page: 1
+  arrow: p1C-a04

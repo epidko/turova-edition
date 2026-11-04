@@ -1,0 +1,142 @@
+id: U-U
+formula: U
+element: U
+class: element
+kind: compound
+names:
+  en: uranium
+oxidation_state: 0
+appearance: silvery-white metal; very hard yet malleable; tarnishes yellow and then black in air
+solubility: dissolves in acids and in alkali (MOH) + H2O2; passivated by concentrated HNO3
+reactivity: finely divided metal is pyrophoric
+structure:
+  description: 'three polymorphs: α orthorhombic (distorted hexagonal close packing, C.N. 4+8); β tetragonal, layered; γ cubic, α-Fe type, U–U 3.05 Å. γ can be retained at 20 °C by alloying with Cr or Mo.'
+  coordination_number: 4+8
+properties:
+  - property: electronegativity
+    value: 1.2
+    source: turova1999
+    note: Pauling scale
+  - property: melting_point
+    value: 1134
+    source: turova1999
+    unit: °C
+  - property: boiling_point
+    value: 4200
+    source: turova1999
+    unit: °C
+    approx: true
+  - property: electrode_potential
+    value: -1.8
+    source: turova1999
+    unit: V
+    conditions: U3+/U(s)
+  - property: electrode_potential
+    value: -1.17
+    source: turova1999
+    unit: V
+    conditions: U4+/U(s)
+  - property: other
+    value: orthorhombic
+    source: turova1999
+    phase: α
+    note: crystal system; distorted hexagonal close packing
+  - property: density
+    value: 19.12
+    source: turova1999
+    unit: g/cm3
+    phase: α
+  - property: coordination_number
+    value: 4+8
+    source: turova1999
+    phase: α
+  - property: lattice_a
+    value: 2.85
+    source: turova1999
+    unit: Å
+    phase: α
+  - property: lattice_b
+    value: 5.86
+    source: turova1999
+    unit: Å
+    phase: α
+  - property: lattice_c
+    value: 4.95
+    source: turova1999
+    unit: Å
+    phase: α
+  - property: transition_temperature
+    value: 662
+    source: turova1999
+    unit: °C
+    conditions: α→β
+  - property: other
+    value: tetragonal
+    source: turova1999
+    phase: β
+    note: crystal system; layered structure; brittle
+  - property: density
+    value: 18.11
+    source: turova1999
+    unit: g/cm3
+    phase: β
+  - property: lattice_a
+    value: 10.59
+    source: turova1999
+    unit: Å
+    phase: β
+  - property: lattice_c
+    value: 5.63
+    source: turova1999
+    unit: Å
+    phase: β
+  - property: transition_temperature
+    value: 772
+    source: turova1999
+    unit: °C
+    conditions: β→γ
+  - property: other
+    value: cubic, α-Fe type
+    source: turova1999
+    phase: γ
+    note: crystal system / structure type; ductile; retained at 20 °C when alloyed with Cr or Mo
+  - property: density
+    value: 18.06
+    source: turova1999
+    unit: g/cm3
+    phase: γ
+  - property: lattice_a
+    value: 3.52
+    source: turova1999
+    unit: Å
+    phase: γ
+  - property: bond_distance
+    value: 3.05
+    source: turova1999
+    unit: Å
+    pair: U–U
+    phase: γ
+notes:
+  - 'Ground-state electron configuration from the orbital-box diagram: 5f³ 6d¹ 7s² (three singly occupied 5f boxes, one 6d electron, filled 7s).'
+  - The U⁰ header (electron configuration, electronegativity 1.2) is merged into this entry.
+  - In the aqueous-ion scheme (p1D-13) uranium metal appears as a precipitate (↓).
+issues:
+  - type: confirmed
+    text: э.о. = electronegativity (electronegativity); 1.2 is its value for U.
+    by: E. A. Pidko
+    date: '2026-11-04'
+  - type: confirmed
+    text: E0 is the standard electrode potential E⁰ (reviewer).
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs: []
+turova:
+  - page: 1
+    block: p1A-03
+    entry: 0
+  - page: 1
+    block: p1D-13
+    entry: 0
+  - page: 1
+    block: p1A-02
+    entry: 0

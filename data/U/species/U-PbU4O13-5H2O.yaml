@@ -1,0 +1,19 @@
+id: U-PbU4O13-5H2O
+formula: PbU4O13.5H2O
+names:
+  minerals:
+    - en: fourmarierite
+      printed_ru: фурмарьерит
+element: U
+oxidation_state: 6.0
+class: uranate
+kind: compound
+solubility: insoluble in water (precipitate)
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2C-07
+    entry: 10

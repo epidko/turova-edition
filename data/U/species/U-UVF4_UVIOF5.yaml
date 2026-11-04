@@ -1,0 +1,13 @@
+id: U-UVF4_UVIOF5
+formula: '[U^{V}F4][U^{VI}OF5]'
+element: U
+names:
+  en: uranium(V) uranium(VI) oxide nonafluoride
+oxidation_state: 5.5
+class: oxohalide
+notes:
+  - Mixed-valence U(V)/U(VI) compound as written in the source; formal mean oxidation state 5.5 set by hand (skeleton null).
+turova:
+  - page: 2
+    block: p2B-14
+    entry: 0

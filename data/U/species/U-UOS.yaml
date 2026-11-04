@@ -1,0 +1,14 @@
+id: U-UOS
+formula: UOS
+element: U
+class: chalcogenide
+kind: compound
+oxidation_state: 4.0
+names:
+  en: uranium oxysulfide
+notes:
+  - Formula only in this block; printed at the right edge of the box as the target of an arrow from U3O8 (that reaction belongs to the U3O8 arrow).
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 1

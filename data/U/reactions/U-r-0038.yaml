@@ -1,0 +1,18 @@
+id: U-r-0038
+reactants:
+  - U-UF4
+products:
+  - U-U2F9
+reagents:
+  - XeF2
+  - UF6
+conditions:
+  temperature_C: 200
+  text: XeF2 at 20 °C; UF6, branch (200°) to U2F9
+type: oxidation
+notes:
+  - right branch of the XeF2/UF6 arrow (p1D-a08)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a10

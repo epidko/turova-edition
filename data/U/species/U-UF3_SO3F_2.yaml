@@ -1,0 +1,15 @@
+id: U-UF3_SO3F_2
+formula: UF3(SO3F)2
+names:
+  en: uranium(V) trifluoride bis(fluorosulfate)
+element: U
+oxidation_state: 5
+class: oxoacid_salt
+kind: compound
+notes:
+  - Listed by formula only.
+refs: []
+turova:
+  - page: 2
+    block: p2A-05
+    entry: 0

@@ -1,0 +1,25 @@
+id: U-Na3_UF9
+formula: Na3[UF9]
+names:
+  en: sodium nonafluorouranate(VI)
+element: U
+oxidation_state: 6
+class: coordination_compound
+kind: compound
+appearance: yellow crystals
+reactivity: Hygroscopic.
+properties:
+  - property: decomposition_temperature
+    value: 300
+    unit: °C
+    source: turova1999
+issues:
+  - type: confirmed
+    text: Na3[UF9] confirmed as printed (reviewer).
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs: []
+turova:
+  - page: 2
+    block: p2D-07
+    entry: 1

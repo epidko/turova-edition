@@ -1,0 +1,35 @@
+id: U-UCl6
+formula: UCl6
+names:
+  en: uranium hexachloride
+element: U
+oxidation_state: 6
+class: halide
+kind: compound
+appearance: dark green crystals
+solubility: Soluble in CCl4.
+structure:
+  description: 'Molecular structure: distorted hexagonal close packing of Cl with U in octahedral holes.'
+  polyhedron: octahedron
+properties:
+  - property: melting_point
+    value: 177
+    unit: °C
+    source: turova1999
+    conditions: with decomposition
+  - property: enthalpy_formation
+    value: -1068
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 2.41
+    unit: Å
+    source: turova1999
+    value_max: 2.51
+    pair: U–Cl
+refs:
+  - turova-U-11
+turova:
+  - page: 2
+    block: p2D-06
+    entry: 1

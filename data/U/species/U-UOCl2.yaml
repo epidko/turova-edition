@@ -1,0 +1,41 @@
+id: U-UOCl2
+formula: UOCl2
+element: U
+class: oxohalide
+kind: compound
+names:
+  en: uranium(IV) oxide dichloride
+oxidation_state: 4.0
+structure:
+  description: 'three U sites with C.N. 7, 8 and 9: dodecahedron lacking one vertex, dodecahedron, tricapped prism'
+  coordination_number: 7, 8, 9
+  polyhedron: dodecahedron minus one vertex; dodecahedron; tricapped trigonal prism
+properties:
+  - property: enthalpy_formation
+    value: -1069
+    source: turova1999
+    unit: kJ/mol
+  - property: coordination_number
+    value: 7, 8, 9
+    source: turova1999
+  - property: bond_distance
+    value: 2.17
+    source: turova1999
+    unit: Å
+    value_max: 2.4
+    pair: U–O
+  - property: bond_distance
+    value: 2.66
+    source: turova1999
+    unit: Å
+    value_max: 3.15
+    pair: U–Cl
+  - property: magnetic_moment
+    value: 2.73
+    source: turova1999
+    unit: μB
+refs: []
+turova:
+  - page: 1
+    block: p1C-05
+    entry: 1

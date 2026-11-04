@@ -1,0 +1,20 @@
+id: U-M2U7O22
+formula: M2U7O22
+element: U
+oxidation_state: 6
+class: uranate
+kind: family
+generic:
+  symbol: M
+  note: no metals printed; univalent M implied by the formula
+appearance: yellow crystals
+solubility: insoluble in water (precipitate)
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+  - Oxidation state 6 assuming univalent M.
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2C-07
+    entry: 14

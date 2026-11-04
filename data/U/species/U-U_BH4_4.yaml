@@ -1,0 +1,17 @@
+id: U-U_BH4_4
+formula: U(BH4)4
+names:
+  en: uranium(IV) tetrahydroborate
+element: U
+oxidation_state: 4.0
+class: boron_compound
+kind: compound
+appearance: dark green crystals
+solubility: Soluble in diethyl ether.
+reactivity: Sublimes; hydrolyses. Forms adducts with ethers R2O.
+refs:
+  - turova-U-28
+turova:
+  - page: 1
+    block: p1C-07
+    entry: 0

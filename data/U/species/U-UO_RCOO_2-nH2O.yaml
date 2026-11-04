@@ -1,0 +1,18 @@
+id: U-UO_RCOO_2-nH2O
+formula: UO(RCOO)2.$n$H2O
+element: U
+class: carboxylate
+kind: family
+names:
+  en: oxouranium(IV) carboxylate hydrates
+oxidation_state: 4.0
+generic:
+  symbol: R
+  note: R = organic radical; n not specified
+appearance: green crystals
+refs:
+  - turova-U-26
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 1

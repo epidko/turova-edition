@@ -1,0 +1,16 @@
+id: U-r-0019
+reactants:
+  - U-UO2Cl2
+products:
+  - U-U_C2O4_2-6H2O
+reagents:
+  - (COOH)2
+conditions:
+  irradiation: visible
+type: reduction
+notes:
+  - reactant is the circled reagent UO2Cl2 (species on p. 33)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1B-a02

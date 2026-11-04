@@ -1,0 +1,32 @@
+id: U-U_CH3COO_4
+formula: U(CH3COO)4
+element: U
+class: carboxylate
+kind: compound
+names:
+  en: uranium(IV) acetate
+oxidation_state: 4.0
+appearance: green filaments
+structure:
+  description: chains of bicapped antiprisms
+  coordination_number: '10'
+  polyhedron: bicapped square antiprism
+properties:
+  - property: coordination_number
+    value: '10'
+    source: turova1999
+  - property: bond_distance
+    value: 2.52
+    source: turova1999
+    unit: Å
+    pair: U–O
+  - property: bond_distance
+    value: 2.8
+    source: turova1999
+    unit: Å
+    pair: U–O
+refs: []
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 7

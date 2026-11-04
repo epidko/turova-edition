@@ -1,0 +1,17 @@
+id: U-R4N_2_UOBr5
+formula: '[R4N]2[UOBr5]'
+element: U
+names:
+  en: tetraalkylammonium pentabromooxouranates(V)
+oxidation_state: 5.0
+class: coordination_compound
+kind: family
+generic:
+  symbol: R
+  note: R (organic group) not specified in the source
+refs:
+  - turova-U-13
+turova:
+  - page: 2
+    block: p2B-13
+    entry: 2

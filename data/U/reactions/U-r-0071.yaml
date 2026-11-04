@@ -1,0 +1,14 @@
+id: U-r-0071
+reactants:
+  - U-UBr5
+products:
+  - U-UBr4
+byproducts:
+  - Br2
+conditions:
+  temperature_C: 80
+type: reduction
+source: turova1999
+turova:
+  page: 2
+  block: p2A-04

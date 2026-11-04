@@ -1,0 +1,15 @@
+id: U-r-0123
+reactants:
+  - U-UOF4
+products:
+  - U-UO2F2
+reagents:
+  - \ce{H2O}
+type: no_redox
+notes:
+  - 'Inline: UOF4 + H2O → UO2F2.'
+source: turova1999
+turova:
+  page: 2
+  arrow:
+  block: p2D-04

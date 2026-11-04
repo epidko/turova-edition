@@ -1,0 +1,16 @@
+id: U-UOI3
+formula: UOI3
+element: U
+names:
+  en: uranium(V) oxide triiodide
+oxidation_state: 5.0
+class: oxohalide
+properties:
+  - property: enthalpy_formation
+    value: -853
+    unit: kJ/mol
+    source: turova1999
+turova:
+  - page: 2
+    block: p2A-02
+    entry: 2

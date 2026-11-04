@@ -1,0 +1,19 @@
+id: U-r-0013
+reactants:
+  - U-U
+products:
+  - U-UN2
+reagents:
+  - N2
+conditions:
+  pressure: 1000·10^5 Pa
+type: oxidation
+notes:
+  - lower branch (1000·10^5 Па) of the N2 arrow; arrowhead touches the "ΔH = −288" continuation line of UN, directly above UN2; UN2 chosen (high N2 pressure)
+issues:
+  - type: to_check
+    text: arrowhead between UN (2nd line) and UN2; UN2 assumed
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a09

@@ -1,0 +1,14 @@
+id: U-r-0024
+reactants:
+  - U-U_NEt2_4
+products:
+  - U-U_OR_4
+reagents:
+  - ROH
+type: no_redox
+notes:
+  - Printed as an upward arrow labelled ROH between the U(OR)4 and U(NEt2)4 lines; read as U(NEt2)4 → U(OR)4.
+source: turova1999
+turova:
+  page: 1
+  block: p1C-07

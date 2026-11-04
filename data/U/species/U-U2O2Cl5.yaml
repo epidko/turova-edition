@@ -1,0 +1,16 @@
+id: U-U2O2Cl5
+formula: U2O2Cl5
+names:
+  en: diuranium dioxide pentachloride
+element: U
+oxidation_state: 4.5
+class: oxohalide
+kind: compound
+notes:
+  - Mixed-valence uranium, formal average +4.5. Only the formula and a literature footnote are given.
+refs:
+  - turova-U-30
+turova:
+  - page: 1
+    block: p1D-07
+    entry: 0

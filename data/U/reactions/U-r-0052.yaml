@@ -1,0 +1,19 @@
+id: U-r-0052
+reactants:
+  - U-U
+products:
+  - U-U_H2O_7_OH_p3
+reagents:
+  - H+
+byproducts:
+  - H2
+type: oxidation
+notes:
+  - reactant U↓ in the "0" column; arrowhead stops at the H+ ⇅ OH- pair between [U(H2O)7(OH)]3+ and U(OH)4, i.e. dissolution gives U(IV) aqua/hydroxo species; [U(H2O)7(OH)]3+ chosen
+issues:
+  - type: to_check
+    text: arrowhead at the equilibrium arrows, not at a box; [U(H2O)8]4+ or U(OH)4 possible
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a21

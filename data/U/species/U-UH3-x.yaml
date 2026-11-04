@@ -1,0 +1,69 @@
+id: U-UH3-x
+formula: UH_{3-x}
+element: U
+class: hydride
+kind: phase
+oxidation_state: 3
+names:
+  en: uranium hydride (uranium trihydride)
+appearance: black, brittle crystals
+reactivity: electrical conductor; ignites in air; decomposed by acids; with water at 350 °C gives UO2 and H2
+structure:
+  description: "β-form: cubic, built from [UH4] tetrahedra and [UH12] icosahedra. Below −100 °C a cubic, ferromagnetic α-form exists. The figure 'structure of UH3' (p1A-13) shows the cubic cell with U atoms only (H not drawn)."
+  crystal_system: cubic
+properties:
+  - property: decomposition_temperature
+    value: 330
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -125
+    unit: kJ/mol
+    source: turova1999
+  - property: density
+    value: 10.9
+    unit: g/cm3
+    phase: β
+    source: turova1999
+  - property: bond_distance
+    value: 2.32
+    unit: Å
+    pair: U–H
+    phase: β
+    source: turova1999
+  - property: bond_distance
+    value: 3.3
+    unit: Å
+    pair: U–U
+    phase: β
+    source: turova1999
+  - property: transition_temperature
+    value: <-100
+    unit: °C
+    conditions: β→α (α-form below −100 °C)
+    source: turova1999
+  - property: density
+    value: 11.11
+    unit: g/cm3
+    phase: α
+    source: turova1999
+  - property: other
+    value: ferromagnetic
+    phase: α
+    note: magnetic behaviour
+    source: turova1999
+notes:
+  - Printed as UH3-x (subscript 3−x); the structure figure is captioned UH3.
+  - Oxidation state +3 is formal, for the ideal composition UH3 (skeleton gave null).
+issues:
+  - type: source_suspect
+    text: Formula clearly printed UH3-x (subscript 3-x), not UH3; the figure label reads 'стр. UH3'.
+  - type: ambiguous
+    text: 'Box outline incomplete: left border only y≈790–950 (UH3 figure sits left of the box below); no visible bottom border; right border x=572 runs to y≈1097.'
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 20
+  - page: 1
+    block: p1A-13
+    entry: 0

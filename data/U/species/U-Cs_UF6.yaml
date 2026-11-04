@@ -1,0 +1,21 @@
+id: U-Cs_UF6
+formula: Cs[UF6]
+element: U
+names:
+  en: caesium hexafluorouranate(V)
+oxidation_state: 5.0
+class: coordination_compound
+appearance: blue crystals
+structure:
+  description: Anion is an octahedron.
+  polyhedron: octahedron
+properties:
+  - property: bond_distance
+    value: 2.06
+    unit: Å
+    pair: U–F
+    source: turova1999
+turova:
+  - page: 2
+    block: p2B-15
+    entry: 2

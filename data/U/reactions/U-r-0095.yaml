@@ -1,0 +1,15 @@
+id: U-r-0095
+reactants:
+  - U-UF5
+products:
+  - U-HUF6-nH2O
+reagents:
+  - \ce{HF}
+type: no_redox
+notes:
+  - Tail at the right edge of the halide table in the UF5 row; head at the HUF6·nH2O line.
+source: turova1999
+turova:
+  page: 2
+  arrow: p2B-a12
+  block:

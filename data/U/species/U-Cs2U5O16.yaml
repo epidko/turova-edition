@@ -1,0 +1,18 @@
+id: U-Cs2U5O16
+formula: Cs2U5O16
+element: U
+oxidation_state: 6.0
+class: uranate
+kind: compound
+solubility: insoluble in water (precipitate)
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+issues:
+  - type: source_suspect
+    text: Line ends with a period instead of ';' (as printed).
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2C-07
+    entry: 11

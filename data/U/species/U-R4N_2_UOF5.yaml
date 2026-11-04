@@ -1,0 +1,15 @@
+id: U-R4N_2_UOF5
+formula: '[R4N]2[UOF5]'
+element: U
+names:
+  en: tetraalkylammonium pentafluorooxouranates(V)
+oxidation_state: 5.0
+class: coordination_compound
+kind: family
+generic:
+  symbol: R
+  note: R (organic group) not specified in the source
+turova:
+  - page: 2
+    block: p2B-13
+    entry: 0

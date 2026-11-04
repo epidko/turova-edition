@@ -1,0 +1,30 @@
+id: U-UC2
+formula: UC2
+element: U
+class: carbide
+kind: compound
+oxidation_state:
+names:
+  en: uranium dicarbide
+appearance: red crystals
+reactivity: hydrolyses
+structure:
+  structure_type: CaC2
+properties:
+  - property: melting_point
+    value: 2350
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -163
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 1.34
+    unit: Å
+    pair: C=C
+    source: turova1999
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 17

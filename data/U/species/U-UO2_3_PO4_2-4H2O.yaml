@@ -1,0 +1,14 @@
+id: U-UO2_3_PO4_2-4H2O
+formula: (UO2)3(PO4)2.4H2O
+names:
+  en: uranyl phosphate tetrahydrate
+element: U
+oxidation_state: 6.0
+class: oxoacid_salt
+kind: compound
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 5

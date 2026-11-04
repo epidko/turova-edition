@@ -1,0 +1,12 @@
+id: U-r-0058
+reactants:
+  - U-U_OH_4
+products:
+  - U-UO2_OH_2-H2O
+reagents:
+  - O2
+type: oxidation
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a27

@@ -1,0 +1,14 @@
+id: U-UF6_m
+formula: '[UF6]^-'
+element: U
+class: coordination_compound
+kind: ion
+oxidation_state: 5.0
+names:
+  en: hexafluorouranate(V) ion
+appearance: blue
+reactivity: stable towards oxidation
+turova:
+  - page: 1
+    block: p1D-18
+    entry: 0

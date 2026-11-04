@@ -1,0 +1,17 @@
+id: U-U3P4
+formula: U3P4
+element: U
+class: pnictide
+kind: compound
+oxidation_state: 4.0
+names:
+  en: triuranium tetraphosphide
+notes:
+  - Formula only.
+issues:
+  - type: ambiguous
+    text: The line reads 'UP, m.p. 2850, U3P4, U2P3, UP2, black'; 'black' may refer to all phosphides or to UP2 only.
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 12

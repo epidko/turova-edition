@@ -1,0 +1,21 @@
+id: U-MIIUO3
+formula: M^{II}UO3
+element: U
+class: uranate
+kind: family
+names:
+  en: uranates(IV) of divalent metals
+oxidation_state: 4
+generic:
+  symbol: M
+  values:
+    - Ca–Ba
+  note: printed as the range 'Ca – Ba'; M is divalent
+appearance: black-brown crystals
+notes:
+  - Oxidation state +4 from the heading 'uranates(IV)'; skeleton gave null because of the generic M.
+refs: []
+turova:
+  - page: 1
+    block: p1D-03
+    entry: 1

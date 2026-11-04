@@ -1,0 +1,24 @@
+id: U-UC
+formula: UC
+element: U
+class: carbide
+kind: compound
+oxidation_state:
+names:
+  en: uranium monocarbide
+appearance: violet crystals
+structure:
+  structure_type: NaCl
+properties:
+  - property: melting_point
+    value: 2400
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -88
+    unit: kJ/mol
+    source: turova1999
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 15

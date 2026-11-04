@@ -1,0 +1,22 @@
+id: U-U_Al_OPr-i_4_4
+formula: U[Al(OPr-$i$)4]4
+names:
+  en: uranium(IV) tetrakis(tetraisopropoxyaluminate)
+element: U
+oxidation_state: 4
+class: alkoxide
+kind: compound
+appearance: green crystals
+reactivity: Hygroscopic; sublimes.
+properties:
+  - property: boiling_point
+    value: 270
+    unit: °C
+    source: turova1999
+notes:
+  - Oxidation state +4 set by hand ([Al(OiPr)4]− counted as a uninegative ligand); skeleton had none.
+refs: []
+turova:
+  - page: 1
+    block: p1C-07
+    entry: 4

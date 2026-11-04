@@ -1,0 +1,15 @@
+id: U-r-0102
+reactants:
+  - U-UO2_NO3_2-6H2O
+products:
+  - U-UO3
+conditions:
+  text: heating (t)
+type: no_redox
+notes:
+  - 'From the (UO2(NO3)2; (NH4)2U2O7) circle: first alternative reactant.'
+source: turova1999
+turova:
+  page: 2
+  arrow: p2C-a01
+  block:

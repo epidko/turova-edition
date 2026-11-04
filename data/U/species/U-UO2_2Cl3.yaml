@@ -1,0 +1,15 @@
+id: U-UO2_2Cl3
+formula: (UO2)2Cl3
+element: U
+names:
+  en: diuranium tetraoxide trichloride
+oxidation_state: 5.5
+class: oxohalide
+notes:
+  - Mixed-valence; formal mean oxidation state 5.5 (computed).
+refs:
+  - turova-U-31
+turova:
+  - page: 2
+    block: p2B-14
+    entry: 1

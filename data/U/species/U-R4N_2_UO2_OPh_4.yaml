@@ -1,0 +1,15 @@
+id: U-R4N_2_UO2_OPh_4
+formula: '[R4N]2[UO2(OPh)4]'
+element: U
+names:
+  en: tetraalkylammonium tetraphenoxidodioxouranates(VI)
+oxidation_state: 6.0
+class: coordination_compound
+kind: family
+generic:
+  symbol: R
+  note: R (organic group) not specified in the source
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 30

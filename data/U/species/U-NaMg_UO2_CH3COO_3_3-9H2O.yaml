@@ -1,0 +1,12 @@
+id: U-NaMg_UO2_CH3COO_3_3-9H2O
+formula: NaMg[UO2(CH3COO)3]3.9H2O
+element: U
+names:
+  en: sodium magnesium uranyl acetate nonahydrate
+oxidation_state: 6.0
+class: carboxylate
+solubility: Insoluble in water (precipitate).
+turova:
+  - page: 2
+    block: p2D-02
+    entry: 15

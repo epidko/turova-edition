@@ -1,0 +1,14 @@
+id: U-U2S3
+formula: U2S3
+element: U
+class: chalcogenide
+kind: compound
+oxidation_state: 3.0
+names:
+  en: diuranium trisulfide
+notes:
+  - Printed ('U2S3; U3S5') at the right edge of the sulfide box; an arrow from it points toward the US2 line. No further data.
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 3

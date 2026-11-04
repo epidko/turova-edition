@@ -1,0 +1,28 @@
+id: U-MII2UO5
+formula: M^{II}2UO5
+names:
+  trivial_en:
+    - mesouranates
+element: U
+oxidation_state: 6
+class: uranate
+kind: family
+generic:
+  symbol: M
+  note: divalent metal (M^II); no specific metals printed
+appearance: red
+solubility: insoluble in water (precipitate)
+notes:
+  - Listed under the uranates(VI) heading, general formula M2On·mUO3, described there as water-insoluble (precipitates); heading footnote 6.
+  - Oxidation state 6 from charge balance with M(II).
+issues:
+  - type: confirmed
+    text: Roman superscripts = valence of M, Arabic subscripts = stoichiometry (reviewer).
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2C-07
+    entry: 4

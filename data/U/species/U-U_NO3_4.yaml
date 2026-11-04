@@ -1,0 +1,14 @@
+id: U-U_NO3_4
+formula: U(NO3)4
+element: U
+class: oxoacid_salt
+kind: compound
+names:
+  en: uranium(IV) nitrate
+oxidation_state: 4.0
+solubility: readily soluble in water
+refs: []
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 4

@@ -1,0 +1,18 @@
+id: U-r-0125
+reactants:
+  - U-UF6
+products:
+  - U-UF4
+reagents:
+  - \ce{HBr}
+byproducts:
+  - \ce{Br2}
+  - \ce{HF}
+type: reduction
+notes:
+  - "Inline under 'окисл.' (oxidizing properties): UF6 + HBr → Br2 + UF4 + HF."
+source: turova1999
+turova:
+  page: 2
+  arrow:
+  block: p2D-06

@@ -1,0 +1,36 @@
+id: U-M_U_SO4_2_-nH2O
+formula: M[U(SO4)2].$n$H2O
+element: U
+class: coordination_compound
+kind: family
+names:
+  en: disulfatouranate(III) hydrates
+oxidation_state: 3
+generic:
+  symbol: M
+  note: M (singly charged cation) not specified
+appearance: brown crystals
+structure:
+  description: U 9-coordinate
+  coordination_number: '9'
+properties:
+  - property: coordination_number
+    value: '9'
+    source: turova1999
+  - property: bond_distance
+    value: 2.4
+    source: turova1999
+    unit: Å
+    value_max: 2.6
+    pair: U–O
+notes:
+  - "Oxidation state set to +3: charge balance with M⁺ and the block's position among U(III) compounds; skeleton gave null because of the generic M."
+issues:
+  - type: to_check
+    text: Oxidation state +3 inferred from charge balance (M⁺) and column position; confirm on the page.
+refs:
+  - turova-U-24
+turova:
+  - page: 1
+    block: p1B-07
+    entry: 0

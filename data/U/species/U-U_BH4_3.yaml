@@ -1,0 +1,15 @@
+id: U-U_BH4_3
+formula: U(BH4)3
+names:
+  en: uranium(III) tetrahydroborate
+element: U
+oxidation_state: 3.0
+class: boron_compound
+kind: compound
+appearance: red-brown crystals
+reactivity: Non-volatile; explodes in air.
+refs: []
+turova:
+  - page: 1
+    block: p1A-11
+    entry: 0

@@ -1,0 +1,36 @@
+id: U-UN
+formula: UN
+element: U
+class: pnictide
+kind: compound
+oxidation_state: 3.0
+names:
+  en: uranium mononitride
+appearance: grey powder
+solubility: insoluble in acids
+reactivity: oxidised in air
+structure:
+  structure_type: NaCl
+properties:
+  - property: melting_point
+    value: 2850
+    unit: °C
+    conditions: under pressure
+    source: turova1999
+  - property: decomposition_temperature
+    value: '>1900'
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -288
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 2.45
+    unit: Å
+    pair: U–N
+    source: turova1999
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 7

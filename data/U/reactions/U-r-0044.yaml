@@ -1,0 +1,19 @@
+id: U-r-0044
+reactants:
+  - U-U3O8
+products:
+  - U-U2S3
+reagents:
+  - H2S
+conditions:
+  temperature_C: 1300
+type: reduction
+notes:
+  - '"U2S3; U3S5" are listed together; arrow runs just above them and its tip ends left of U2S3, near the end of the US2 line'
+issues:
+  - type: to_check
+    text: arrowhead tip lies past U2S3 at the end of the US2 line; US2 possible
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a14

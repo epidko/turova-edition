@@ -1,0 +1,21 @@
+id: U-KU2Cl7
+formula: KU2Cl7
+names:
+  en: potassium diuranium(III) heptachloride
+element: U
+oxidation_state: 3.0
+class: coordination_compound
+kind: compound
+appearance: brown
+reactivity: Water oxidises it to U(IV).
+properties:
+  - property: magnetic_moment
+    value: 3.7
+    unit: μB
+    source: turova1999
+refs:
+  - turova-U-24
+turova:
+  - page: 1
+    block: p1B-12
+    entry: 3

@@ -1,0 +1,19 @@
+id: U-r-0045
+reactants:
+  - U-U3O8
+products:
+  - U-U3S5
+reagents:
+  - H2S
+conditions:
+  temperature_C: 1300
+type: reduction
+notes:
+  - second species of "U2S3; U3S5"
+issues:
+  - type: to_check
+    text: see U2S3 reaction of the same arrow
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a14

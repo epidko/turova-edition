@@ -1,0 +1,14 @@
+id: U-r-0041
+reactants:
+  - U-UF4
+products:
+  - OFFPAGE:p33
+reagents:
+  - F2
+type: oxidation
+notes:
+  - likely product UF6 (U-UF6) or UF5 (U-UF5)
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a12

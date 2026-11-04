@@ -1,0 +1,32 @@
+id: U-UO3
+formula: UO3
+names:
+  en: uranium trioxide
+element: U
+oxidation_state: 6.0
+class: oxide
+kind: compound
+appearance: orange crystals
+structure:
+  description: 'Seven crystalline modifications plus one amorphous form are known. α-UO3: layers of [(UO2)O6] units linked through U–O–U chains.'
+properties:
+  - property: enthalpy_formation
+    value: -1230
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 1.8
+    unit: Å
+    pair: U–O
+    phase: α
+    source: turova1999
+    value_max: 2.4
+issues:
+  - type: ambiguous
+    text: 'Layout: box lies near the region B/C (or A/B) boundary; deduplicate against the neighbouring region transcription. (heads the 6+ column; dedupe against p2_C)'
+refs:
+  - turova-U-32
+turova:
+  - page: 2
+    block: p2B-07
+    entry: 0

@@ -1,0 +1,36 @@
+id: U-UCl3
+formula: UCl3
+names:
+  en: uranium(III) chloride
+element: U
+oxidation_state: 3.0
+class: halide
+kind: compound
+appearance: green or red needles
+reactivity: Hygroscopic; on heating disproportionates to UCl2, UCl4 and UCl5.
+structure:
+  description: Hexagonal; distorted close packing of Cl; U in a trigonal prism with capped faces (CN 9).
+  crystal_system: hexagonal
+  coordination_number: '9'
+  polyhedron: face-capped trigonal prism
+properties:
+  - property: melting_point
+    value: 835
+    unit: °C
+    source: turova1999
+  - property: boiling_point
+    value: 1780
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -891
+    unit: kJ/mol
+    source: turova1999
+  - property: coordination_number
+    value: '9'
+    source: turova1999
+refs: []
+turova:
+  - page: 1
+    block: p1B-11
+    entry: 1

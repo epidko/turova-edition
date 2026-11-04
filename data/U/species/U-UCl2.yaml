@@ -1,0 +1,14 @@
+id: U-UCl2
+formula: UCl2
+element: U
+class: halide
+kind: compound
+oxidation_state: 2.0
+notes:
+  - Appears on the sheet only as a reaction partner.
+issues:
+  - type: to_check
+    text: Stub created from a reaction; no properties printed.
+turova:
+  - page: 1
+    block: p1B-11

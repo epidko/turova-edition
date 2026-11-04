@@ -1,0 +1,18 @@
+id: U-NaU2Cl6
+formula: NaU2Cl6
+names:
+  en: sodium diuranium hexachloride
+element: U
+oxidation_state: 2.5
+class: coordination_compound
+kind: compound
+appearance: bronze-coloured crystals
+notes:
+  - Electrical conductor.
+  - Mixed-valence; formal average oxidation state +2.5.
+refs:
+  - turova-U-36
+turova:
+  - page: 1
+    block: p1A-07
+    entry: 0

@@ -1,0 +1,13 @@
+id: U-U_C2O4_2-6H2O
+formula: U(C2O4)2.6H2O
+element: U
+class: carboxylate
+kind: compound
+names:
+  en: uranium(IV) oxalate hexahydrate
+oxidation_state: 4.0
+refs: []
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 8

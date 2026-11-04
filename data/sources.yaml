@@ -1,0 +1,1072 @@
+turova1999:
+  type: book
+  citation: 'Турова Н. Я. Неорганическая химия в таблицах. М.: Высший химический колледж РАН, 1999. 140 с.'
+  citation_en: N. Ya. Turova, Inorganic Chemistry in Tables, Higher Chemical College of the Russian Academy of Sciences, Moscow, 1999.
+turova-U-1:
+  type: turova_reference
+  element: U
+  turova_item: 1
+  works:
+    - raw: 1974 2 Б458. Cervelle B. et al., Bull. Soc. Franc. Mineral. Crist., 1973, 96, 48.
+      rzh: 1974 2 Б458
+      authors: Cervelle B. et al.
+      journal: Bull. Soc. Franc. Mineral. Crist.
+      year: 1973
+      volume: '96'
+      pages: '48'
+      doi:
+    - raw: 1975 6 В15. Bohres E.W., Ber. Kernforschungsanlage, Tülich, 1974, N 1080, 66.
+      rzh: 1975 6 В15
+      authors: Bohres E.W.
+      journal: Ber. Kernforschungsanlage, Tülich
+      year: 1974
+      issue: N 1080
+      pages: '66'
+      doi:
+    - raw: 1979 19 Б415. Levet J.C., Noel H., J. Solid State Chem., 1979, 28, 67
+      rzh: 1979 19 Б415
+      authors: Levet J.C., Noel H.
+      journal: J. Solid State Chem.
+      year: 1979
+      volume: '28'
+      pages: '67'
+      doi:
+    - raw: 1983 15 Б904. Cordfunke E.H.P., Ouweltjes W., Vlaanderen P., J. Chem. Thermodyn., 1983, 15, 237.
+      rzh: 1983 15 Б904
+      authors: Cordfunke E.H.P., Ouweltjes W., Vlaanderen P.
+      journal: J. Chem. Thermodyn.
+      year: 1983
+      volume: '15'
+      pages: '237'
+      doi:
+turova-U-2:
+  type: turova_reference
+  element: U
+  turova_item: 2
+  works:
+    - raw: 1971 24 Б535. Kruse F.H., J. Inorg. Nucl. Chem., 1971, 33, 1625.
+      rzh: 1971 24 Б535
+      authors: Kruse F.H.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1971
+      volume: '33'
+      pages: '1625'
+      doi:
+    - raw: 1975 3 Б456. Penneman et al., Acta Crystallogr., 1974, B30, 1966.
+      rzh: 1975 3 Б456
+      authors: Penneman et al.
+      journal: Acta Crystallogr.
+      year: 1974
+      volume: B30
+      pages: '1966'
+      doi:
+    - raw: 1975 5 В140. Watt G.W. et al., Inorg. Nucl. Chem. Lett., 1974, 10, 987.
+      rzh: 1975 5 В140
+      authors: Watt G.W. et al.
+      journal: Inorg. Nucl. Chem. Lett.
+      year: 1974
+      volume: '10'
+      pages: '987'
+      doi:
+    - raw: 1973 11 В121. Вдовенко В.М. и др., Радиохимия, 1973, 15, 54.
+      rzh: 1973 11 В121
+      authors: Вдовенко В.М. и др.
+      journal: Радиохимия
+      year: 1973
+      volume: '15'
+      pages: '54'
+      doi:
+    - raw: 1977 23 Б195. Wagner W. et al., Inorg. Chem., 1977, 16, 1021.
+      rzh: 1977 23 Б195
+      authors: Wagner W. et al.
+      journal: Inorg. Chem.
+      year: 1977
+      volume: '16'
+      pages: '1021'
+      doi:
+    - raw: 1978 20 Б521. Caira M.R., De Wet J.F., Du Prees J.G.H., Gellatly B.J., Acta Crystallogr., 1978, B34, 1116
+      rzh: 1978 20 Б521
+      authors: Caira M.R., De Wet J.F., Du Prees J.G.H., Gellatly B.J.
+      journal: Acta Crystallogr.
+      year: 1978
+      volume: B34
+      pages: '1116'
+      doi:
+    - raw: 1978 20 Б522. De Wet J.F., Caira M.R., Gellatly B.J., Acta Crystallogr., 1978, B34, 1121.
+      rzh: 1978 20 Б522
+      authors: De Wet J.F., Caira M.R., Gellatly B.J.
+      journal: Acta Crystallogr.
+      year: 1978
+      volume: B34
+      pages: '1121'
+      doi:
+    - raw: 1979 21 Б407. Cousson A., Tabuteau A., Pages M., Acta Crystallogr., 1979, B35, 1198.
+      rzh: 1979 21 Б407
+      authors: Cousson A., Tabuteau A., Pages M.
+      journal: Acta Crystallogr.
+      year: 1979
+      volume: B35
+      pages: '1198'
+      doi:
+    - raw: 1981 10 Б374. Abazli H., Cousson A., Tabuteau A. et al., Acta Crystallogr., 1980, B36, 2765.
+      rzh: 1981 10 Б374
+      authors: Abazli H., Cousson A., Tabuteau A. et al.
+      journal: Acta Crystallogr.
+      year: 1980
+      volume: B36
+      pages: '2765'
+      doi:
+turova-U-3:
+  type: turova_reference
+  element: U
+  turova_item: 3
+  works:
+    - raw: 1978 4 Б405. Levet P.J.C., Potel M., LeMarouille J.Y., Acta Crystallogr., 1977, B33, 2542.
+      rzh: 1978 4 Б405
+      authors: Levet P.J.C., Potel M., LeMarouille J.Y.
+      journal: Acta Crystallogr.
+      year: 1977
+      volume: B33
+      pages: '2542'
+      doi:
+    - raw: 1980 3 В12. Кобец Л.В., Савченко Л.П., Умрейко Д.С., Вест. Белорус. Ун-та, 1979, 6.
+      rzh: 1980 3 В12
+      authors: Кобец Л.В., Савченко Л.П., Умрейко Д.С.
+      journal: Вест. Белорус. Ун-та
+      year: 1979
+      pages: '6'
+      doi:
+    - raw: 1985 14 Б2030. Cordfunke E.H.P., Van Vlaanderen P., Coubitz K., Loopstra B.O., J. Solid State Chem., 1985, 56, 166.
+      rzh: 1985 14 Б2030
+      authors: Cordfunke E.H.P., Van Vlaanderen P., Coubitz K., Loopstra B.O.
+      journal: J. Solid State Chem.
+      year: 1985
+      volume: '56'
+      pages: '166'
+      doi:
+turova-U-4:
+  type: turova_reference
+  element: U
+  turova_item: 4
+  works:
+    - raw: 1973 9 Б216. Shamir J., Silberstein A., Isr. Atom. Energy Commis. (Repts.), 1971, 1262, 124.
+      rzh: 1973 9 Б216
+      authors: Shamir J., Silberstein A.
+      journal: Isr. Atom. Energy Commis. (Repts.)
+      year: 1971
+      issue: '1262'
+      pages: '124'
+      doi:
+    - raw: 1975 14 В149. MacCordick J., These Doct. Sci. Univ. L. Pasteur, Strasbourg, 1971.
+      rzh: 1975 14 В149
+      authors: MacCordick J.
+      journal: These Doct. Sci. Univ. L. Pasteur, Strasbourg
+      year: 1971
+      doi:
+    - raw: 1977 8 В33. Po H.N., Coord. Chem Revs.,1976, 20, 171.
+      rzh: 1977 8 В33
+      authors: Po H.N.
+      journal: Coord. Chem Revs.
+      year: 1976
+      volume: '20'
+      pages: '171'
+      doi:
+    - raw: 1981 16 В18. Kolditz L., Moya T., Calov U., Kravcenko E.D. et al., Z. Chem.1981, 21, 38.
+      rzh: 1981 16 В18
+      authors: Kolditz L., Moya T., Calov U., Kravcenko E.D. et al.
+      journal: Z. Chem.
+      year: 1981
+      volume: '21'
+      pages: '38'
+      doi:
+turova-U-5:
+  type: turova_reference
+  element: U
+  turova_item: 5
+  works:
+    - raw: 1974 6 Б721. Blair A., Ihle H., J. Inorg. Nucl. Chem., 1973, 35, 3795.
+      rzh: 1974 6 Б721
+      authors: Blair A., Ihle H.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1973
+      volume: '35'
+      pages: '3795'
+      doi:
+    - raw: 1975 11 Б484. Müller U., Kolitsch W., Z. Anorg. Allg. Chem., 1974, 410, 32.
+      rzh: 1975 11 Б484
+      authors: Müller U., Kolitsch W.
+      journal: Z. Anorg. Allg. Chem.
+      year: 1974
+      volume: '410'
+      pages: '32'
+      doi:
+    - raw: 1977 17 Б479. Ryan R.R., Penneman R.A., Asprey L.B., Paine R.T., Acta Crystallogr., 1976, B32, 3311.
+      rzh: 1977 17 Б479
+      authors: Ryan R.R., Penneman R.A., Asprey L.B., Paine R.T.
+      journal: Acta Crystallogr.
+      year: 1976
+      volume: B32
+      pages: '3311'
+      doi:
+    - raw: 1979 2 Б558. Levy J.H., Taylor J.C., Wilson P.W., J. Inorg. Nucl. Chem., 1978., 40, 1055
+      rzh: 1979 2 Б558
+      authors: Levy J.H., Taylor J.C., Wilson P.W.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1978
+      volume: '40'
+      pages: '1055'
+      doi:
+    - raw: 1981 9 Б475. Mullica F., Milligan W.O., Garner R.L., Acta Crystallogr., 1980, B36, 2561.
+      rzh: 1981 9 Б475
+      authors: Mullica F., Milligan W.O., Garner R.L.
+      journal: Acta Crystallogr.
+      year: 1980
+      volume: B36
+      pages: '2561'
+      doi:
+    - raw: 1984 6 Б3025. Cordfunke E.H.P., Ouweltjes W., Prins G., Van Vlaanderen P., J. Chem. Thermodyn., 1983, 15, 2691.
+      rzh: 1984 6 Б3025
+      authors: Cordfunke E.H.P., Ouweltjes W., Prins G., Van Vlaanderen P.
+      journal: J. Chem. Thermodyn.
+      year: 1983
+      volume: '15'
+      pages: '2691'
+      doi:
+turova-U-6:
+  type: turova_reference
+  element: U
+  turova_item: 6
+  works:
+    - raw: 1972 7 Б872. Ковба Л.М., Трунов В.К., Радиохимия, 1971, 13, 773.
+      rzh: 1972 7 Б872
+      authors: Ковба Л.М., Трунов В.К.
+      journal: Радиохимия
+      year: 1971
+      volume: '13'
+      pages: '773'
+      doi:
+    - raw: 1975 21 Б1077. Cordfunke E.H.P. et al., J. Inorg. Nucl. Chem., 1975, 37, 1433.
+      rzh: 1975 21 Б1077
+      authors: Cordfunke E.H.P. et al.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1975
+      volume: '37'
+      pages: '1433'
+      doi:
+    - raw: 1976 3 Б516. Van Egmond A.B., J. Inorg. Nucl. Chem., 1975, 37, 1929.
+      rzh: 1976 3 Б516
+      authors: Van Egmond A.B.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1975
+      volume: '37'
+      pages: '1929'
+      doi:
+    - raw: 1977 3 Б412. Van Egmond A., J. Inorg. Nucl. Chem., 1976, 38, 1645.
+      rzh: 1977 3 Б412
+      authors: Van Egmond A.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1976
+      volume: '38'
+      pages: '1645'
+      doi:
+    - raw: 1977 3 Б413. Van Egmond A., J. Inorg. Nucl. Chem., 1976, 38, 1649.
+      rzh: 1977 3 Б413
+      authors: Van Egmond A.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1976
+      volume: '38'
+      pages: '1649'
+      doi:
+    - raw: 1979 12 Б809. Fee D.C., Johnson C.E., J. Inorg. Nucl. Chem., 1978, 40, 1375.
+      rzh: 1979 12 Б809
+      authors: Fee D.C., Johnson C.E.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1978
+      volume: '40'
+      pages: '1375'
+      doi:
+    - raw: 1986 5 Б2061. Wolf R., Hoppe R., Z. Anorg. Allg. Chem., 1985, 528, 129.
+      rzh: 1986 5 Б2061
+      authors: Wolf R., Hoppe R.
+      journal: Z. Anorg. Allg. Chem.
+      year: 1985
+      volume: '528'
+      pages: '129'
+      doi:
+    - raw: 1987 15 Б2061. Wolf R., Hoppe R., Rev. Chim. Miner., 1986, 23, 828.
+      rzh: 1987 15 Б2061
+      authors: Wolf R., Hoppe R.
+      journal: Rev. Chim. Miner.
+      year: 1986
+      volume: '23'
+      pages: '828'
+      doi:
+    - raw: 1986 21 Б2045. Gasperin M., J. Less-Common Met., 1986, 119, 83.
+      rzh: 1986 21 Б2045
+      authors: Gasperin M.
+      journal: J. Less-Common Met.
+      year: 1986
+      volume: '119'
+      pages: '83'
+      doi:
+turova-U-7:
+  type: turova_reference
+  element: U
+  turova_item: 7
+  works:
+    - raw: 1974 2 Б495. Alock N.W., J. Chem. Soc., Dalton Trans., 1973, 1610.
+      rzh: 1974 2 Б495
+      authors: Alock N.W.
+      journal: J. Chem. Soc., Dalton Trans.
+      year: 1973
+      volume: '1973'
+      pages: '1610'
+      doi:
+    - raw: 1974 2 Б496. Alock N.W., J. Chem. Soc., Dalton Trans., 1973, 1614.
+      rzh: 1974 2 Б496
+      authors: Alock N.W.
+      journal: J. Chem. Soc., Dalton Trans.
+      year: 1973
+      volume: '1973'
+      pages: '1614'
+      doi:
+    - raw: 1974 2 Б497. Alock N.W., J. Chem. Soc., Dalton Trans., 1973, 1616.
+      rzh: 1974 2 Б497
+      authors: Alock N.W.
+      journal: J. Chem. Soc., Dalton Trans.
+      year: 1973
+      volume: '1973'
+      pages: '1616'
+      doi:
+    - raw: 1982 3 Б656. Stohl F.V., Smith D.K., Am. Miner., 1981, 66, 610.
+      rzh: 1982 3 Б656
+      authors: Stohl F.V., Smith D.K.
+      journal: Am. Miner.
+      year: 1981
+      volume: '66'
+      pages: '610'
+      doi:
+    - raw: 1984 9 Б2030. Сережкин В.Н., Солдаткина М.А., Бойко Н.В., Ж. структ. хим., 1983, 24, 138.
+      rzh: 1984 9 Б2030
+      authors: Сережкин В.Н., Солдаткина М.А., Бойко Н.В.
+      journal: Ж. структ. хим.
+      year: 1983
+      volume: '24'
+      pages: '138'
+      doi:
+    - raw: 1986 22 Б2051. Mayer H., Mereiter K., Tschermaks Miner. and Petrogr. Mitt. 1986, 35, 133.
+      rzh: 1986 22 Б2051
+      authors: Mayer H., Mereiter K.
+      journal: Tschermaks Miner. and Petrogr. Mitt.
+      year: 1986
+      volume: '35'
+      pages: '133'
+      doi:
+turova-U-8:
+  type: turova_reference
+  element: U
+  turova_item: 8
+  works:
+    - raw: 1974 17 Б541. Brusset H. et al., Acta Crystallog., 1974, B30, 768.
+      rzh: 1974 17 Б541
+      authors: Brusset H. et al.
+      journal: Acta Crystallog.
+      year: 1974
+      volume: B30
+      pages: '768'
+      doi:
+    - raw: 1974 19 Б518. Dao N. Q., Chourou S., C. R. Acad. Sci., 1974, C278, 879.
+      rzh: 1974 19 Б518
+      authors: Dao N. Q., Chourou S.
+      journal: C. R. Acad. Sci.
+      year: 1974
+      volume: C278
+      pages: '879'
+      doi:
+    - raw: 1976 9 Б472. Jamet S. et al., C. R. Acad. Sci., 1975, C281, 593.
+      rzh: 1976 9 Б472
+      authors: Jamet S. et al.
+      journal: C. R. Acad. Sci.
+      year: 1975
+      volume: C281
+      pages: '593'
+      doi:
+    - raw: 1980 12 Б425. Nguyen D.Q., Chourou S., Rodier N., C. R. Acad. Sci., 1979, C289, 405.
+      rzh: 1980 12 Б425
+      authors: Nguyen D.Q., Chourou S., Rodier N.
+      journal: C. R. Acad. Sci.
+      year: 1979
+      volume: C289
+      pages: '405'
+      doi:
+    - raw: 1981 6 Б435. Иванов С.Б., Михайлов Ю.Н., Кузнецов В.Г., Давидович Р.Л., Коорд. хим., 1980, 6, 1746.
+      rzh: 1981 6 Б435
+      authors: Иванов С.Б., Михайлов Ю.Н., Кузнецов В.Г., Давидович Р.Л.
+      journal: Коорд. хим.
+      year: 1980
+      volume: '6'
+      pages: '1746'
+      doi:
+    - raw: 1981 23 Б552. Dao N.Q., Chourou S., Heckly J., J. Inorg. Nucl. Chem., 1981, 43, 1835.
+      rzh: 1981 23 Б552
+      authors: Dao N.Q., Chourou S., Heckly J.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1981
+      volume: '43'
+      pages: '1835'
+      doi:
+turova-U-9:
+  type: turova_reference
+  element: U
+  turova_item: 9
+  works:
+    - raw: 1972 2 Б425. Михайлов Ю.Н., Кузнецов В.Г., Ж. неорг. хим., 1971, 16, 2512.
+      rzh: 1972 2 Б425
+      authors: Михайлов Ю.Н., Кузнецов В.Г.
+      journal: Ж. неорг. хим.
+      year: 1971
+      volume: '16'
+      pages: '2512'
+      doi:
+    - raw: 1974 17 Б540. Di Sipio L. et al., Cryst. Struct. Commun., 1974, 3, 301.
+      rzh: 1974 17 Б540
+      authors: Di Sipio L. et al.
+      journal: Cryst. Struct. Commun.
+      year: 1974
+      volume: '3'
+      pages: '301'
+      doi:
+    - raw: 1987 19 Б2053. Van Den Bossche G., Spirlet M.R., Rebizant J., Goffart J., Acta Crystallogr., 1987, C43, 383.
+      rzh: 1987 19 Б2053
+      authors: Van Den Bossche G., Spirlet M.R., Rebizant J., Goffart J.
+      journal: Acta Crystallogr.
+      year: 1987
+      volume: C43
+      pages: '383'
+      doi:
+turova-U-10:
+  type: turova_reference
+  element: U
+  turova_item: 10
+  works:
+    - raw: 1973 11 В11. Wilson P.W., Chem. Commun., 1972, 1241.
+      rzh: 1973 11 В11
+      authors: Wilson P.W.
+      journal: Chem. Commun.
+      year: 1972
+      volume: '1972'
+      pages: '1241'
+      doi:
+    - raw: 1974 16 В19. Wilson P.W., J. Inorg. Nucl. Chem., 1974, 36, 303.
+      rzh: 1974 16 В19
+      authors: Wilson P.W.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1974
+      volume: '36'
+      pages: '303'
+      doi:
+    - raw: 1978 19 В5. Joubert P. et al., Can. J. Chem., 1978, 56, 1874.
+      rzh: 1978 19 В5
+      authors: Joubert P. et al.
+      journal: Can. J. Chem.
+      year: 1978
+      volume: '56'
+      pages: '1874'
+      doi:
+    - raw: 1978 23 В18. Joubert P., Bougon R., Gaudreau B., Can. J. Chem., 1978, 56, 1874.
+      rzh: 1978 23 В18
+      authors: Joubert P., Bougon R., Gaudreau B.
+      journal: Can. J. Chem.
+      year: 1978
+      volume: '56'
+      pages: '1874'
+      doi:
+turova-U-11:
+  type: turova_reference
+  element: U
+  turova_item: 11
+  works:
+    - raw: 1974 24 Б397. Taylor J.C., Wilson P.W., Acta Crystallogr., 1974, B30, 1481.
+      rzh: 1974 24 Б397
+      authors: Taylor J.C., Wilson P.W.
+      journal: Acta Crystallogr.
+      year: 1974
+      volume: B30
+      pages: '1481'
+      doi:
+turova-U-12:
+  type: turova_reference
+  element: U
+  turova_item: 12
+  works:
+    - raw: 1974 23 Б448. Di Sipio L. et al., Cryst. Struct. Commun., 1974, 3, 527.
+      rzh: 1974 23 Б448
+      authors: Di Sipio L. et al.
+      journal: Cryst. Struct. Commun.
+      year: 1974
+      volume: '3'
+      pages: '527'
+      doi:
+    - raw: 1978 18 В95. Щелоков Р.Н., Голубкова Н.А., Болотова Г.Т., Коорд. хим., 1978, 4, 791.
+      rzh: 1978 18 В95
+      authors: Щелоков Р.Н., Голубкова Н.А., Болотова Г.Т.
+      journal: Коорд. хим.
+      year: 1978
+      volume: '4'
+      pages: '791'
+      doi:
+    - raw: 1980 2 Б484. Martin G.L., Martin G.F.J., Rev. Roum. Chim., 1979, 24, 433.
+      rzh: 1980 2 Б484
+      authors: Martin G.L., Martin G.F.J.
+      journal: Rev. Roum. Chim.
+      year: 1979
+      volume: '24'
+      pages: '433'
+      doi:
+    - raw: 1981 16 Б506. Бевз А.С., НИИ Ат. Реакт., Димитровград, Препр., 1980, № 43/451.
+      rzh: 1981 16 Б506
+      authors: Бевз А.С.
+      journal: НИИ Ат. Реакт., Димитровград, Препр.
+      year: 1980
+      issue: № 43/451
+      doi:
+    - raw: 1984 4 В82. Бабаева В.П., Севастьянов В.Г., Росоловский В.Я., Ж. неорг. хим., 1983, 28, 2881.
+      rzh: 1984 4 В82
+      authors: Бабаева В.П., Севастьянов В.Г., Росоловский В.Я.
+      journal: Ж. неорг. хим.
+      year: 1983
+      volume: '28'
+      pages: '2881'
+      doi:
+turova-U-13:
+  type: turova_reference
+  element: U
+  turova_item: 13
+  works:
+    - raw: 1974 23 Б186. Selbin J., Shenill H.J., Inorg. Chem., 1974, 13, 1235.
+      rzh: 1974 23 Б186
+      authors: Selbin J., Shenill H.J.
+      journal: Inorg. Chem.
+      year: 1974
+      volume: '13'
+      pages: '1235'
+      doi:
+turova-U-14:
+  type: turova_reference
+  element: U
+  turova_item: 14
+  works:
+    - raw: 1974 24 Б431. Van der Putten N., Loopstra B.O., Cryst. Struct. Commun., 1974, 3, 377.
+      rzh: 1974 24 Б431
+      authors: Van der Putten N., Loopstra B.O.
+      journal: Cryst. Struct. Commun.
+      year: 1974
+      volume: '3'
+      pages: '377'
+      doi:
+    - raw: 1976 5 Б475. Taylor J.C., Wilson P.W., J. Solid State Chem., 1975, 14, 378.
+      rzh: 1976 5 Б475
+      authors: Taylor J.C., Wilson P.W.
+      journal: J. Solid State Chem.
+      year: 1975
+      volume: '14'
+      pages: '378'
+      doi:
+    - raw: 1981 21 Б467. Сережкин В.Н., Солдаткина М. А., Ефремов В.А., Ж. структ. хим., 1981, 22, 171.
+      rzh: 1981 21 Б467
+      authors: Сережкин В.Н., Солдаткина М. А., Ефремов В.А.
+      journal: Ж. структ. хим.
+      year: 1981
+      volume: '22'
+      pages: '171'
+      doi:
+turova-U-15:
+  type: turova_reference
+  element: U
+  turova_item: 15
+  works:
+    - raw: 1975 1 Б501. Taylor J.C., Wilson P.W., Chem. Commun., 1974, 589.
+      rzh: 1975 1 Б501
+      authors: Taylor J.C., Wilson P.W.
+      journal: Chem. Commun.
+      year: 1974
+      volume: '1974'
+      pages: '589'
+      doi:
+turova-U-16:
+  type: turova_reference
+  element: U
+  turova_item: 16
+  works:
+    - raw: 1994 11 В10 . Fem D., Salatore F., Vasca E., Glaser J., Grenthe I., Acta. Chem. Scand., 1993, 47, 855.
+      rzh: 1994 11 В10
+      authors: Fem D., Salatore F., Vasca E., Glaser J., Grenthe I.
+      journal: Acta. Chem. Scand.
+      year: 1993
+      volume: '47'
+      pages: '855'
+      doi:
+turova-U-17:
+  type: turova_reference
+  element: U
+  turova_item: 17
+  works:
+    - raw: 1975 18 Б470. Levy J.H. et al., Acta Crystallogr., 1975, B31, 880.
+      rzh: 1975 18 Б470
+      authors: Levy J.H. et al.
+      journal: Acta Crystallogr.
+      year: 1975
+      volume: B31
+      pages: '880'
+      doi:
+    - raw: 1981 22 Б672. Murasik A., Fischer P., Szczepaniak W., J. Phys. C,1981, 14, 1847.
+      rzh: 1981 22 Б672
+      authors: Murasik A., Fischer P., Szczepaniak W.
+      journal: J. Phys. C
+      year: 1981
+      volume: '14'
+      pages: '1847'
+      doi:
+    - raw: 1997 24 В116. Aveng L.R., Bott S.G., Clark D.L., Sattelberger A.P., Watkin J.G., Zwick B.D., Inorg. Chem., 1994, 33, 2248.
+      rzh: 1997 24 В116
+      authors: Aveng L.R., Bott S.G., Clark D.L., Sattelberger A.P., Watkin J.G., Zwick B.D.
+      journal: Inorg. Chem.
+      year: 1994
+      volume: '33'
+      pages: '2248'
+      doi:
+turova-U-18:
+  type: turova_reference
+  element: U
+  turova_item: 18
+  works:
+    - raw: 1975 17 В114. Paillet A., These Doct. Ind. Univ. Claude Bernard Acad., Lyon, 1972.
+      rzh: 1975 17 В114
+      authors: Paillet A.
+      journal: These Doct. Ind. Univ. Claude Bernard Acad., Lyon
+      year: 1972
+      doi:
+    - raw: 1977 8 Б376. Bougon R., Charpin P., Desmoulin J.P., Malm J.G., Inorg. Chem., 1976, 15, 2532.
+      rzh: 1977 8 Б376
+      authors: Bougon R., Charpin P., Desmoulin J.P., Malm J.G.
+      journal: Inorg. Chem.
+      year: 1976
+      volume: '15'
+      pages: '2532'
+      doi:
+    - raw: 1982 5 В67. Jahagirdar D.V., Kharwadkar R.M., Indian J. Chem., 1981, A20, 635.
+      rzh: 1982 5 В67
+      authors: Jahagirdar D.V., Kharwadkar R.M.
+      journal: Indian J. Chem.
+      year: 1981
+      volume: A20
+      pages: '635'
+      doi:
+    - raw: 1990 9 В3. Milicev S., Druzina B., Volavsek B., Polyhedron., 1990, 9, 47.
+      rzh: 1990 9 В3
+      authors: Milicev S., Druzina B., Volavsek B.
+      journal: Polyhedron
+      year: 1990
+      volume: '9'
+      pages: '47'
+      doi:
+turova-U-19:
+  type: turova_reference
+  element: U
+  turova_item: 19
+  works:
+    - raw: 1976 2 Б506. Del Piero G. et al., Cryst. Struct. Commun., 1975, 4 521.
+      rzh: 1976 2 Б506
+      authors: Del Piero G. et al.
+      journal: Cryst. Struct. Commun.
+      year: 1975
+      volume: '4'
+      pages: '521'
+      doi:
+turova-U-20:
+  type: turova_reference
+  element: U
+  turova_item: 20
+  works:
+    - raw: 1976 11 В17. Weigel F., Hoffmann G., J. Less-Common Met., 1976, 44, 99.
+      rzh: 1976 11 В17
+      authors: Weigel F., Hoffmann G.
+      journal: J. Less-Common Met.
+      year: 1976
+      volume: '44'
+      pages: '99'
+      doi:
+    - raw: 1983 21 Б545. Сарин В.А., Линде С.А., Фыкин Л.Е., Дударев В.Я., Горбунова Ю.Е., Ж. неорг. хим., 1983, 28, 1538.
+      rzh: 1983 21 Б545
+      authors: Сарин В.А., Линде С.А., Фыкин Л.Е., Дударев В.Я., Горбунова Ю.Е.
+      journal: Ж. неорг. хим.
+      year: 1983
+      volume: '28'
+      pages: '1538'
+      doi:
+    - raw: 1983 18 Б513. Manghi E., Polla G., J. Cryst. Growth., 1983, 61, 606.
+      rzh: 1983 18 Б513
+      authors: Manghi E., Polla G.
+      journal: J. Cryst. Growth
+      year: 1983
+      volume: '61'
+      pages: '606'
+      doi:
+    - raw: 1986 1 Б3147. Pham-Thi M., Colomban P., J. Less-Common Met., 1985, 108, 189.
+      rzh: 1986 1 Б3147
+      authors: Pham-Thi M., Colomban P.
+      journal: J. Less-Common Met.
+      year: 1985
+      volume: '108'
+      pages: '189'
+      doi:
+    - raw: 1986 6 Б2082. Mercier R., Solid State Ionics., 1985, 15, 113.
+      rzh: 1986 6 Б2082
+      authors: Mercier R.
+      journal: Solid State Ionics
+      year: 1985
+      volume: '15'
+      pages: '113'
+      doi:
+    - raw: 1988 5 Б2044. Miller S.A., Taylor J.C., Z. Kristallogr., 1986, 177, 247.
+      rzh: 1988 5 Б2044
+      authors: Miller S.A., Taylor J.C.
+      journal: Z. Kristallogr.
+      year: 1986
+      volume: '177'
+      pages: '247'
+      doi:
+turova-U-21:
+  type: turova_reference
+  element: U
+  turova_item: 21
+  works:
+    - raw: 1976 16 Б332. Folcher G. et al., J. Inorg. Nucl. Chem., 1976, 38, 747.
+      rzh: 1976 16 Б332
+      authors: Folcher G. et al.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1976
+      volume: '38'
+      pages: '747'
+      doi:
+turova-U-22:
+  type: turova_reference
+  element: U
+  turova_item: 22
+  works:
+    - raw: 1979 13 В61. Drozdzynski J., Inorg. Chim. Acta, 1979, 32, 83.
+      rzh: 1979 13 В61
+      authors: Drozdzynski J.
+      journal: Inorg. Chim. Acta
+      year: 1979
+      volume: '32'
+      pages: '83'
+      doi:
+    - raw: 1981 21 Б701. Levet J.C., Noel H., J. Inorg. Nucl. Chem., 1981, 43, 1841.
+      rzh: 1981 21 Б701
+      authors: Levet J.C., Noel H.
+      journal: J. Inorg. Nucl. Chem.
+      year: 1981
+      volume: '43'
+      pages: '1841'
+      doi:
+turova-U-23:
+  type: turova_reference
+  element: U
+  turova_item: 23
+  works:
+    - raw: 1984 21 Б2013. Noel H., Le Marouille J.Y., J. Solid State Chem., 1984, 52, 197.
+      rzh: 1984 21 Б2013
+      authors: Noel H., Le Marouille J.Y.
+      journal: J. Solid State Chem.
+      year: 1984
+      volume: '52'
+      pages: '197'
+      doi:
+turova-U-24:
+  type: turova_reference
+  element: U
+  turova_item: 24
+  works:
+    - raw: 1981 3 Б889. Chadha A., Sampath S., Chackraburtty D., Inorg. Chim. Acta, 1980, 42, 163.
+      rzh: 1981 3 Б889
+      authors: Chadha A., Sampath S., Chackraburtty D.
+      journal: Inorg. Chim. Acta
+      year: 1980
+      volume: '42'
+      pages: '163'
+      doi:
+    - raw: 1981 9 Б432. Bullock J.I., Ladd M.F.C., Povey D.C., Storey A.E., Inorg. Chim. Acta, 1980, 43, 101.
+      rzh: 1981 9 Б432
+      authors: Bullock J.I., Ladd M.F.C., Povey D.C., Storey A.E.
+      journal: Inorg. Chim. Acta
+      year: 1980
+      volume: '43'
+      pages: '101'
+      doi:
+    - raw: 1988 15 В33. Drozdzynski J., J. Less-Common Met., 1988, 138, 271.
+      rzh: 1988 15 В33
+      authors: Drozdzynski J.
+      journal: J. Less-Common Met.
+      year: 1988
+      volume: '138'
+      pages: '271'
+      doi:
+turova-U-25:
+  type: turova_reference
+  element: U
+  turova_item: 25
+  works:
+    - raw: 1981 8 Б856. Суглобова И.Г., Чиркст Д.Э., Коорд. хим., 1981, 1, 97.
+      rzh: 1981 8 Б856
+      authors: Суглобова И.Г., Чиркст Д.Э.
+      journal: Коорд. хим.
+      year: 1981
+      volume: '1'
+      pages: '97'
+      doi:
+    - raw: 1984 6 Б2034. Meyer G., Gäbell H.-C., Hoppe R., J. Less-Common Met., 1983, 93, 347.
+      rzh: 1984 6 Б2034
+      authors: Meyer G., Gäbell H.-C., Hoppe R.
+      journal: J. Less-Common Met.
+      year: 1983
+      volume: '93'
+      pages: '347'
+      doi:
+    - raw: 1991 8 Б2059. Lang Ch., Müller-Buschbaum H., Z. Anorg. Allg. Chem., 1990, 587, 39.
+      rzh: 1991 8 Б2059
+      authors: Lang Ch., Müller-Buschbaum H.
+      journal: Z. Anorg. Allg. Chem.
+      year: 1990
+      volume: '587'
+      pages: '39'
+      doi:
+    - raw: 1997 18 В19. Karbowiak M., Drozdzynski J., Janczak J., Polyhedron, 1996, 15, 241.
+      rzh: 1997 18 В19
+      authors: Karbowiak M., Drozdzynski J., Janczak J.
+      journal: Polyhedron
+      year: 1996
+      volume: '15'
+      pages: '241'
+      doi:
+turova-U-26:
+  type: turova_reference
+  element: U
+  turova_item: 26
+  works:
+    - raw: 1978 14 В121. Мазо Г.Н., Санталова Н.А., Дубровин А.В., Дунаева К.М., Коорд. хим., 1978, 4, 412
+      rzh: 1978 14 В121
+      authors: Мазо Г.Н., Санталова Н.А., Дубровин А.В., Дунаева К.М.
+      journal: Коорд. хим.
+      year: 1978
+      volume: '4'
+      pages: '412'
+      doi:
+    - raw: 1983 10 Б445. Wester D.W., Mulak J., Banks R., Carnall W.T., J. Solid State Chem., 1982, 45, 235.
+      rzh: 1983 10 Б445
+      authors: Wester D.W., Mulak J., Banks R., Carnall W.T.
+      journal: J. Solid State Chem.
+      year: 1982
+      volume: '45'
+      pages: '235'
+      doi:
+    - raw: 1983 21 Б420. Линде С.А., Горбунова Ю.Е., Лавров А.В., Ж. неорг. хим., 1983, 28, 1391.
+      rzh: 1983 21 Б420
+      authors: Линде С.А., Горбунова Ю.Е., Лавров А.В.
+      journal: Ж. неорг. хим.
+      year: 1983
+      volume: '28'
+      pages: '1391'
+      doi:
+    - raw: 1985 17 В73. Матвеев Ю.С., Дунаева К.М., Коорд. хим., 1985, 11, 621.
+      rzh: 1985 17 В73
+      authors: Матвеев Ю.С., Дунаева К.М.
+      journal: Коорд. хим.
+      year: 1985
+      volume: '11'
+      pages: '621'
+      doi:
+turova-U-27:
+  type: turova_reference
+  element: U
+  turova_item: 27
+  works:
+    - raw: 1981 2 Б420. Levy J. H., Taylor J. C., Waugh A. B., Inorg. Chem. 1980, 19, 672.
+      rzh: 1981 2 Б420
+      authors: Levy J. H., Taylor J. C., Waugh A. B.
+      journal: Inorg. Chem.
+      year: 1980
+      volume: '19'
+      pages: '672'
+      doi:
+    - raw: 1985 24 Б3052. Johnson G.K., IUPAK Conf. Chem. Thermodyn., Hamilton, 1984, 94.
+      rzh: 1985 24 Б3052
+      authors: Johnson G.K.
+      journal: IUPAK Conf. Chem. Thermodyn., Hamilton
+      year: 1984
+      pages: '94'
+      doi:
+    - raw: 1986 1 Б3042. Hare P.A.G., J. Chem. Thermodyn., 1985, 17, 611.
+      rzh: 1986 1 Б3042
+      authors: Hare P.A.G.
+      journal: J. Chem. Thermodyn.
+      year: 1985
+      volume: '17'
+      pages: '611'
+      doi:
+    - raw: 1986 1 Б3178. Fouque Y., Bros J.P., Gaune-Escard M., Wisniowski M., Bogacz A., Ber. Bunsenges. Phys. Chem., 1985, 7, 777.
+      rzh: 1986 1 Б3178
+      authors: Fouque Y., Bros J.P., Gaune-Escard M., Wisniowski M., Bogacz A.
+      journal: Ber. Bunsenges. Phys. Chem.
+      year: 1985
+      volume: '7'
+      pages: '777'
+      doi:
+turova-U-28:
+  type: turova_reference
+  element: U
+  turova_item: 28
+  works:
+    - raw: 1978 17 Б559. Rietz R.R., Zalkin A., Templeton D.H., Edelstein N.M., Templeton L.K., Inorg. Chem., 1978, 17, 653
+      rzh: 1978 17 Б559
+      authors: Rietz R.R., Zalkin A., Templeton D.H., Edelstein N.M., Templeton L.K.
+      journal: Inorg. Chem.
+      year: 1978
+      volume: '17'
+      pages: '653'
+      doi:
+    - raw: 1978 17 Б560. Rietz R.R., Edelstein N.M., Ruben H.W., Templeton D.H., Zalkin A., Inorg. Chem., 1978, 17, 658
+      rzh: 1978 17 Б560
+      authors: Rietz R.R., Edelstein N.M., Ruben H.W., Templeton D.H., Zalkin A.
+      journal: Inorg. Chem.
+      year: 1978
+      volume: '17'
+      pages: '658'
+      doi:
+turova-U-29:
+  type: turova_reference
+  element: U
+  turova_item: 29
+  works:
+    - raw: 1983 16 Б387. Favas M.C., Kepert D.L., Patrick J.M., White A.H., J. Chem. Soc., Dalton Trans., 1983, 571.
+      rzh: 1983 16 Б387
+      authors: Favas M.C., Kepert D.L., Patrick J.M., White A.H.
+      journal: J. Chem. Soc., Dalton Trans.
+      year: 1983
+      volume: '1983'
+      pages: '571'
+      doi:
+turova-U-30:
+  type: turova_reference
+  element: U
+  turova_item: 30
+  works:
+    - raw: 1980 21 Б388. Levet J.C., Potel M., Le Marouille J.Y., J. Solid State Chem., 1980, 32, 297
+      rzh: 1980 21 Б388
+      authors: Levet J.C., Potel M., Le Marouille J.Y.
+      journal: J. Solid State Chem.
+      year: 1980
+      volume: '32'
+      pages: '297'
+      doi:
+turova-U-31:
+  type: turova_reference
+  element: U
+  turova_item: 31
+  works:
+    - raw: 1981 20 В49. Wilson W.W., Wilson R.D., Christe K.O., Inorg. Nucl. Chem. 1981, 43, 1551.
+      rzh: 1981 20 В49
+      authors: Wilson W.W., Wilson R.D., Christe K.O.
+      journal: Inorg. Nucl. Chem.
+      year: 1981
+      volume: '43'
+      pages: '1551'
+      doi:
+    - raw: 1983 15 Б904. Cordfunke E.H.P., Ouweltjes W., Vlaanderen P., J. Chem. Thermodyn., 1983, 15, 237.
+      rzh: 1983 15 Б904
+      authors: Cordfunke E.H.P., Ouweltjes W., Vlaanderen P.
+      journal: J. Chem. Thermodyn.
+      year: 1983
+      volume: '15'
+      pages: '237'
+      doi:
+turova-U-32:
+  type: turova_reference
+  element: U
+  turova_item: 32
+  works:
+    - raw: 1985 3 В29. Dickens P.G., Hawke S.V., Weller M.T., Mater. Res. Bull., 1984, 19, 543.
+      rzh: 1985 3 В29
+      authors: Dickens P.G., Hawke S.V., Weller M.T.
+      journal: Mater. Res. Bull.
+      year: 1984
+      volume: '19'
+      pages: '543'
+      doi:
+turova-U-33:
+  type: turova_reference
+  element: U
+  turova_item: 33
+  works:
+    - raw: 1977 1 Б835. Sato T., J. Appl. Chem. Biotechnol., 1976, 26, 207
+      rzh: 1977 1 Б835
+      authors: Sato T.
+      journal: J. Appl. Chem. Biotechnol.
+      year: 1976
+      volume: '26'
+      pages: '207'
+      doi:
+    - raw: 1983 21 Б412. Deliens M., Piret P., Am. Miner., 1983, 68, 456.
+      rzh: 1983 21 Б412
+      authors: Deliens M., Piret P.
+      journal: Am. Miner.
+      year: 1983
+      volume: '68'
+      pages: '456'
+      doi:
+turova-U-34:
+  type: turova_reference
+  element: U
+  turova_item: 34
+  works:
+    - raw: 1981 16 Б506. Бевз А.С., НИИ Ат. Реакт., Димитровград, Препр., 1980, № 43/451, 14.
+      rzh: 1981 16 Б506
+      authors: Бевз А.С.
+      journal: НИИ Ат. Реакт., Димитровград, Препр.
+      year: 1980
+      issue: № 43/451
+      pages: '14'
+      doi:
+    - raw: 1983 18 Б750. Селезнев В.П., Соколов И.П., Константинов С.В., Игнатьев Ю.А., МХТИ, М., 1983, Деп. в ВИНИТИ, № 2676.
+      rzh: 1983 18 Б750
+      authors: Селезнев В.П., Соколов И.П., Константинов С.В., Игнатьев Ю.А.
+      journal: МХТИ, М., Деп. в ВИНИТИ
+      year: 1983
+      issue: № 2676
+      doi:
+turova-U-35:
+  type: turova_reference
+  element: U
+  turova_item: 35
+  works:
+    - raw: 1981 24 Б493. Щелоков Р.Н., Лобанова Г.М. и др., Тез.14 Всес. Чугаевск. совещ. по хим. компл. соед., 1981. Ч.2, 670.
+      rzh: 1981 24 Б493
+      authors: Щелоков Р.Н., Лобанова Г.М. и др.
+      journal: Тез.14 Всес. Чугаевск. совещ. по хим. компл. соед.
+      year: 1981
+      issue: Ч.2
+      pages: '670'
+      doi:
+turova-U-36:
+  type: turova_reference
+  element: U
+  turova_item: 36
+  works:
+    - raw: 1990 2 Б2090. Schleid Th., Meyer G., Naturwissenschaften., 1989, 76, 118.
+      rzh: 1990 2 Б2090
+      authors: Schleid Th., Meyer G.
+      journal: Naturwissenschaften
+      year: 1989
+      volume: '76'
+      pages: '118'
+      doi:

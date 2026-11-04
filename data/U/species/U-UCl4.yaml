@@ -1,0 +1,55 @@
+id: U-UCl4
+formula: UCl4
+names:
+  en: uranium(IV) chloride
+element: U
+oxidation_state: 4.0
+class: halide
+kind: compound
+appearance: green crystals
+solubility: Soluble in organic solvents.
+reactivity: Very hygroscopic.
+structure:
+  description: Tetragonal ionic structure; U surrounded by two interpenetrating [UCl4] tetrahedra (4 short + 4 long contacts).
+  crystal_system: tetragonal
+  coordination_number: 4+4
+  polyhedron: two interpenetrating tetrahedra
+properties:
+  - property: melting_point
+    value: 590
+    unit: °C
+    source: turova1999
+  - property: boiling_point
+    value: 792
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -1023
+    unit: kJ/mol
+    source: turova1999
+  - property: coordination_number
+    value: 4+4
+    source: turova1999
+  - property: bond_distance
+    value: 2.41
+    unit: Å
+    pair: U–Cl
+    site: terminal
+    source: turova1999
+  - property: bond_distance
+    value: 3.09
+    unit: Å
+    pair: U–Cl
+    site: bridging
+    source: turova1999
+  - property: bond_distance
+    value: 2.53
+    unit: Å
+    pair: U–Cl
+    phase: gas
+    source: turova1999
+refs: []
+turova:
+  - page: 1
+    block: p1C-06
+    entry: 1

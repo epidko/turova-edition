@@ -1,0 +1,15 @@
+id: U-KU2F9
+formula: KU2F9
+names:
+  en: potassium diuranium(IV) nonafluoride
+element: U
+oxidation_state: 4.0
+class: coordination_compound
+kind: compound
+notes:
+  - Listed by formula only.
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 1

@@ -1,0 +1,12 @@
+id: U-r-0023
+reactants:
+  - U-U_BH4_4
+products:
+  - U-U_BH4_3
+conditions:
+  temperature_C: 100
+type: reduction
+source: turova1999
+turova:
+  page: 1
+  arrow: p1B-a06

@@ -1,0 +1,19 @@
+id: U-r-0029
+reactants:
+  - U-UO3
+products:
+  - U-UCl4
+reagents:
+  - C
+  - CCl2F2
+type: reduction
+notes:
+  - reactant is the circled reagent UO3 (species on p. 33); CCl2F2 = freon-12
+  - arrowhead at top-right corner of the U(IV) halide table, not at a specific row; UCl4 assumed (UF4 possible)
+issues:
+  - type: to_check
+    text: product UCl4 vs UF4 not determined by the arrowhead
+source: turova1999
+turova:
+  page: 1
+  arrow: p1C-a05

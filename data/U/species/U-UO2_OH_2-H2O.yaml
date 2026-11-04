@@ -1,0 +1,31 @@
+id: U-UO2_OH_2-H2O
+formula: UO2(OH)2.H2O
+element: U
+class: hydroxide
+kind: compound
+oxidation_state: 6.0
+names:
+  en: uranyl hydroxide monohydrate
+  minerals:
+    - en: schoepite
+      printed_ru: шёпит
+    - en: masuyite
+      printed_ru: масуйит
+appearance: yellow precipitate
+solubility: insoluble in water (marked as precipitate)
+turova:
+  - page: 1
+    block: p1D-23
+    entry: 0
+  - page: 2
+    block: p2B-08
+    entry: 2
+notes:
+  - Dehydrates at 100 °C to UO2(OH)2 (p2B-08).
+issues:
+  - type: done
+    text: 'Mineral names modernized: printed «шопит» → шёпит (schoepite), «масюйит» → масуйит (masuyite).'
+    by: E. A. Pidko
+    date: '2026-11-04'
+  - type: to_check
+    text: masuyite is usually described as a lead uranyl oxide hydrate; check its attribution to UO2(OH)2·H2O.

@@ -1,0 +1,28 @@
+id: U-UO2Br
+formula: UO2Br
+element: U
+names:
+  en: uranium(V) dioxide bromide
+oxidation_state: 5.0
+class: oxohalide
+structure:
+  description: Layered structure built of pentagonal bipyramids.
+  polyhedron: pentagonal bipyramid
+properties:
+  - property: bond_distance
+    value: 2.05
+    unit: Å
+    value_max: 2.3
+    pair: U–O
+    source: turova1999
+  - property: bond_distance
+    value: 2.94
+    unit: Å
+    pair: U–Br
+    source: turova1999
+refs:
+  - turova-U-3
+turova:
+  - page: 2
+    block: p2A-01
+    entry: 3

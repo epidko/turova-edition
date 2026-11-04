@@ -1,0 +1,59 @@
+id: U-UF5
+formula: UF5
+element: U
+names:
+  en: uranium pentafluoride
+oxidation_state: 5.0
+class: halide
+appearance: colourless crystals (observed colours are due to impurities)
+solubility: Water-insoluble (marked as precipitate); hydrolysed by water to UF4 and UO2F2.
+reactivity: Very reactive. Above 150 °C gives UF6, U2F9 and U4F17.
+structure:
+  description: 'α-form: tetragonal, linear chains of corner-sharing octahedra. β-form: tetragonal, three-dimensional network of eight-vertex polyhedra.'
+  crystal_system: tetragonal
+properties:
+  - property: melting_point
+    value: 287
+    unit: °C
+    phase: α
+    conditions: under pressure
+    source: turova1999
+  - property: enthalpy_formation
+    value: -2030
+    unit: kJ/mol
+    phase: α
+    source: turova1999
+  - property: melting_point
+    value: 348
+    unit: °C
+    phase: β
+    source: turova1999
+  - property: boiling_point
+    value: 530
+    unit: °C
+    phase: β
+    source: turova1999
+  - property: bond_distance
+    value: 1.96
+    unit: Å
+    value_max: 2.32
+    pair: U–F
+    phase: β
+    source: turova1999
+issues:
+  - type: ambiguous
+    text: Italic letter in parentheses after the melting point read as Latin p (under pressure); it could also be Cyrillic р (glyphs identical).
+  - type: ambiguous
+    text: The source lists the α- and β-modifications as continuation lines of UF5; table row values (m.p., ΔH) and the b.p. 530 and U–F distances printed on the β line are assigned to the respective form.
+refs:
+  - turova-U-5
+turova:
+  - page: 2
+    block: p2A-04
+    entry: 0
+  - page: 2
+    block: p2A-04
+    entry: 1
+  - page: 2
+    block: p2A-04
+    entry: 2

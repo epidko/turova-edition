@@ -1,0 +1,12 @@
+id: U-r-0062
+reactants:
+  - U-UO2_OH_2-H2O
+products:
+  - U-NH4_2U2O7
+reagents:
+  - NH4OH
+type: no_redox
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a31

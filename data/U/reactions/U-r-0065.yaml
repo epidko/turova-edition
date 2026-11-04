@@ -1,0 +1,20 @@
+id: U-r-0065
+reactants:
+  - U-UBr4
+products:
+  - U-UOBr2
+reagents:
+  - O2
+conditions:
+  temperature_C: t
+  text: heating
+type: no_redox
+equilibrium: true
+source: turova1999
+turova:
+  page: 1
+  block: p1C-05
+  arrow: ⇄ (t)
+notes:
+  - Printed after UOBr2 as a reversible arrow (over t) to 'O2 + UГ4' (Г = halogen); no stoichiometry or by-products given.
+  - no_redox with respect to U (U(IV) on both sides).

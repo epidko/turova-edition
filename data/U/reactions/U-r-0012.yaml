@@ -1,0 +1,16 @@
+id: U-r-0012
+reactants:
+  - U-U
+products:
+  - U-UN
+reagents:
+  - N2
+conditions:
+  temperature_C: 450
+type: oxidation
+notes:
+  - upper branch (450°) of the N2 arrow
+source: turova1999
+turova:
+  page: 1
+  arrow: p1A-a09

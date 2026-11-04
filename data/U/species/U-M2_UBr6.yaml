@@ -1,0 +1,35 @@
+id: U-M2_UBr6
+formula: M2[UBr6]
+names:
+  en: hexabromouranates(IV)
+element: U
+oxidation_state: 4
+class: coordination_compound
+kind: family
+generic:
+  symbol: M
+  values:
+    - Rb
+    - Cs
+structure:
+  structure_type: K2PtCl6
+properties:
+  - property: bond_distance
+    value: 2.27
+    unit: Å
+    pair: U–Br
+    source: turova1999
+notes:
+  - Oxidation state +4 set by hand from the formula; skeleton had none.
+issues:
+  - type: source_suspect
+    text: U–Br 2.27 Å read clearly; about 2.8 Å would be expected for [UBr6]2−.
+  - type: to_check
+    text: 'Editor note: U–Br 2.27 Å for M2[UBr6] and U–F up to 3.4 Å for LiUF5 lie outside expected ranges; find solid references.'
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs: []
+turova:
+  - page: 1
+    block: p1D-08
+    entry: 8

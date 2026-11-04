@@ -1,0 +1,42 @@
+id: U-UCl5
+formula: UCl5
+element: U
+names:
+  en: uranium pentachloride
+oxidation_state: 5.0
+class: halide
+appearance: red-brown needles
+reactivity: Hygroscopic. At 120 °C gives UCl4 and UCl6; with water gives UCl4 and UO2Cl2.
+structure:
+  description: Monoclinic and triclinic forms, both built of dimeric molecules of two edge-sharing octahedra.
+  crystal_system: monoclinic; triclinic
+  polyhedron: octahedron
+properties:
+  - property: melting_point
+    value: 320
+    unit: °C
+    conditions: under pressure
+    source: turova1999
+  - property: enthalpy_formation
+    value: -1041
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 2.43
+    unit: Å
+    pair: U–Cl
+    site: terminal
+    source: turova1999
+  - property: bond_distance
+    value: 2.7
+    unit: Å
+    pair: U–Cl
+    site: bridging
+    source: turova1999
+issues:
+  - type: ambiguous
+    text: Italic letter in parentheses after the melting point read as Latin p (under pressure); it could also be Cyrillic р (glyphs identical).
+turova:
+  - page: 2
+    block: p2A-04
+    entry: 3

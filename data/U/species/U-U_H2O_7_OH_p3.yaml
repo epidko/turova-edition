@@ -1,0 +1,15 @@
+id: U-U_H2O_7_OH_p3
+formula: '[U(H2O)7(OH)]^3+'
+element: U
+class: aqua_ion
+kind: ion
+oxidation_state: 4.0
+names:
+  en: heptaaquahydroxidouranium(IV) ion
+appearance: brown
+notes:
+  - Present at pH ≈ 2.
+turova:
+  - page: 1
+    block: p1D-16
+    entry: 0

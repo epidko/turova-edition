@@ -1,0 +1,23 @@
+id: U-UO2_CO3
+formula: UO2(CO3)
+names:
+  en: uranyl carbonate
+  minerals:
+    - en: rutherfordine
+      printed_ru: резерфордин
+element: U
+oxidation_state: 6.0
+class: oxoacid_salt
+kind: compound
+solubility: insoluble in water (precipitate)
+properties:
+  - property: decomposition_temperature
+    value: 500
+    unit: °C
+    source: turova1999
+notes:
+  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 10

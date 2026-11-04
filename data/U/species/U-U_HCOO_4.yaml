@@ -1,0 +1,19 @@
+id: U-U_HCOO_4
+formula: U(HCOO)4
+element: U
+class: carboxylate
+kind: compound
+names:
+  en: uranium(IV) formate
+oxidation_state: 4.0
+properties:
+  - property: magnetic_moment
+    value: 3.27
+    source: turova1999
+    unit: μB
+refs:
+  - turova-U-1
+turova:
+  - page: 1
+    block: p1C-04
+    entry: 6

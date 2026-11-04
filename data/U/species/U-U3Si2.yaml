@@ -1,0 +1,17 @@
+id: U-U3Si2
+formula: U3Si2
+element: U
+class: silicide
+kind: compound
+oxidation_state:
+names:
+  en: triuranium disilicide
+properties:
+  - property: melting_point
+    value: 1665
+    unit: °C
+    source: turova1999
+turova:
+  - page: 1
+    block: p1A-12
+    entry: 19

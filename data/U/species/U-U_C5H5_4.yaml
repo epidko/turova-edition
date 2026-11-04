@@ -1,0 +1,27 @@
+id: U-U_C5H5_4
+formula: U(C5H5)4
+names:
+  en: tetrakis(cyclopentadienyl)uranium(IV)
+element: U
+oxidation_state: 4.0
+class: organometallic
+kind: compound
+appearance: red crystals
+reactivity: Not hydrolysed.
+properties:
+  - property: decomposition_temperature
+    value: 250
+    unit: °C
+    source: turova1999
+issues:
+  - type: source_suspect
+    text: The source labels U(C5H5)4 «ураноцен» (uranocene); that name normally denotes U(C8H8)2. Transcribed verbatim in the source; name not adopted here.
+  - type: to_check
+    text: 'Editor note: «ураноцен» is wrong for U(C5H5)4: the compound is tetrakis(cyclopentadienyl)uranium(IV), red crystals; uranocene is U(C8H8)2.'
+    by: E. A. Pidko
+    date: '2026-11-04'
+refs: []
+turova:
+  - page: 1
+    block: p1C-07
+    entry: 5

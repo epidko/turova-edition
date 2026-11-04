@@ -1,0 +1,12 @@
+id: U-r-0053
+reactants:
+  - U-UO2_p
+products:
+  - U-UF6_m
+reagents:
+  - F-
+type: no_redox
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a22

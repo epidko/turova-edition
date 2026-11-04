@@ -1,0 +1,71 @@
+id: U-U3O8
+formula: U3O8
+names:
+  en: triuranium octoxide
+element: U
+oxidation_state: 5.333
+class: oxide
+kind: compound
+appearance: black-green crystals
+reactivity: Dissolves in nitric acid giving U4+ and uranyl ions.
+structure:
+  description: 'α-U3O8: chains of pentagonal bipyramids; six U–O at 2.07–2.23 Å, plus single O atoms at 2.44 and 2.71 Å. β-U3O8 (above 1350 °C): two U atoms with C.N. 7 and one octahedral U.'
+  polyhedron: pentagonal bipyramid (α)
+properties:
+  - property: density
+    value: 8.3
+    unit: g/cm3
+    source: turova1999
+  - property: decomposition_temperature
+    value: 1450
+    unit: °C
+    source: turova1999
+  - property: enthalpy_formation
+    value: -3584
+    unit: kJ/mol
+    source: turova1999
+  - property: bond_distance
+    value: 2.07
+    unit: Å
+    pair: U–O
+    phase: α
+    note: 6 O atoms
+    source: turova1999
+    value_max: 2.23
+  - property: bond_distance
+    value: 2.44
+    unit: Å
+    pair: U–O
+    phase: α
+    note: 1 O atom
+    source: turova1999
+  - property: bond_distance
+    value: 2.71
+    unit: Å
+    pair: U–O
+    phase: α
+    note: 1 O atom
+    source: turova1999
+  - property: transition_temperature
+    value: 1350
+    unit: °C
+    conditions: α→β
+    source: turova1999
+  - property: coordination_number
+    value: '7'
+    phase: β
+    note: two of the three U atoms; the third is octahedral (6)
+    source: turova1999
+  - property: bond_distance
+    value: 1.89
+    unit: Å
+    pair: U–O
+    phase: β
+    source: turova1999
+    value_max: 2.4
+notes:
+  - Mixed-valence oxide; oxidation state 5.33 is the formal average.
+turova:
+  - page: 2
+    block: p2B-05
+    entry: 0

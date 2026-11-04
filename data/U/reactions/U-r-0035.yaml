@@ -1,0 +1,17 @@
+id: U-r-0035
+reactants:
+  - OFFPAGE:p33
+products:
+  - U-U_SO4_2-nH2O
+reagents:
+  - EtOH
+  - H2SO4
+conditions:
+  irradiation: visible
+type: reduction
+notes:
+  - 'no tail on p. 32: the line forms a corner at x≈1567 next to the gutter and shares it with p1D-a07; source on p. 33, likely a uranyl compound (UO2SO4, U-UO2_SO4), photoreduced by ethanol'
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a06

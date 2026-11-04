@@ -1,0 +1,27 @@
+id: U-UF2_SO3F_3
+formula: UF2(SO3F)3
+names:
+  en: uranium(V) difluoride tris(fluorosulfate)
+element: U
+oxidation_state: 5
+class: oxoacid_salt
+kind: compound
+appearance: green crystals
+properties:
+  - property: decomposition_temperature
+    value: 86
+    unit: °C
+    source: turova1999
+  - property: magnetic_moment
+    value: 1
+    unit: μB
+    source: turova1999
+    note: μeff
+issues:
+  - type: source_suspect
+    text: μeff = 1 read clearly (no decimals); unusually round value.
+refs: []
+turova:
+  - page: 2
+    block: p2A-05
+    entry: 1

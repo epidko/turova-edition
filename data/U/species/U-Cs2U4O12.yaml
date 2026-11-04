@@ -1,0 +1,14 @@
+id: U-Cs2U4O12
+formula: Cs2U4O12
+element: U
+oxidation_state: 5.5
+class: uranate
+kind: compound
+notes:
+  - Mixed-valence caesium uranate; oxidation state 5.5 is the formal average.
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2B-10
+    entry: 0

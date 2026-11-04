@@ -1,0 +1,22 @@
+id: U-r-0037
+reactants:
+  - U-UF4
+products:
+  - U-U4F17
+reagents:
+  - XeF2
+  - UF6
+conditions:
+  temperature_C: 300
+  text: XeF2 at 20 °C; UF6, branch (300°) to U4F17
+type: oxidation
+notes:
+  - trunk (p1D-a08) starts at the right edge of the U(IV) halide table without arrowhead; UF4 is the only sensible starting halide
+  - 'fork at ≈(1430,605): left branch (300°) ends at bottom-left of the box under U4F17'
+issues:
+  - type: to_check
+    text: assignment 300° -> U4F17, 200° -> U2F9 by arrowhead position under the formulas
+source: turova1999
+turova:
+  page: 1
+  arrow: p1D-a09

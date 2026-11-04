@@ -1,0 +1,13 @@
+id: U-UOI2
+formula: UOI2
+element: U
+class: oxohalide
+kind: compound
+names:
+  en: uranium(IV) oxide diiodide
+oxidation_state: 4.0
+refs: []
+turova:
+  - page: 1
+    block: p1C-05
+    entry: 3

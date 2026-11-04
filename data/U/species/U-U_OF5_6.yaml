@@ -1,0 +1,20 @@
+id: U-U_OF5_6
+formula: U(OЭF5)6
+names:
+  en: uranium(VI) hexakis(pentafluoroorthochalcogenates)
+element: U
+oxidation_state: 6
+class: oxoacid_salt
+kind: family
+generic:
+  symbol: Э
+  values:
+    - S
+    - Se
+    - Te
+  note: Э = chalcogen (E)
+refs: []
+turova:
+  - page: 2
+    block: p2D-05
+    entry: 1
