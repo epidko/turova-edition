@@ -1,16 +1,17 @@
 id: U-r-0092
 reactants:
-  - U-UO2x
+  - U-UCl6
 products:
-  - U-UO2_NO3_2-6H2O
-reagents:
-  - \ce{HNO3}
-type: oxidation
+  - U-UCl5
+byproducts:
+  - Cl2
+conditions:
+  temperature_C: 150
+type: reduction
 notes:
-  - Reactant is the (UO2) reagent circle; mapped to UO_{2+x} (U-UO2x, p. 32) — no plain UO2 species id exists.
-  - Head at the box left edge exactly at the top of the UO2(NO3)2·6H2O line (entry p2D-01/4).
+  - "Second half of the label '; −Cl2 (150°)': UCl6 → UCl5."
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a09
+  arrow: p2B-a14
   block:

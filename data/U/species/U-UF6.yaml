@@ -15,6 +15,8 @@ structure:
   description: Molecular; the UF6 molecule is a distorted octahedron.
   coordination_number: '6'
   polyhedron: distorted octahedron
+  inferred:
+    - coordination_number
 properties:
   - property: melting_point
     value: 64
@@ -64,3 +66,4 @@ turova:
   - page: 2
     block: p2D-06
     entry: 0
+oxidation_state_basis: formula

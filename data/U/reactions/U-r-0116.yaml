@@ -1,17 +1,17 @@
 id: U-r-0116
 reactants:
-  - U-UO2F2
-products:
   - U-UF6
-  - U-U3O8
-byproducts:
-  - O2
-conditions:
-  temperature_C: 700
+products:
+  - U-UF4
 type: reduction
-notes:
-  - Part of the U(VI) ends up in U3O8 (average 5.33) while oxide oxygen is released as O2.
 source: turova1999
 turova:
   page: 2
-  block: p2D-01
+  block: p2D-06
+reagents:
+  - HBr
+byproducts:
+  - Br2
+  - HF
+notes:
+  - UF6 acts as oxidant.

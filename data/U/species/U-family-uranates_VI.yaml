@@ -1,0 +1,19 @@
+id: U-family-uranates_VI
+formula: M2O.mUO3
+names:
+  en: uranates(VI)
+class: uranate
+kind: family
+generic:
+  symbol: M
+  values: []
+  note: alkali, alkaline-earth or other metal; see member records
+oxidation_state: 6
+oxidation_state_basis: formula
+appearance: insoluble in water (precipitates)
+refs:
+  - turova-U-6
+turova:
+  - page: 2
+    block: p2C-07
+element: U

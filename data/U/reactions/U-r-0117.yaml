@@ -1,15 +1,15 @@
 id: U-r-0117
 reactants:
-  - U-UO2S
+  - U-UCl6
 products:
-  - U-UO2_OH_2
+  - U-U_OR_6
 reagents:
-  - O2
-  - H2O
+  - NaOR
 type: no_redox
 notes:
-  - U stays +6; sulfide sulfur is oxidized (sulfur product not printed).
+  - Short vertical arrow from the bottom of the UF6/UCl6 table (UCl6 row) to the U(OR)6 line (p2D-08), not to M[U(OR)6]n (p2B-17).
 source: turova1999
 turova:
   page: 2
-  block: p2D-01
+  arrow: p2D-a13
+  block:

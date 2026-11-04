@@ -7,9 +7,10 @@ oxidation_state: 6.0
 class: carboxylate
 kind: compound
 solubility: insoluble in water (precipitate)
-notes:
-  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+notes: []
 turova:
   - page: 2
     block: p2D-01
     entry: 12
+family: U-family-uranyl_salts
+oxidation_state_basis: formula

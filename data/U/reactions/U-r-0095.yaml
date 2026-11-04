@@ -1,15 +1,18 @@
 id: U-r-0095
 reactants:
-  - U-UF5
+  - U-UO2_CH3COO_2
 products:
-  - U-HUF6-nH2O
+  - U-UO2S
 reagents:
-  - \ce{HF}
+  - (NH4)2S
 type: no_redox
 notes:
-  - Tail at the right edge of the halide table in the UF5 row; head at the HUF6·nH2O line.
+  - Tail leaves the box left edge at the UO2(CH3COO)2 line (y~678); runs down outside the box along x~655; head re-enters at y~848, between the UO2(OR)2 and UO2S lines; product UO2S by the reagent.
+issues:
+  - type: to_check
+    text: head sits at the UO2(OR)2/UO2S boundary; UO2S chosen chemically
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a12
+  arrow: p2B-a16
   block:

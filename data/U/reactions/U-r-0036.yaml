@@ -1,6 +1,6 @@
 id: U-r-0036
 reactants:
-  - OFFPAGE:p33
+  - U-U3O8
 products:
   - U-U2O2Cl5
 reagents:
@@ -12,3 +12,11 @@ source: turova1999
 turova:
   page: 1
   arrow: p1D-a07
+  continues:
+    page: 2
+    arrow: p2A-a01
+issues:
+  - type: to_check
+    text: Paired by geometry with the lower dash-dot branch from U3O8 on p. 33; UO2Cl2 or UO2Cl would be chemically more usual for U2O2Cl5.
+    by: E. A. Pidko (policy)
+    date: '2026-11-04'

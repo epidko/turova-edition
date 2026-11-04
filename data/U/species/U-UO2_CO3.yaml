@@ -5,6 +5,7 @@ names:
   minerals:
     - en: rutherfordine
       printed_ru: резерфордин
+      status: accepted
 element: U
 oxidation_state: 6.0
 class: oxoacid_salt
@@ -15,9 +16,10 @@ properties:
     value: 500
     unit: °C
     source: turova1999
-notes:
-  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+notes: []
 turova:
   - page: 2
     block: p2D-01
     entry: 10
+family: U-family-uranyl_salts
+oxidation_state_basis: formula

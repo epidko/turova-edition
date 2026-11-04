@@ -9,11 +9,12 @@ kind: family
 generic:
   symbol: n
   note: n not printed
-notes:
-  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+notes: []
 refs:
   - turova-U-20
 turova:
   - page: 2
     block: p2D-01
     entry: 7
+family: U-family-uranyl_salts
+oxidation_state_basis: formula

@@ -1,17 +1,17 @@
 id: U-r-0109
 reactants:
-  - U-UO2_O2_-nH2O
-products: []
-reagents:
-  - \ce{H2O + MOH}
+  - U-UO2_CH3COO_2-2H2O
+products:
+  - U-UO2_CH3COO_2
+byproducts:
+  - H2O
+conditions:
+  temperature_C: 110
+  text: dehydration of UO2(CH3COO)2·2H2O to the anhydrous acetate
 type: no_redox
 notes:
-  - Head at the top edge (heading) of the «Пероксоуранаты» box — peroxouranates in general.
-issues:
-  - type: to_check
-    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the product (peroxouranates)'
+  - Reactant is the dihydrate, which has no separate id; recorded under the parent id.
 source: turova1999
 turova:
   page: 2
-  arrow: p2C-a07
-  block:
+  block: p2D-01

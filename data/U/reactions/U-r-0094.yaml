@@ -1,19 +1,26 @@
 id: U-r-0094
 reactants:
-  - U-UO3
+  - U-UF4
 products:
-  - U-UO2_NO3_2-6H2O
+  - U-UF6
+  - U-UO2F2
 reagents:
-  - \ce{N2O4}
-type: no_redox
+  - O2
+byproducts: []
+conditions:
+  temperature_C: 800
+type: oxidation
 notes:
-  - Solid line from the same (U; UO3) circle — the solid one is for UO3; the N2O4 label applies to both parallel lines.
-  - "Head at the '· 2NO2' line: product UO2(NO3)2·2NO2 (entry p2D-01/4)."
+  - Lower label 'O2 (800°, −O2F2)'. By-product printed as O2F2; the known reaction 2UF4 + O2 → UF6 + UO2F2 suggests UO2F2.
 issues:
   - type: to_check
-    text: product is the ·2NO2 adduct, which has no own species id
+    text: by-product printed «−O2F2»; possibly UO2F2 (U-UO2F2) — check the scan at 600 dpi
+  - type: source_suspect
+    text: By-product printed as «−O2F2»; recorded as UO2F2 (2 UF4 + O2 → UF6 + UO2F2).
+    by: E. A. Pidko (policy)
+    date: '2026-11-04'
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a11
+  arrow: p2B-a15
   block:

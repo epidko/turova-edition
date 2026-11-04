@@ -1,20 +1,15 @@
 id: U-r-0097
 reactants:
-  - U-UF6
+  - U-NH4_2U2O7
 products:
-  - U-UF5
-byproducts:
-  - \ce{F2}
+  - U-UO3
 conditions:
-  irradiation: UV
-type: reduction
+  text: heating (t)
+type: no_redox
 notes:
-  - 'The line starts at the UCl6 row of the UF6/UCl6 table and ends at the right edge of the UF5/UCl5/UBr5 table (UBr5 rows); products assigned from the label: УФ (−F2) for UF6 → UF5.'
-issues:
-  - type: to_check
-    text: endpoints assigned from the label, not from the line position
+  - 'From the (UO2(NO3)2; (NH4)2U2O7) circle: second alternative reactant.'
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a14
+  arrow: p2C-a01
   block:

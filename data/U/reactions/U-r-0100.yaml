@@ -1,22 +1,18 @@
 id: U-r-0100
 reactants:
-  - U-UF4
+  - U-UO2_O2_-nH2O
 products:
-  - U-UF6
-reagents:
-  - \ce{O2}
-byproducts:
-  - \ce{O2F2}
+  - U-UO3
 conditions:
-  temperature_C: 800
-type: oxidation
+  text: heating (t)
+type: reduction
 notes:
-  - Lower label 'O2 (800°, −O2F2)'. By-product printed as O2F2; the known reaction 2UF4 + O2 → UF6 + UO2F2 suggests UO2F2.
+  - 'Dash-dot: reduction of the peroxide ligand (loss of O2); U stays +6.'
 issues:
   - type: to_check
-    text: by-product printed «−O2F2»; possibly UO2F2 (U-UO2F2) — check the scan at 600 dpi
+    text: dash-dot (reduction) but U oxidation state unchanged (+6 → +6); the redox concerns the peroxo ligand
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a15
+  arrow: p2C-a04
   block:

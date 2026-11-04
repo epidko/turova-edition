@@ -1,20 +1,15 @@
 id: U-r-0089
-reactants: []
+reactants:
+  - U-UF5
 products:
-  - U-LiUO3
+  - U-HUF6-nH2O
 reagents:
-  - \ce{H2}
-type: reduction
+  - HF
+type: no_redox
 notes:
-  - Tail at the left edge of the Uranates(VI) box (y~425, between the K4U5O17 and M2U7O22 lines) — no specific entry; probably a lithium uranate(VI) such as M2UO4 (M = Li, U-M2UO4) or Li6UO6.
-  - Head at the bottom edge of the Uranates(V) box, directly under the LiUO3 line (last entry).
-issues:
-  - type: to_check
-    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the reactant (uranates(VI) in general)'
-  - type: to_check
-    text: product LiUO3 chosen because the head touches the box bottom under its line; could stand for all Li uranates(V)
+  - Tail at the right edge of the halide table in the UF5 row; head at the HUF6·nH2O line.
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a06
+  arrow: p2B-a12
   block:

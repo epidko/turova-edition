@@ -1,19 +1,16 @@
 id: U-r-0093
 reactants:
-  - U-U
+  - U-UF4
 products:
-  - U-UO2_NO3_2-6H2O
+  - U-UF6
 reagents:
-  - \ce{N2O4}
+  - F2 + Cl2
+  - XeF_{$n$}
 type: oxidation
 notes:
-  - Dashed line from the (U; UO3) circle — the dashed one is for U metal (oxidation).
-  - Head at the '· 2NO2' line of the UO2(NO3)2 entry, i.e. product is the adduct UO2(NO3)2·2NO2 (no separate species id; entry p2D-01/4).
-issues:
-  - type: to_check
-    text: product is the ·2NO2 adduct, which has no own species id
+  - Upper label 'F2 + Cl2; XeFn'. Head at the UF6 row of the UF6/UCl6 table.
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a10
+  arrow: p2B-a15
   block:

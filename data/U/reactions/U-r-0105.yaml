@@ -1,18 +1,20 @@
 id: U-r-0105
 reactants:
-  - U-UO3
+  - U-NH4_4_UO2_CO3_3_-2H2O
 products:
-  - U-UO2_OH_2
+  - U-family-uranates_VI
 reagents:
-  - \ce{H2O}
+  - H2O
+conditions:
+  text: heating (t)
 type: no_redox
 notes:
-  - Head passes the box frame and ends below the H2U2O7 line, at the level of the '↑160°' mark, above the UO2(OH)2 line; product read as UO2(OH)2 (hydration).
+  - Reverse direction of the same two-headed arrow (label 'H2O (t)', arrowhead at the Uranates(VI) box corner); product probably (NH4)2U2O7.
 issues:
   - type: to_check
-    text: head between H2U2O7 and UO2(OH)2 lines; H2U2O7 also possible
+    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the uranate end'
 source: turova1999
 turova:
   page: 2
-  arrow: p2C-a03
+  arrow: p2C-a08
   block:

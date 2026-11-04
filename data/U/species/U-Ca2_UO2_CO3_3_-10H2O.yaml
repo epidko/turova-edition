@@ -4,8 +4,10 @@ element: U
 names:
   en: calcium tris(carbonato)dioxouranate(VI) decahydrate
   minerals:
-    - en: uranothallite
+    - en: liebigite
       printed_ru: ураноталлит
+      book_name: uranothallite
+      status: accepted
 oxidation_state: 6
 class: coordination_compound
 structure:
@@ -19,9 +21,15 @@ issues:
     text: Footnote mark printed at the end of a line listing several compounds; the reference is assigned to every compound on that line.
   - type: to_check
     text: Mineral name 'ураноталлит' rendered as uranothallite; this name is regarded as a synonym of liebigite in current nomenclature. Editor to decide which English name to show.
+  - type: done
+    text: Turova's «ураноталлит» (uranothallite) is now named liebigite.
+    by: E. A. Pidko (policy)
+    date: '2026-11-04'
 refs:
   - turova-U-7
 turova:
   - page: 2
     block: p2D-02
     entry: 12
+family: U-family-uranyl_salts
+oxidation_state_basis: formula

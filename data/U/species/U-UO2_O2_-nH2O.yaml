@@ -5,8 +5,10 @@ names:
   minerals:
     - en: studtite
       printed_ru: штудтит
+      status: accepted
     - en: metastudtite
       printed_ru: меташтудтит
+      status: accepted
 element: U
 oxidation_state: 6.0
 class: peroxo
@@ -27,3 +29,4 @@ turova:
   - page: 2
     block: p2C-06
     entry: 0
+oxidation_state_basis: formula

@@ -1,0 +1,23 @@
+id: U-UO2SO4-nH2O
+formula: UO2SO4.nH2O
+names:
+  en: uranyl sulfate hydrates
+element: U
+class: oxoacid_salt
+kind: family
+generic:
+  symbol: n
+  values:
+    - '2.5'
+    - '3.5'
+oxidation_state: 6.0
+hydrate_of: U-UO2_SO4
+properties: []
+refs: []
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 2
+family: U-family-uranyl_salts
+notes: []
+oxidation_state_basis: formula

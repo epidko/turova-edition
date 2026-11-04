@@ -8,9 +8,11 @@ names:
   minerals:
     - en: coffinite
       printed_ru: коффинит
+      status: accepted
 oxidation_state: 4.0
 refs: []
 turova:
   - page: 1
     block: p1C-04
     entry: 9
+oxidation_state_basis: formula

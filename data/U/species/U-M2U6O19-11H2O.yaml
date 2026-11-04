@@ -4,8 +4,10 @@ names:
   minerals:
     - en: compreignacite
       printed_ru: компреньякит
+      status: accepted
     - en: billietite
       printed_ru: бильетит
+      status: accepted
 element: U
 oxidation_state: 6
 class: uranate
@@ -34,3 +36,5 @@ turova:
   - page: 2
     block: p2C-07
     entry: 13
+family: U-family-uranates_VI
+oxidation_state_basis: inferred

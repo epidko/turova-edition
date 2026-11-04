@@ -1,19 +1,22 @@
 id: U-r-0090
-reactants: []
+reactants:
+  - U-UCl6
 products:
-  - U-U3O8
-conditions:
-  text: heating (t)
-type: no_redox
+  - U-HUF6-nH2O
+reagents:
+  - HF
+byproducts:
+  - Cl2
+  - HCl
+type: reduction
 notes:
-  - Tail at the top edge of the «Соли уранила» box (x~785), i.e. uranyl salts in general; head at the bottom of the U3O8 box.
+  - Branches from the UV/150° dash-dot line that starts at the UCl6 row; the label (-Cl2, -HCl) fixes UCl6 as reactant.
+  - Head at the bottom edge of the M3[UF8] box (below the M[UCl6] line); product chosen as HUF6 (HUF6·nH2O entry), the only fluoride in the box fitting UCl6 + HF − Cl2 − HCl.
 issues:
   - type: to_check
-    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the reactant (uranyl salts in general)'
-  - type: to_check
-    text: line is solid (no change of oxidation state) but U(VI) → U3O8 (mean +5.33) is a reduction
+    text: product inferred (head at box bottom, nearest line M[UCl6]); HUF6 chosen chemically
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a07
+  arrow: p2B-a13
   block:

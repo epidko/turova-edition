@@ -2,7 +2,7 @@ id: U-r-0040
 reactants:
   - U-UF4
 products:
-  - OFFPAGE:p33
+  - U-UF5
 reagents:
   - UF6
 conditions:
@@ -14,3 +14,6 @@ source: turova1999
 turova:
   page: 1
   arrow: p1D-a12
+  continues:
+    page: 2
+    arrow:

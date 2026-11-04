@@ -1,0 +1,16 @@
+id: U-family-peroxouranates
+formula: M_{x}[UO2(O2)_{y}L_{z}]
+names:
+  en: peroxouranates
+class: peroxo
+kind: family
+generic:
+  symbol: M
+  values: []
+  note: see member records
+oxidation_state: 6
+oxidation_state_basis: inferred
+turova:
+  - page: 2
+    block: p2C-08
+element: U

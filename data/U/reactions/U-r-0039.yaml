@@ -2,7 +2,7 @@ id: U-r-0039
 reactants:
   - U-UCl4
 products:
-  - OFFPAGE:p33
+  - U-UOCl3
 reagents:
   - UO2Cl2
 conditions:
@@ -15,3 +15,6 @@ source: turova1999
 turova:
   page: 1
   arrow: p1D-a11
+  continues:
+    page: 2
+    arrow:

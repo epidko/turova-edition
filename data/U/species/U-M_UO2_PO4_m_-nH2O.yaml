@@ -6,12 +6,16 @@ names:
   minerals:
     - en: saleeite
       printed_ru: салеит
+      status: accepted
     - en: autunite
       printed_ru: отунит
+      status: accepted
     - en: torbernite
       printed_ru: торбернит
+      status: accepted
     - en: parsonsite
       printed_ru: парсонсит
+      status: accepted
 oxidation_state: 6
 class: oxoacid_salt
 kind: family
@@ -37,3 +41,5 @@ turova:
   - page: 2
     block: p2D-02
     entry: 7
+family: U-family-uranyl_salts
+oxidation_state_basis: inferred

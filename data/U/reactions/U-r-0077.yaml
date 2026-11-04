@@ -1,15 +1,16 @@
 id: U-r-0077
 reactants:
-  - U-U_OR_5
+  - U-HUF6-nH2O
 products:
-  - U-U_OR_6
+  - U-UF4
+  - U-UO2F2
 reagents:
-  - \ce{(PhCH2O)2}
-type: oxidation
+  - H2O
+type: disproportionation
 notes:
-  - Label printed as (PhCH2O—)2 (dibenzyl peroxide).
+  - Disproportionation of U(V) (oxidation and reduction together); type left as 'unknown'.
+  - UF4 is formed as a precipitate.
 source: turova1999
 turova:
   page: 2
-  arrow: p2A-a04
-  block:
+  block: p2B-15

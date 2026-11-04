@@ -10,6 +10,8 @@ structure:
   description: 'Pentagonal bipyramid: two axial oxo ligands (U=O) and five equatorial fluorides.'
   coordination_number: '7'
   polyhedron: pentagonal bipyramid
+  inferred:
+    - coordination_number
 properties:
   - property: bond_distance
     value: 1.75
@@ -33,3 +35,4 @@ turova:
   - page: 2
     block: p2D-03
     entry: 0
+oxidation_state_basis: formula

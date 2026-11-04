@@ -1,16 +1,20 @@
 id: U-r-0072
 reactants:
-  - U-UF5
+  - U-PyH_2_UOCl5
 products:
-  - U-UF4
-  - U-UO2F2
+  - U-UO_OR_3
 reagents:
-  - \ce{H2O}
-type: disproportionation
+  - NH3
+  - ROH
+type: no_redox
 notes:
-  - 'Inline: UF5 + H2O → UF4 + UO2F2 (hydrolytic disproportionation, +5 → +4 / +6).'
+  - 'Tail at the bottom-left corner of the [R4N]2[UOF5]/[PyH]2[UOCl5]/[R4N]2[UOBr5] box (nearest line: [R4N]2[UOBr5]); head points at the UO(OR)3 line.'
+  - Reactant chosen as the chloro complex [PyH]2[UOCl5] (usual alkoxide precursor); the arrow may stand for all three oxohalide complexes.
+issues:
+  - type: to_check
+    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the reactant; could be any of the three [UOX5]2- salts'
 source: turova1999
 turova:
   page: 2
-  arrow:
-  block: p2A-04
+  arrow: p2A-a02
+  block:

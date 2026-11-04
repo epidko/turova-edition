@@ -1,13 +1,14 @@
 id: U-r-0033
 reactants:
-  - OFFPAGE:p33
+  - U-U3O8
+  - U-UO2x
 products:
   - U-U3O7
-reagents:
-  - UO2
-type: no_redox
+reagents: []
+type: comproportionation
 notes:
   - 'solid branch off the H2/CO line (p1D-a03): the p. 33 oxide (likely U3O8 / UO3) + UO2 -> U3O7 (comproportionation; UO2 printed as reagent label)'
+  - Drawn as a solid line; U3O8 + UO2 → U3O7 (comproportionation).
 issues:
   - type: to_check
     text: solid line (no_redox) but U3O8/UO3 + UO2 -> U3O7 changes U oxidation states (comproportionation)
@@ -15,3 +16,6 @@ source: turova1999
 turova:
   page: 1
   arrow: p1D-a04
+  continues:
+    page: 2
+    arrow: p2A-a01

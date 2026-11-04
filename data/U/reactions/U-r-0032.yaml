@@ -1,6 +1,6 @@
 id: U-r-0032
 reactants:
-  - OFFPAGE:p33
+  - U-U3O8
 products:
   - U-UO2x
 reagents:
@@ -15,3 +15,6 @@ source: turova1999
 turova:
   page: 1
   arrow: p1D-a03
+  continues:
+    page: 2
+    arrow: p2A-a01

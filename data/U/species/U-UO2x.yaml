@@ -8,10 +8,15 @@ names:
   minerals:
     - en: uraninite
       printed_ru: уранинит
-    - en: bröggerite
+      status: accepted
+    - en: uraninite (var. bröggerite)
       printed_ru: бреггерит
-    - en: cleveite
+      book_name: bröggerite
+      status: variety
+    - en: uraninite (var. cleveite)
       printed_ru: клевеит
+      book_name: cleveite
+      status: variety
 oxidation_state: 4
 appearance: black-brown crystals; sometimes pyrophoric
 solubility: soluble in acids
@@ -49,3 +54,4 @@ turova:
   - page: 1
     block: p1C-02
     entry: 0
+oxidation_state_basis: formal

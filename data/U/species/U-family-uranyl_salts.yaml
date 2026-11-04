@@ -1,0 +1,36 @@
+id: U-family-uranyl_salts
+formula: UO2X2
+names:
+  en: uranyl salts
+class: oxoacid_salt
+kind: family
+generic:
+  symbol: X
+  values: []
+  note: singly charged anion (or ½ of a dianion); see member records
+oxidation_state: 6
+oxidation_state_basis: formula
+appearance: yellow crystals, fluorescent
+structure:
+  description: linear uranyl ion [O=U=O]2+ with equatorial ligands
+properties:
+  - property: bond_distance
+    value: 1.61
+    value_max: 1.93
+    unit: Å
+    pair: U=O
+    site: axial
+    source: turova1999
+    note: group value for uranyl salts
+  - property: bond_distance
+    value: 2.3
+    value_max: 2.4
+    unit: Å
+    pair: U–O
+    site: equatorial
+    source: turova1999
+    note: group value for uranyl salts
+turova:
+  - page: 2
+    block: p2D-01
+element: U

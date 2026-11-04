@@ -6,8 +6,10 @@ names:
   minerals:
     - en: carnotite
       printed_ru: карнотит
+      status: accepted
     - en: tyuyamunite
       printed_ru: тюямунит
+      status: accepted
 oxidation_state: 6
 class: oxoacid_salt
 kind: family
@@ -24,3 +26,5 @@ turova:
   - page: 2
     block: p2D-02
     entry: 10
+family: U-family-uranyl_salts
+oxidation_state_basis: inferred

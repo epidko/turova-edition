@@ -1,0 +1,31 @@
+id: U-UO2_NO3_2-nEt2O
+formula: UO2(NO3)2.n(C2H5)2O
+names:
+  en: uranyl nitrate etherates
+element: U
+class: oxoacid_salt
+kind: family
+generic:
+  symbol: n
+  values:
+    - '2'
+    - '4'
+oxidation_state: 6.0
+hydrate_of: U-UO2_NO3_2-6H2O
+properties:
+  - property: melting_point
+    value: 45
+    unit: °C
+    source: turova1999
+  - property: melting_point
+    value: 2
+    unit: °C
+    source: turova1999
+refs: []
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 4
+family: U-family-uranyl_salts
+notes: []
+oxidation_state_basis: formula

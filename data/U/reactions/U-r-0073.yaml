@@ -1,16 +1,15 @@
 id: U-r-0073
 reactants:
-  - U-UCl5
+  - U-U_OR_5
 products:
-  - U-UCl4
-  - U-UO2Cl2
+  - U-U_OR_6
 reagents:
-  - \ce{H2O}
-type: disproportionation
+  - (PhCH2O)2
+type: oxidation
 notes:
-  - 'Inline: UCl5 + H2O → UCl4 + UO2Cl2 (hydrolytic disproportionation).'
+  - Label printed as (PhCH2O—)2 (dibenzyl peroxide).
 source: turova1999
 turova:
   page: 2
-  arrow:
-  block: p2A-04
+  arrow: p2A-a04
+  block:

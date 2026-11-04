@@ -2,19 +2,20 @@ id: U-r-0079
 reactants:
   - U-U3O8
 products:
-  - U-U_H2O_8_p4
-  - U-UO2_H2O_6_p2
+  - U-UO2-6
 reagents:
-  - \ce{HNO3}
-type: no_redox
+  - KHCO3
+  - H2O
+byproducts:
+  - K4[UO2(CO3)3]
+conditions:
+  text: heating (t)
+type: reduction
 notes:
-  - "Inline in the U3O8 entry: '+ HNO3 → U^4+ + [UO2]^2+'; ions mapped to the aqua ions [U(H2O)8]4+ and [UO2(H2O)6]2+ (p. 32)."
-  - Dissolution of the mixed-valence oxide; U(IV) and U(VI) both pre-exist in U3O8.
-issues:
-  - type: to_check
-    text: mapping of the bare ions U^4+ / [UO2]^2+ to aqua-ion species ids
+  - KHCO3 + H2O act together (one reagent set), written as two items here.
+  - 'UO_{2.6}: mean oxidation state +5.2 (ox null in species_index).'
 source: turova1999
 turova:
   page: 2
-  arrow:
-  block: p2B-05
+  arrow: p2B-a02
+  block:

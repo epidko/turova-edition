@@ -1,0 +1,22 @@
+id: U-UO2_ClO4_2-6H2O
+formula: UO2(ClO4)2.6H2O
+names:
+  en: uranyl perchlorate hexahydrate
+element: U
+class: oxoacid_salt
+kind: compound
+oxidation_state: 6.0
+hydrate_of: U-UO2_ClO4_2
+properties:
+  - property: melting_point
+    value: 185
+    unit: °C
+    source: turova1999
+refs: []
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 1
+family: U-family-uranyl_salts
+notes: []
+oxidation_state_basis: formula

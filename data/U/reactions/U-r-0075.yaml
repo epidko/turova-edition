@@ -1,20 +1,14 @@
 id: U-r-0075
 reactants:
-  - U-PyH_2_UOCl5
+  - U-UO2_OH_2
 products:
-  - U-UO_OR_3
-reagents:
-  - \ce{NH3}
-  - \ce{ROH}
+  - U-H2U2O7
+byproducts:
+  - H2O
+conditions:
+  temperature_C: 160
 type: no_redox
-notes:
-  - 'Tail at the bottom-left corner of the [R4N]2[UOF5]/[PyH]2[UOCl5]/[R4N]2[UOBr5] box (nearest line: [R4N]2[UOBr5]); head points at the UO(OR)3 line.'
-  - Reactant chosen as the chloro complex [PyH]2[UOCl5] (usual alkoxide precursor); the arrow may stand for all three oxohalide complexes.
-issues:
-  - type: to_check
-    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the reactant; could be any of the three [UOX5]2- salts'
 source: turova1999
 turova:
   page: 2
-  arrow: p2A-a02
-  block:
+  block: p2B-08

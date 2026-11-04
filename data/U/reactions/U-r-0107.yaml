@@ -1,20 +1,17 @@
 id: U-r-0107
 reactants:
-  - U-UO2_NO3_2-6H2O
+  - U-UO2SO4-nH2O
 products:
-  - U-UO2_O2_-nH2O
-reagents:
-  - \ce{H2O2}
+  - U-UO2_SO4
+byproducts:
+  - H2O
 conditions:
-  text: pH ~ 3
-type: oxidation
+  temperature_C: 175
+  text: dehydration of UO2SO4·nH2O (n = 2.5, 3.5) to the anhydrous salt
+type: no_redox
 notes:
-  - From the (UO2(NO3)2) circle.
-issues:
-  - type: to_check
-    text: dashed (oxidation) but U oxidation state unchanged (+6 → +6); peroxo complex formation
+  - Reactant is the hydrate, which has no separate id; recorded under the parent id.
 source: turova1999
 turova:
   page: 2
-  arrow: p2C-a05
-  block:
+  block: p2D-01

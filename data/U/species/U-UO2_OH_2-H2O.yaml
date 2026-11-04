@@ -9,8 +9,10 @@ names:
   minerals:
     - en: schoepite
       printed_ru: шёпит
+      status: accepted
     - en: masuyite
       printed_ru: масуйит
+      status: to_check
 appearance: yellow precipitate
 solubility: insoluble in water (marked as precipitate)
 turova:
@@ -29,3 +31,8 @@ issues:
     date: '2026-11-04'
   - type: to_check
     text: masuyite is usually described as a lead uranyl oxide hydrate; check its attribution to UO2(OH)2·H2O.
+  - type: to_check
+    text: Masuyite has been redefined in later literature (Pb uranyl oxide-hydroxide); Turova's assignment to UO2(OH)2·H2O is to be checked.
+    by: E. A. Pidko (policy)
+    date: '2026-11-04'
+oxidation_state_basis: formula

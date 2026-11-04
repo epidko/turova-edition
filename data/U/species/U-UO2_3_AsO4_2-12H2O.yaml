@@ -5,16 +5,22 @@ names:
   minerals:
     - en: troegerite
       printed_ru: трегерит
+      status: to_check
 element: U
 oxidation_state: 6.0
 class: oxoacid_salt
 kind: compound
-notes:
-  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+notes: []
 issues:
   - type: to_check
     text: Mineral 'трегерит' rendered as troegerite; check the current accepted name/status.
+  - type: to_check
+    text: 'Troegerite: status as a valid mineral species to be checked (possibly discredited).'
+    by: E. A. Pidko (policy)
+    date: '2026-11-04'
 turova:
   - page: 2
     block: p2D-01
     entry: 9
+family: U-family-uranyl_salts
+oxidation_state_basis: formula

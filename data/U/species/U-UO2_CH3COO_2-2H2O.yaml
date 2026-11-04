@@ -1,0 +1,18 @@
+id: U-UO2_CH3COO_2-2H2O
+formula: UO2(CH3COO)2.2H2O
+names:
+  en: uranyl acetate dihydrate
+element: U
+class: carboxylate
+kind: compound
+oxidation_state: 6.0
+hydrate_of: U-UO2_CH3COO_2
+properties: []
+refs: []
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 11
+family: U-family-uranyl_salts
+notes: []
+oxidation_state_basis: formula

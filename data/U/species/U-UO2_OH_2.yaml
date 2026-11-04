@@ -7,6 +7,7 @@ names:
   minerals:
     - en: ianthinite
       printed_ru: янтинит
+      status: accepted
 element: U
 oxidation_state:
 class: hydroxide
@@ -55,3 +56,4 @@ turova:
   - page: 2
     block: p2B-08
     entry: 1
+oxidation_state_basis:

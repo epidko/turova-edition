@@ -2,7 +2,7 @@ id: U-r-0041
 reactants:
   - U-UF4
 products:
-  - OFFPAGE:p33
+  - U-UF5
 reagents:
   - F2
 type: oxidation
@@ -12,3 +12,11 @@ source: turova1999
 turova:
   page: 1
   arrow: p1D-a12
+  continues:
+    page: 2
+    arrow:
+issues:
+  - type: to_check
+    text: 'UF4 + F2: the arrow ends at the UF5 box on p. 33; with excess F2 UF6 also forms.'
+    by: E. A. Pidko (policy)
+    date: '2026-11-04'

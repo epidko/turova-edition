@@ -2,16 +2,15 @@ id: U-r-0074
 reactants:
   - U-U3O8
 products:
-  - OFFPAGE:p32
-type: reduction
+  - U-U_H2O_8_p4
+  - U-UO2_H2O_6_p2
+reagents:
+  - HNO3
+type: no_redox
 notes:
-  - "Upper branch (leaves the left edge at y~195). Direction inferred: the two branches converge in a '>' at (205,228) and run as one dash-dot line to the U3O8 box; no arrowhead on p. 33, heads are on p. 32."
-  - 'Likely target: UO_{2+x} (U-UO2x), matching p1D-a03 (dash-dot, label H2 (900°); CO (750°), entering from the right gutter at y~180). Reagents are printed on p. 32 with that arrow.'
-issues:
-  - type: to_check
-    text: off-page endpoint; confirm pairing with p1D-a03 and merge reagents (H2 900°; CO 750°) when page 1 reactions are built
+  - Printed products U4+ and [UO2]2+ are mapped to the aqua-ion ids.
+  - 'Formal average oxidation state 5.33 is redistributed between U(IV) and U(VI); no net change for 1 U4+ : 2 UO2(2+).'
 source: turova1999
 turova:
   page: 2
-  arrow: p2A-a01
-  block:
+  block: p2B-05

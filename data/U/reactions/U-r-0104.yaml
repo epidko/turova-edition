@@ -1,15 +1,20 @@
 id: U-r-0104
 reactants:
-  - U-H2U2O7
+  - U-family-uranates_VI
 products:
-  - U-UO3
-conditions:
-  temperature_C: 400
+  - U-NH4_4_UO2_CO3_3_-2H2O
+reagents:
+  - (NH4)2CO3
 type: no_redox
 notes:
-  - Tail at the top edge of the H2U2O7/UO2(OH)2 box (H2U2O7 is the top line).
+  - Forward direction of the two-headed arrow (small half-arrow under '(NH4)2CO3' points toward the complex).
+  - Uranate end is the bottom-right corner of the Uranates(VI) box — probably (NH4)2U2O7 (U-NH4_2U2O7).
+  - "Other end: the line turns left into the '(NH4)4[X]·2H2O; Ca2[X]·10H2O; Mg2X·18H2O' line (X = [UO2(CO3)3]); (NH4)4[X]·2H2O chosen (ammonium reagent)."
+issues:
+  - type: to_check
+    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the uranate end'
 source: turova1999
 turova:
   page: 2
-  arrow: p2C-a02
+  arrow: p2C-a08
   block:

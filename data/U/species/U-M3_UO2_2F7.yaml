@@ -23,3 +23,5 @@ turova:
   - page: 2
     block: p2D-02
     entry: 21
+family: U-family-uranyl_salts
+oxidation_state_basis: inferred

@@ -1,0 +1,18 @@
+id: U-UO2_NO3_2-2NO2
+formula: UO2(NO3)2.2NO2
+names:
+  en: uranyl nitrate–NO2 adduct
+element: U
+class: oxoacid_salt
+kind: compound
+oxidation_state: 6.0
+hydrate_of: U-UO2_NO3_2-6H2O
+properties: []
+refs: []
+turova:
+  - page: 2
+    block: p2D-01
+    entry: 4
+family: U-family-uranyl_salts
+notes: []
+oxidation_state_basis: formula

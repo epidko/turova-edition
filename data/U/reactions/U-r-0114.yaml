@@ -1,15 +1,14 @@
 id: U-r-0114
 reactants:
-  - U-UO2_SO4
+  - U-UOF4
 products:
-  - U-H2_UO2_SO4_2_-nH2O
-reagents:
-  - H2SO4
+  - U-UO2F2
 type: no_redox
-issues:
-  - type: to_check
-    text: Arrow points into the right half of the box (p2D-02); target assumed to be H2[UO2(SO4)2]·nH2O.
 source: turova1999
 turova:
   page: 2
-  block: p2D-01
+  block: p2D-04
+reagents:
+  - H2O
+notes:
+  - Hydrolysis.

@@ -4,6 +4,7 @@ names:
   minerals:
     - en: curite
       printed_ru: кюрит
+      status: accepted
 element: U
 oxidation_state: 6.0
 class: uranate
@@ -17,3 +18,5 @@ turova:
   - page: 2
     block: p2C-07
     entry: 15
+family: U-family-uranates_VI
+oxidation_state_basis: formula

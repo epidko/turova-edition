@@ -13,8 +13,7 @@ generic:
     - i-Pr
     - Ph
 appearance: red (printed for R = Ph)
-notes:
-  - 'Listed under the uranyl-salt heading: uranyl salts, [O=U=O]2+, are yellow fluorescent crystals with U=O 1.61–1.93 Å and equatorial U–O 2.3–2.4 Å (group values, not specific to this salt).'
+notes: []
 issues:
   - type: ambiguous
     text: "'red' is printed in parentheses after Ph; it may describe only the phenoxide."
@@ -22,3 +21,5 @@ turova:
   - page: 2
     block: p2D-01
     entry: 16
+family: U-family-uranyl_salts
+oxidation_state_basis: formula

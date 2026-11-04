@@ -1,22 +1,15 @@
 id: U-r-0108
 reactants:
-  - U-UO2_OH_2
-products: []
+  - U-UO2_SO4
+products:
+  - U-H2_UO2_SO4_2_-nH2O
 reagents:
-  - \ce{H2O2}
-conditions:
-  text: pH >> 7
-type: oxidation
-notes:
-  - Tail leaves the right edge of the H2U2O7/UO2(OH)2 box at y~242, i.e. within the UO2(OH)2 entry.
-  - Head at the top-left corner of the «Пероксоуранаты» box (heading) — peroxouranates in general (e.g. U-Na4_UO2_O2_3_-9H2O, U-M4U2O10-nH2O).
+  - H2SO4
+type: no_redox
 issues:
   - type: to_check
-    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line for the product (peroxouranates)'
-  - type: to_check
-    text: dashed (oxidation) but U oxidation state unchanged (+6 → +6); peroxo complex formation
+    text: Arrow points into the right half of the box (p2D-02); target assumed to be H2[UO2(SO4)2]·nH2O.
 source: turova1999
 turova:
   page: 2
-  arrow: p2C-a06
-  block:
+  block: p2D-01

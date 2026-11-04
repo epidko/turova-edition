@@ -1,21 +1,19 @@
 id: U-r-0085
 reactants:
-  - U-U3O8
+  - U-family-uranyl_salts
 products:
-  - U-UO2-6
+  - U-family-uranates_VI
 reagents:
-  - \ce{KHCO3}
-  - \ce{H2O}
-byproducts:
-  - \ce{K4[UO2(CO3)3]}
-conditions:
-  text: heating (t)
-type: reduction
+  - MOH
+type: no_redox
 notes:
-  - KHCO3 + H2O act together (one reagent set), written as two items here.
-  - 'UO_{2.6}: mean oxidation state +5.2 (ox null in species_index).'
+  - Tail at the top edge of the «Соли уранила» box (x~937); head at the bottom-left corner of the Uranates(VI) box (next to the last line Cs2U15O46; Cs2U16O49).
+  - 'Meaning: uranyl salts + MOH → uranates(VI) (precipitation, e.g. M2U2O7: U-Na2U2O7, U-NH4_2U2O7).'
+issues:
+  - type: to_check
+    text: 'box-level endpoint: the arrow touches the box frame/heading, not a specific entry line at both ends; no specific species identifiable'
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a02
+  arrow: p2B-a08
   block:

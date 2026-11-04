@@ -2,22 +2,18 @@ id: U-r-0088
 reactants:
   - U-UO3
 products:
-  - U-M2UO4
+  - U-UO2_NO3_2-2NO2
 reagents:
-  - \ce{M2CO3}
-conditions:
-  text: heating (t)
+  - N2O4
 type: no_redox
 notes:
-  - Arrowhead enters the Uranates(VI) box at the 'Na4UO5, M^{II}2UO5 …; M2UO4; MgUO4' line; product chosen as M2UO4 (from M2CO3).
-  - Label printed «M2CO2 (t)», read as M2CO3 (editor note, to_check).
+  - Solid line from the same (U; UO3) circle — the solid one is for UO3; the N2O4 label applies to both parallel lines.
+  - "Head at the '· 2NO2' line: product UO2(NO3)2·2NO2 (entry p2D-01/4)."
 issues:
   - type: to_check
-    text: printed M2CO2, read as M2CO3 (obvious misprint) — check later (E. A. Pidko, 2026-11-04)
-  - type: to_check
-    text: head line also contains Na4UO5 and M^{II}2UO5; M2UO4 chosen by stoichiometry of M2CO3
+    text: product is the ·2NO2 adduct, which has no own species id
 source: turova1999
 turova:
   page: 2
-  arrow: p2B-a05
+  arrow: p2B-a11
   block:

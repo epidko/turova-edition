@@ -143,6 +143,22 @@
       "string",
       "null"
      ]
+    },
+    "continues": {
+     "type": "object",
+     "description": "other half of an arrow crossing the gutter",
+     "properties": {
+      "page": {
+       "type": "integer"
+      },
+      "arrow": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     },
+     "additionalProperties": false
     }
    }
   }

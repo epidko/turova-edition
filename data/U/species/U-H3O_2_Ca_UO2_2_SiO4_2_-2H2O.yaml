@@ -6,6 +6,7 @@ names:
   minerals:
     - en: uranophane
       printed_ru: уранофан
+      status: accepted
 oxidation_state: 6.0
 class: oxoacid_salt
 issues:
@@ -17,3 +18,6 @@ turova:
   - page: 2
     block: p2D-02
     entry: 19
+family: U-family-uranyl_salts
+notes: []
+oxidation_state_basis: formula
